@@ -368,7 +368,7 @@ should be mentioned here.
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
     <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a>
-    <forge>photonics</forge> <!-- FIXME: check -->
+    <forge>photonics</forge>
     <a href="http://www.bioconductor.org/" target="_top"> Bioconductor</a>
     <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
