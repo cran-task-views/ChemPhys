@@ -5,10 +5,10 @@
 <maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
 <version>2008-08-30</version>
 
-<strongnfo> 
+<info>
 
 <p>
-Chemometrics and Computational Physics are concerned with the analysis 
+Chemometrics and computational physics are concerned with the analysis 
 of data arising in chemistry and physics experiments, as well as the 
 simulation of physico-chemico systems.  Many of the functions in base 
 R are useful for these ends.  
@@ -16,20 +16,18 @@ R are useful for these ends.
 
 <p>
 A special issue of R News with a focus on 
-<a href="http://www.r-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">
-R in Chemistry</a> was published in August 2006. 
-A special volume of Journal of Statistical Software (JSS) dedicated to 
-<a href="http://www.jstatsoft.org/index.php?vol=18" target="_top">
-Spectroscopy and Chemometrics in R</a> was published in January 2007.  
-These are good places to start reading about recent work in Chemometrics
-and Computational Physics based in R.  
+<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R in Chemistry</a> 
+was published in August 2006. A special volume of Journal of Statistical Software (JSS) dedicated to 
+<a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
+was published in January 2007. These are good places to start reading about recent work in chemometrics
+and computational physics based in R.  
 </p>
 
 <p>
 A forthcoming book by Kurt Varmuza and Peter Filzmoser, 
-`Introduction to Multivariate Statistical Analysis in Chemometrics', 
+<i>Introduction to Multivariate Statistical Analysis in Chemometrics</i>, 
 ISBN 978-1-420-05947-2, CRC Press, 2009, is associated with the 
-package <pkg>chemometrics</pkg> now available on CRAN. 
+package <pkg>chemometrics</pkg>. 
 </p>
 
 <p>
@@ -38,353 +36,342 @@ if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
 
-
 <p>
-<strong> Linear regression models</strong>
+<strong>Linear Regression Models</strong>
 <ul>
-Linear models can be fit 
-(via OLS) with <code>lm()</code>
-(from stats).  A least squares solution for <code>x</code> in
-<code>Ax = b</code> can also be computed as 
-<code>qr.coef(qr(A),b)</code>.  The package 
-<pkg>nnls</pkg> provides a means of constraining <code>x</code>
-to non-negative or non-positive values; the package 
-<pkg>bvls</pkg> allows other bounds on <code>x</code> to be applied.
-Functions for isotonic regression are available in the package <pkg>Iso</Iso>,
-and are useful to determine the unimodal vector that is closest to 
-a given vector <code>x</code> under least squares criteria. 
+  <li>Linear models can be fitted (via OLS) with <code>lm()</code>
+  (from stats).  A least squares solution for <code>x</code> in
+  <code>Ax = b</code> can also be computed as 
+  <code>qr.coef(qr(A), b)</code>.</li>
+  <li>The package <pkg>nnls</pkg> provides a means of constraining <code>x</code>
+  to non-negative or non-positive values; the package 
+  <pkg>bvls</pkg> allows other bounds on <code>x</code> to be applied.</li>
+  <li>Functions for isotonic regression are available in the package <pkg>Iso</pkg>,
+  and are useful to determine the unimodal vector that is closest to 
+  a given vector <code>x</code> under least squares criteria.</li>
 </ul>
 </p>
 
 <p>
-<strong> Nonlinear regression models</strong>
+<strong>Nonlinear Regression Models</strong>
 <ul>
-The <code>nls()</code> function 
-(from stats) as well as the package 
-<pkg>minpack.lm<pkg> allow the solution of nonlinear 
-least squares problems. 
+  <li>The <code>nls()</code> function 
+  (from stats) as well as the package 
+  <pkg>minpack.lm</pkg> allow the solution of nonlinear 
+  least squares problems.</li>
 </ul>
 </p>
 
 <p>
-<strong> Curve Resolution</strong>
+<strong>Curve Resolution</strong>
 <ul>
-The <pkg>PTAk</pkg> package provides functions for  
-Principal Tensor Analysis on k modes.  
-The package includes also some other multiway methods: 
-PCAn (Tucker-n) and PARAFAC/CANDECOMP.
- Multivariate curve resolution alternating least squares (MCR-ALS)
- is implemented in the package <pkg>ALS</pkg>.
+  <li>The <pkg>PTAk</pkg> package provides functions for  
+  Principal Tensor Analysis on k modes.  
+  The package includes also some other multiway methods: 
+  PCAn (Tucker-n) and PARAFAC/CANDECOMP.</li>
+  <li>Multivariate curve resolution alternating least squares (MCR-ALS)
+  is implemented in the package <pkg>ALS</pkg>.</li>
 </ul>
 </p>
 
-<strong> Partial Least Squares</strong>
+<p>
+<strong>Partial Least Squares</strong>
 <ul>
-    The package <pkg>pls</pkg> implements 
-Partial Least Squares Regression (PLSR) and Principal 
-Component Regression (PCR).  The package 
+    <li>The package <pkg>pls</pkg> implements 
+    Partial Least Squares Regression (PLSR) and Principal 
+    Component Regression (PCR).</li>
+    <li>The package 
     <pkg>lspls</pkg>  implements the 
-     least squares-partial least squares (LS-PLS) method.
-Penalized Partial Least Squares is implemented in the 
-<pkg>ppls</pkg> package. 
+    least squares-partial least squares (LS-PLS) method.</li>
+    <li>Penalized Partial Least Squares is implemented in the 
+    <pkg>ppls</pkg> package.</li>
 </ul>
 </p>
+
 <p>
-<strong> Principal component analysis</strong>
+<strong>Principal Component Analysis</strong>
 <ul>
-    Principal component analysis (PCA) is in the package stats as functions
+    <li>Principal component analysis (PCA) is in the package stats as functions
     <code>princomp()</code>. Some graphical PCA representations can be
-    found in the <pkg>psy</pkg> package.
-    The <pkg>homals</pkg> package provides nonlinear 
+    found in the <pkg>psy</pkg> package.</li>
+    <li>The <pkg>homals</pkg> package provides nonlinear 
     PCA and, by defining sets, nonlinear canonical
-    correlation analysis (models of the Gifi-family).
-    A desired number of robust principal components can be computed 
+    correlation analysis (models of the Gifi-family).</li>
+    <li>A desired number of robust principal components can be computed 
     with the <pkg>pcaPP</pkg> package.  The package <pkg>elasticnet</pkg>
     is applicable to sparse PCA.  The package <pkg>fpca</pkg>
-    can be applied to restricted MLE for functional PCA.
-    See the   
-<a href="http://cran.r-project.org/web/views/Multivariate.html" target="_top">
-Multivariate Statistics</a> task view for further packages dealing with 
-PCA and other projection methods.
-</ul>
-</p>
-<p>
-<strong> Factor analysis</strong>
-<ul>
-    Factor analysis (FA) is in the package stats as functions
-    <code>factanal()</code>; see
-the <a href="http://CRAN.R-project.org/src/contrib/Views/Psychometrics.html" 
-target="_top"> Psychometrics</a> task view for details on extensions. 
+    can be applied to restricted MLE for functional PCA.</li>
+    <li>See the <view>Multivariate</view> task view for further packages dealing with 
+    PCA and other projection methods.</li>
 </ul>
 </p>
 
 <p>
-<strong> Independent Component Analysis</strong>
+<strong>Factor Analysis</strong>
 <ul>
-    Independent component analysis (ICA) can be computed using 
-    the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.
+    <li>Factor analysis (FA) is in the package stats as functions
+    <code>factanal()</code>; see <view>Psychometrics</view>
+    task view for details on extensions.</li>
 </ul>
 </p>
 
 <p>
-<strong> Clustering</strong>
+<strong>Independent Component Analysis</strong>
 <ul>
-    The  
-     <a href="http://CRAN.R-project.org/src/contrib/Views/Cluster.html"
-     target="_top">Cluster Analysis &amp; Finite Mixture Models</a>
-     task view provides a list of packages that can be used for clustering 
-     problems.
+    <li>Independent component analysis (ICA) can be computed using 
+    the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.</li>
 </ul>
 </p>
 
 <p>
-<strong> Variable selection</strong>
+<strong>Clustering</strong>
 <ul>
-Stepwise variable selection for linear models, using AIC, is available
-in function <code>step</code>; package <pkg>leaps</pkg> implements
-leaps-and-bounds variable 
-selection, by default using Mallow's Cp. <pkg>stepPlr</pkg> provides
-stepwise variable selection for penalized logistic regression.
-Variable selection based on evolutionary
-algorithms is available in packages <pkg>pga</pkg>, <pkg>genalg</pkg> and
-<pkg>subselect</pkg>. The latter also provides simulated annealing and
-leaps-and-bounds algorithms, as well as local refinements. Package
-<pkg>varSelRF</pkg> provides variable selection methods for Random
-Forests. Cross-validation-based variable selection using Wilcoxon rank
-sum tests is available in package <pkg>WilcoxCV</pkg>, focussed on
-binary classification in microarrays. Package <pkg>clustvarsel</pkg>
-implements variable selection for model-based clustering.
-
+    <li>The <view>Cluster</view> task view provides a list of packages that can be
+    used for clustering problems.</li>
 </ul>
 </p>
 
 <p>
-<strong> Self-Organizing Maps</strong>
+<strong>Variable Selection</strong>
 <ul>
- The <pkg>kohonen</pkg> package implements
-self-organising maps as well as 
-some extensions for supervised pattern recognition and data fusion.
-   The <pkg>som</pkg> package provides functions for Self-Organizing Maps.
-    The package <pkg>wccsom</pkg> provides SOM networks for comparing 
-    patterns with peak shifts.
+  <li>Stepwise variable selection for linear models, using AIC, is available
+  in function <code>step()</code>; package <pkg>leaps</pkg> implements
+  leaps-and-bounds variable 
+  selection, by default using Mallow's Cp. <pkg>stepPlr</pkg> provides
+  stepwise variable selection for penalized logistic regression.</li>
+  <li>Variable selection based on evolutionary
+  algorithms is available in packages <pkg>pga</pkg>, <pkg>genalg</pkg> and
+  <pkg>subselect</pkg>. The latter also provides simulated annealing and
+  leaps-and-bounds algorithms, as well as local refinements.</li>
+  <li>Package
+  <pkg>varSelRF</pkg> provides variable selection methods for random
+  forests. Cross-validation-based variable selection using Wilcoxon rank
+  sum tests is available in package <pkg>WilcoxCV</pkg>, focused on
+  binary classification in microarrays. Package <pkg>clustvarsel</pkg>
+  implements variable selection for model-based clustering.</li>
+</ul>
+</p>
+
+<p>
+<strong>Self-Organizing Maps</strong>
+<ul>
+  <li>The <pkg>kohonen</pkg> package implements self-organising maps as well as 
+  some extensions for supervised pattern recognition and data fusion.
+  The <pkg>som</pkg> package provides functions for self-organizing maps.</li>
+  <li>The package <pkg>wccsom</pkg> provides SOM networks for comparing 
+  patterns with peak shifts.</li>
 </ul>
 </p>
 
 <p>
 <strong>Differential Equations</strong>
 <ul>
- The package <pkg>odeSolve</pkg> provides a general 
-solver for ordinary differential equations (ODE) via an
- interface for the ODE solver lsoda. 
+  <li>The package <pkg>odesolve</pkg> provides a general
+  solver for ordinary differential equations (ODE) via an
+  interface for the ODE solver lsoda.
   The package <pkg>deSolve</pkg> provides general 
-solvers for ODEs and for differential algebraic equations (DAE).
-  The package <pkg>ddesolve</pkg> provides a 
-  solver for Delay Differential Equations.      
-The package <pkg>sde</pkg> is the companion 
-to the book by Stefano M. Iacus, 'Simulation and Inference for Stochastic 
-Differential Equations, With R Examples', ISBN 978-0-387-75838-1, 
-Springer, 2008. 
+  solvers for ODEs and for differential algebraic equations (DAE).</li>
+  <li>The package <pkg>ddesolve</pkg> provides a 
+  solver for Delay Differential Equations.</li>
+  <li>The package <pkg>sde</pkg> is the companion 
+  to the book by Stefano M. Iacus, <i>Simulation and Inference for Stochastic 
+  Differential Equations, With R Examples</i>, ISBN 978-0-387-75838-1, 
+  Springer-Verlag, 2008.</li>
 </ul>
 </p>
 
 <p>
 <strong>Calibration</strong>
 <ul>
-     The <pkg>chemCal</pkg> package provides functions for plotting
+     <li>The <pkg>chemCal</pkg> package provides functions for plotting
      linear calibration functions and estimating standard errors for
-     measurements.  
+     measurements.</li>
 </ul>
 </p>
 
 <p>
-<strong> Interfaces to External Libraries</strong>
+<strong>Interfaces to External Libraries</strong>
 <ul>
-  The <pkg>rcdk</pkg> package allows the user to access functionality
-  in the 
- <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">
- Chemistry Development Kit (CDK)</a>, 
- a Java framework for cheminformatics. This allows the
+  <li>The <pkg>rcdk</pkg> package allows the user to access functionality in the  
+  <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>, 
+  a Java framework for cheminformatics. This allows the
   user to load molecules, evaluate fingerprints, calculate molecular
-  descriptors and so on. In addition the CDK API allows the user to
-  view structures in 2D.  The <pkg>rpubchem</pkg> package gives access 
-  to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
-  data (compounds, substance, assays).
+  descriptors and so on. In addition, the CDK API allows the user to
+  view structures in 2D.</li>
+  <li>The <pkg>rpubchem</pkg> package gives access 
+  to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
+  (compounds, substance, assays).</li>
 </ul>
 </p>
 
-
+<p>
 <strong>Spectroscopy</strong>
 <ul>
-The <pkg>Peaks</pkg> package implements functions for spectrum
-manipulation, ported from the ROOT/TSpectrum class.  Software for the
-book by Donald B. Percival
-and Andrew T. Walden,
-`Spectral Analysis for Physical Applications', ISBN 978-0-521-43541-3, 
-Cambridge University Press, 1993, is found in
-the package <pkg>sapa</pkg>.  The package spectrino
-provides functionality to organize and visulize spectra, but function on 
-MS Windows only (and as such is not downloaded by the 
- <code>install.views()</code>
-function automatically).   The package <pkg>TIMP</pkg> provides a problem
-solving environment for fitting separable nonlinear models in physics
-and chemistry applications, and has been extensively applied to
-time-resolved spectroscopy data.  Also note that the 
-<a href="http://photonics.r-forge.r-project.org/" target="_top">photonics</a>
-project on <a href="http://r-forge.r-project.org/" target="_top">R-Forge</a> 
-collects various packages related to spectroscopy and optics; however, 
-these packages are not available on CRAN.  
-
-</ul>
-</p>
-
-<strong>Mass Spectrometry</strong>
-<ul>
-  The 
-  <pkg>FTICRMS</pkg> package provides functions 
-  for Analyzing Fourier Transform-Ion Cyclotron 
-  Resonance Mass Spectrometry Data.  
-   The 
-  <pkg>msProcess</pkg> package provides functions 
-  for protein mass spectra processing.
-The <pkg>titan</pkg> provides a GUI to analyze mass spectrometric data
-on the relative abundance of two substances from a titration series.
-Also note that the 
-<a href="http://www.bioconductor.org/" target="_top">
-BioConductor</a> packages MassSpecWavelet, PROcess, and 
-xcms are designed for the analysis of mass spectrometry data. 
+  <li>The <pkg>Peaks</pkg> package implements functions for spectrum
+  manipulation, ported from the ROOT/TSpectrum class.</li>
+  <li>Software for the book by Donald B. Percival and Andrew T. Walden,
+  <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
+  Cambridge University Press, 1993, is found in the package <pkg>sapa</pkg>.</li>
+  <li>The package <pkg>spectrino</pkg> provides functionality to organize and visualize spectra,
+  but function on MS Windows only.</li>
+  <!-- FIXME: I can install spectrino on Linux so I've included it as all other packages. -->
+  <!-- FIXME: A more specific comment about its system-dependent functionality would be nice. -->
+  <li>The package <pkg>TIMP</pkg> provides a problem solving environment for fitting
+  separable nonlinear models in physics and chemistry applications, and has been
+  extensively applied to time-resolved spectroscopy data.</li>
+  <li>Also note that the <forge>photonics</forge> project on 
+  <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
+  collects various packages related to spectroscopy and optics; however, 
+  these packages are not yet available on CRAN.</li>
 </ul>
 </p>
 
 <p>
-<strong> Functional Magnetic Resonance Imaging</strong>
+<strong>Mass Spectrometry</strong>
 <ul>
-  
-    Functions for I/O, visualisation and analysis of functional 
+  <li>The <pkg>FTICRMS</pkg> package provides functions 
+  for Analyzing Fourier Transform-Ion Cyclotron 
+  Resonance Mass Spectrometry Data. The 
+  <pkg>msProcess</pkg> package provides functions 
+  for protein mass spectra processing.</li>
+  <li>The <pkg>titan</pkg>
+  provides a GUI to analyze mass spectrometric data
+  on the relative abundance of two substances from a titration series.</li>
+  <li>Also note that the
+  <a href="http://www.bioconductor.org/" target="_top">Bioconductor</a> packages 
+  <a href="http://www.bioconductor.org/packages/release/bioc/html/MassSpecWavelet.html" target="_top">MassSpecWavelet</a>,
+  <a href="http://www.bioconductor.org/packages/release/bioc/html/PROcess.html" target="_top">PROcess</a>, and 
+  <a href="http://www.bioconductor.org/packages/release/bioc/html/xcms.html" target="_top">xcms</a>
+  are designed for the analysis of mass spectrometry data.</li>
+</ul>
+</p>
+
+<p>
+<strong>Functional Magnetic Resonance Imaging</strong>
+<ul>  
+    <li>Functions for I/O, visualisation and analysis of functional 
     Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE 
     or NIFTI format are available in the package <pkg>AnalyzeFMRI</pkg>.
     The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
-    adaptive smoothing procedures. 
+    adaptive smoothing procedures.</li>
 </ul>
 </p>
 
 <p>
-<strong> Fluorescence Lifetime Imaging Microscopy </strong>
+<strong>Fluorescence Lifetime Imaging Microscopy</strong>
 <ul>
-    Functions for visualisation and analysis of 
+    <li>Functions for visualisation and analysis of 
     Fluorescence Lifetime Imaging Microscopy (FLIM) 
-    datasets are available in the package <pkg>TIMP</pkg>.
+    datasets are available in the package <pkg>TIMP</pkg>.</li>
 </ul>
 </p>
 
 <p>
-<strong>Carbon dating</strong>
+<strong>Carbon Dating</strong>
 <ul>
-   The package <pkg>Bchron</pkg> creates
-chronologies based on radiocarbon and non-radiocarbon dated depths.
+   <li>The package <pkg>Bchron</pkg> creates
+   chronologies based on radiocarbon and non-radiocarbon dated depths.</li>
 </ul>
 </p>
 
-<strong> X-ray diffractograms</strong>
+<p>
+<strong>X-Ray Diffractograms</strong>
 <ul>
-  The <pkg>diffractometry</pkg> package provides 
+  <li>The <pkg>diffractometry</pkg> package provides 
   baseline identification and peak decomposition for x-ray
   diffractograms. Cross-correlation based comparison of diffractograms
-  is provided in package <pkg>wccsom</pkg>.
+  is provided in package <pkg>wccsom</pkg>.</li>
 </ul>
 </p>
 
 <p>
-<strong> Astronomy</strong>
+<strong>Astronomy</strong>
 <ul>
-  The <pkg>moonsun</pkg> package provides 
-  functions for basic astronomical calculations.  
+  <li>The <pkg>moonsun</pkg> package provides 
+  functions for basic astronomical calculations.</li>
 </ul>
 </p>
 
 <p>
-<strong>Positron emission tomography</strong>
+<strong>Positron Emission Tomography</strong>
 <ul>
-  The <pkg>PET</pkg> package 
+  <li>The <pkg>PET</pkg> package 
   implements different analytic/direct and iterative reconstruction methods
-  for Positron emission tomography (PET) data.   
+  for positron emission tomography (PET) data.</li>
 </ul>
 </p>
 
 <p>
-<strong>Soil physics</strong>
+<strong>Soil Physics</strong>
 <ul>
-  The <pkg>SoPhy</pkg> package 
-  provides tools for soil physics via an interface to 
-SWMS_2D.
+  <li>The <pkg>SoPhy</pkg> package 
+  provides tools for soil physics via an interface to SWMS_2D.</li>
 </ul>
 </p>
-</info>	
+
+</info>
+
 <packagelist>
-    <pkg priority="core">PTAk</pkg>
-    <pkg priority="core">nnls</pkg>
-    <pkg priority="core">Iso</pkg>
-    <pkg priority="core">pls</pkg>
- <pkg priority="core">ALS</pkg>
- <pkg priority="core">odeSolve</pkg>
- <pkg priority="core">chemCal</pkg>
- <pkg priority="core">kohonen</pkg>
-<pkg>leaps</pkg>
-<pkg>subselect</pkg>
-<pkg>pga</pkg>
-<pkg>genalg</pkg>
-<pkg>varSelRF</pkg>
-<pkg>WilcoxCV</pkg>
-<pkg>clustvarsel</pkg>
- <pkg>wccsom</pkg>
- <pkg>som</pkg>
- <pkg>chemometrics</pkg>
- <pkg>bvls</pkg>  
- <pkg>lspls</pkg>
- <pkg>homals</pkg>
- <pkg>ppls</pkg>
- <pkg>pcaPP</pkg>    
- <pkg>elasticnet</pkg>
- <pkg>psy</pkg>
- <pkg>fpca</pkg>
- <pkg>fastICA</pkg>    
- <pkg>deSolve</pkg>
- <pkg>ddesolve</pkg>
- <pkg>sde</pkg>
- <pkg>Peaks</pkg>    
- <pkg>sapa</pkg>
- <pkg>TIMP</pkg>
- <pkg>FTICRMS</pkg>
- <pkg>msProcess</pkg>    
- <pkg>titan</pkg>
- <pkg>AnalyzeFMRI</pkg>
- <pkg>fmri</pkg>
- <pkg>Bchron</pkg>    
- <pkg>diffractometry</pkg>
- <pkg>moonsun</pkg>
- <pkg>PET</pkg>
- <pkg>SoPhy</pkg>
- <pkg>rpubchem</pkg>
- <pkg>rcdk</pkg> 
+  <pkg priority="core">ALS</pkg>
+  <pkg>AnalyzeFMRI</pkg>
+  <pkg>Bchron</pkg>    
+  <pkg>bvls</pkg>  
+  <pkg priority="core">chemCal</pkg>
+  <pkg>chemometrics</pkg>
+  <pkg>clustvarsel</pkg>
+  <pkg>ddesolve</pkg>
+  <pkg>deSolve</pkg>
+  <pkg>diffractometry</pkg>
+  <pkg>elasticnet</pkg>
+  <pkg>fastICA</pkg>    
+  <pkg>fmri</pkg>
+  <pkg>fpca</pkg>
+  <pkg>FTICRMS</pkg>
+  <pkg>genalg</pkg>
+  <pkg>homals</pkg>
+  <pkg priority="core">Iso</pkg>
+  <pkg priority="core">kohonen</pkg>
+  <pkg>leaps</pkg>
+  <pkg>lspls</pkg>
   <pkg>minpack.lm</pkg>    
+  <pkg>moonsun</pkg>
+  <pkg>msProcess</pkg>    
+  <pkg priority="core">nnls</pkg>
+  <pkg priority="core">odesolve</pkg>
+  <pkg>pcaPP</pkg>    
+  <pkg>Peaks</pkg>    
+  <pkg>PET</pkg>
+  <pkg>pga</pkg>
+  <pkg priority="core">pls</pkg>
+  <pkg>ppls</pkg>
+  <pkg>psy</pkg>
+  <pkg priority="core">PTAk</pkg>
+  <pkg>rcdk</pkg> 
+  <pkg>rpubchem</pkg>
+  <pkg>sapa</pkg>
+  <pkg>sde</pkg>
+  <pkg>som</pkg>
+  <pkg>SoPhy</pkg>
+  <pkg>spectrino</pkg>
+  <pkg>subselect</pkg>
+  <pkg>TIMP</pkg>
+  <pkg>titan</pkg>
+  <pkg>varSelRF</pkg>
+  <pkg>wccsom</pkg>
+  <pkg>WilcoxCV</pkg>
 </packagelist>
 
 <links>
     <view>Psychometrics</view>
     <view>Cluster</view>
     <view>Multivariate</view>
-    <a href="http://www.r-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">
-    R in Chemistry</a> 
-    <a href="http://www.jstatsoft.org/index.php?vol=18" target="_top">
-    Spectroscopy and Chemometrics in R</a>
-    <a href="http://photonics.r-forge.r-project.org/" target="_top">
-      photonics</a>
-    <a href="http://r-forge.r-project.org/" target="_top">R-Forge</a>
-    <a href="http://www.bioconductor.org/" target="_top"> BioConductor</a>
-    <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">
-    Chemistry Development Kit (CDK)</a>
+    <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
+    <a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
+    <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a>
+    <forge>photonics</forge> <!-- FIXME: check -->
+    <a href="http://www.bioconductor.org/" target="_top"> Bioconductor</a>
+    <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
-
-
 </links>
 
 </CRANTaskView>
