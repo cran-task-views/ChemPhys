@@ -363,7 +363,7 @@ should be mentioned here.
     <view>Cluster</view>
     <view>Multivariate</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
-    <a href="http://www.jstatsoft.org/v18" target="_top">JSS: Spectroscopy and Chemometrics in R</a>
+    <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <forge>photonics</forge>
     <bioc>MassSpecWavelet</bioc>
     <bioc>PROcess</bioc>
