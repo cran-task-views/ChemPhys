@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2008-08-30</version>
+<version>2008-09-16</version>
 
 <info>
 
@@ -212,11 +212,11 @@ should be mentioned here.
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
   <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package <pkg>sapa</pkg>.</li>
-  <li>The package <pkg>spectrino</pkg> provides functionality to organize and visualize spectra,
-  but function on MS Windows only.</li>
-  <!-- FIXME: I can install spectrino on Linux so I've included it as all other packages. -->
-  <!-- FIXME: A more specific comment about its system-dependent functionality would be nice. -->
-  <li>The package <pkg>TIMP</pkg> provides a problem solving environment for fitting
+  <li>The package <pkg>spectrino</pkg> 
+  provides functionality to organize and visualize spectra,
+  but is only possible to install on Windows.</li>
+  <li>The package <pkg>TIMP</pkg> 
+  provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
   extensively applied to time-resolved spectroscopy data.</li>
   <li>Also note that the <forge>photonics</forge> project on 
