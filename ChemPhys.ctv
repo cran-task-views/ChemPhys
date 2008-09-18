@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2008-09-16</version>
+<version>2008-09-18</version>
 
 <info>
 
@@ -213,8 +213,8 @@ should be mentioned here.
   <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package <pkg>sapa</pkg>.</li>
   <li>The package <pkg>spectrino</pkg> 
-  provides functionality to organize and visualize spectra,
-  but is only possible to install on Windows.</li>
+  provides functionality to organize and visualize spectra
+  (currently only available for Windows).</li>
   <li>The package <pkg>TIMP</pkg> 
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
@@ -237,11 +237,8 @@ should be mentioned here.
   <li>The <pkg>titan</pkg>
   provides a GUI to analyze mass spectrometric data
   on the relative abundance of two substances from a titration series.</li>
-  <li>Also note that the
-  <a href="http://www.bioconductor.org/" target="_top">Bioconductor</a> packages 
-  <a href="http://www.bioconductor.org/packages/release/bioc/html/MassSpecWavelet.html" target="_top">MassSpecWavelet</a>,
-  <a href="http://www.bioconductor.org/packages/release/bioc/html/PROcess.html" target="_top">PROcess</a>, and 
-  <a href="http://www.bioconductor.org/packages/release/bioc/html/xcms.html" target="_top">xcms</a>
+  <li>Also note that the Bioconductor packages 
+  <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
 </ul>
 </p>
@@ -366,10 +363,11 @@ should be mentioned here.
     <view>Cluster</view>
     <view>Multivariate</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
-    <a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
-    <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a>
+    <a href="http://www.jstatsoft.org/v18" target="_top">JSS: Spectroscopy and Chemometrics in R</a>
     <forge>photonics</forge>
-    <a href="http://www.bioconductor.org/" target="_top"> Bioconductor</a>
+    <bioc>MassSpecWavelet</bioc>
+    <bioc>PROcess</bioc>
+    <bioc>xcms</bioc>
     <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
 </links>
