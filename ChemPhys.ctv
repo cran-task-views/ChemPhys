@@ -190,6 +190,16 @@ should be mentioned here.
 </p>
 
 <p>
+<strong>Cellular Automata</strong>
+<ul>
+     <li>The <pkg>simecol</pkg> package provides functions for cellular automata
+modeling.   One-dimensional cellular automata are also possible to model with
+the package <pkg>CellularAutomaton</pkg>.  </li>
+</ul>
+</p>
+
+
+<p>
 <strong>Interfaces to External Libraries</strong>
 <ul>
   <li>The <pkg>rcdk</pkg> package allows the user to access functionality in the  
@@ -313,6 +323,7 @@ should be mentioned here.
   <pkg>AnalyzeFMRI</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
+  <pkg>CellularAutomaton</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
   <pkg>clustvarsel</pkg>
@@ -347,6 +358,7 @@ should be mentioned here.
   <pkg>rpubchem</pkg>
   <pkg>sapa</pkg>
   <pkg>sde</pkg>
+  <pkg>simecol</pkg>
   <pkg>som</pkg>
   <pkg>SoPhy</pkg>
   <pkg>spectrino</pkg>
