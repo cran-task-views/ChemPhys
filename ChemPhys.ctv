@@ -355,7 +355,7 @@ database for structural structural similarity searching and clustering.
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>genalg</pkg>
-  <pkg>hoe</pkg>
+  <pkg>hoa</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
