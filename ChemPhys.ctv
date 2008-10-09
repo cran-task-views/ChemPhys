@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2008-10-10</version>
+<version>2008-10-09</version>
 
 <info>
 
@@ -64,9 +64,8 @@ should be mentioned here.
 <li> Correlated and/or 
      unequal variances can be modeled using the  
   <code>gnls()</code> function of the <pkg>nlme</pkg> package
-  and the 
- <pkg>nlreg</pkg> package included in the 
-<pkg>HOA</pkg> bundle. </li>  
+  and the nlreg package included in the 
+<pkg>hoa</pkg> bundle. </li>  
 </ul>
 </p>
 
@@ -196,8 +195,8 @@ should be mentioned here.
      measurements. </li>
      <li>
       The <pkg>drm</pkg> package and the  
-      <pkg>nlreg</pkg> package included in the 
-<pkg>HOA</pkg> bundle are useful for nonlinear calibration models.
+      nlreg package included in the 
+     <pkg>hoa</pkg> bundle are useful for nonlinear calibration models.
 </li>
 </ul>
 </p>
@@ -356,7 +355,7 @@ database for structural structural similarity searching and clustering.
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>genalg</pkg>
-  <pkg>HOA</pkg>
+  <pkg>hoe</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
@@ -366,7 +365,6 @@ database for structural structural similarity searching and clustering.
   <pkg>moonsun</pkg>
   <pkg>msProcess</pkg>
   <pkg>nlme</pkg>  
-  <pkg>nlreg</pkg>     
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>pcaPP</pkg>    
