@@ -50,7 +50,7 @@ should be mentioned here.
   and are useful to determine the unimodal vector that is closest to 
   a given vector <code>x</code> under least squares criteria.</li>
 <li> Heteroskedastic linear models can be fit using the 
-  <code>gls()</code> function of the <pkg>nlme</pkg> package</li>.
+  <code>gls()</code> function of the <pkg>nlme</pkg> package.</li>
 </ul>
 </p>
 
@@ -66,8 +66,7 @@ should be mentioned here.
   <code>gnls()</code> function of the <pkg>nlme</pkg> package
   and the 
  <pkg>nlreg</pkg> package included in the 
-<pkg>HOA</pkg> bundle.
-</li>  
+<pkg>HOA</pkg> bundle. </li>  
 </ul>
 </p>
 
