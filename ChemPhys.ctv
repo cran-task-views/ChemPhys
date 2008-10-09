@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2008-09-21</version>
+<version>2008-10-10</version>
 
 <info>
 
@@ -49,6 +49,8 @@ should be mentioned here.
   <li>Functions for isotonic regression are available in the package <pkg>Iso</pkg>,
   and are useful to determine the unimodal vector that is closest to 
   a given vector <code>x</code> under least squares criteria.</li>
+<li> Heteroskedastic linear models can be fit using the 
+  <code>gls()</code> function of the <pkg>nlme</pkg> package</li>.
 </ul>
 </p>
 
@@ -58,7 +60,14 @@ should be mentioned here.
   <li>The <code>nls()</code> function 
   (from stats) as well as the package 
   <pkg>minpack.lm</pkg> allow the solution of nonlinear 
-  least squares problems.</li>
+  least squares problems. </li> 
+<li> Correlated and/or 
+     unequal variances can be modeled using the  
+  <code>gnls()</code> function of the <pkg>nlme</pkg> package
+  and the 
+ <pkg>nlreg</pkg> package included in the 
+<pkg>HOA</pkg> bundle.
+</li>  
 </ul>
 </p>
 
@@ -155,7 +164,7 @@ should be mentioned here.
 <p>
 <strong>Self-Organizing Maps</strong>
 <ul>
-  <li>The <pkg>kohonen</pkg> package implements self-organising maps as well as 
+  <li>The <pkg>kohonen</pkg> package implements self-organizing maps as well as 
   some extensions for supervised pattern recognition and data fusion.
   The <pkg>som</pkg> package provides functions for self-organizing maps.</li>
   <li>The package <pkg>wccsom</pkg> provides SOM networks for comparing 
@@ -185,7 +194,12 @@ should be mentioned here.
 <ul>
      <li>The <pkg>chemCal</pkg> package provides functions for plotting
      linear calibration functions and estimating standard errors for
-     measurements.</li>
+     measurements. </li>
+     <li>
+      The <pkg>drm</pkg> package and the  
+      <pkg>nlreg</pkg> package included in the 
+<pkg>HOA</pkg> bundle are useful for nonlinear calibration models.
+</li>
 </ul>
 </p>
 
@@ -211,6 +225,12 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
   <li>The <pkg>rpubchem</pkg> package gives access 
   to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
   (compounds, substance, assays).</li>
+  <li> The
+  <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
+  package provides an interface to the 
+ <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>
+database for structural structural similarity searching and clustering.
+ </li>
 </ul>
 </p>
 
@@ -256,7 +276,7 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
 <p>
 <strong>Functional Magnetic Resonance Imaging</strong>
 <ul>  
-    <li>Functions for I/O, visualisation and analysis of functional 
+    <li>Functions for I/O, visualization and analysis of functional 
     Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE 
     or NIFTI format are available in the package <pkg>AnalyzeFMRI</pkg>.
     The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
@@ -267,7 +287,7 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
 <p>
 <strong>Fluorescence Lifetime Imaging Microscopy</strong>
 <ul>
-    <li>Functions for visualisation and analysis of 
+    <li>Functions for visualization and analysis of 
     Fluorescence Lifetime Imaging Microscopy (FLIM) 
     datasets are available in the package <pkg>TIMP</pkg>.</li>
 </ul>
@@ -330,12 +350,14 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
   <pkg>ddesolve</pkg>
   <pkg>deSolve</pkg>
   <pkg>diffractometry</pkg>
+  <pkg>drm</pkg>
   <pkg>elasticnet</pkg>
   <pkg>fastICA</pkg>    
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>genalg</pkg>
+  <pkg>HOA</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
@@ -343,7 +365,9 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
   <pkg>lspls</pkg>
   <pkg>minpack.lm</pkg>    
   <pkg>moonsun</pkg>
-  <pkg>msProcess</pkg>    
+  <pkg>msProcess</pkg>
+  <pkg>nlme</pkg>  
+  <pkg>nlreg</pkg>     
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>pcaPP</pkg>    
@@ -381,6 +405,8 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>
     <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
+    <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
+    <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>	
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
 </links>
 
