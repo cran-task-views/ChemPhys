@@ -185,8 +185,8 @@ should be mentioned here.
   to the book by Stefano M. Iacus, <i>Simulation and Inference for Stochastic 
   Differential Equations, With R Examples</i>, ISBN 978-0-387-75838-1, 
   Springer-Verlag, 2008.</li>
-  <li>  The <pkg>simecol</pkg> package provides functions simulation of 
-   dynamic models based on differential equations. 
+  <li>  The <pkg>simecol</pkg> package provides functions to implement 
+(ecological) models based on differential equations. 
   </li>
 </ul>
 </p>
@@ -208,9 +208,8 @@ should be mentioned here.
 <p>
 <strong>Cellular Automata</strong>
 <ul>
-     <li>The <pkg>simecol</pkg> package provides functions for cellular automata
-modeling, (and allows simulation of other varieties of dynamic models 
-as well).    One-dimensional cellular automata are also possible to model with
+     <li>The <pkg>simecol</pkg> package includes functions for cellular automata
+modeling.    One-dimensional cellular automata are also possible to model with
 the package <pkg>CellularAutomaton</pkg>.  </li>
 </ul>
 </p>
@@ -357,6 +356,7 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
   <pkg>CellularAutomaton</pkg>
+  <pkg>caMassClass</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
   <pkg>clustvarsel</pkg>
