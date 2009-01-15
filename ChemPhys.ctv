@@ -64,9 +64,8 @@ should be mentioned here.
 <li> Correlated and/or 
      unequal variances can be modeled using the  
   <code>gnls()</code> function of the <pkg>nlme</pkg> package
-  and the 
- <pkg>nlreg</pkg> package included in the 
-<pkg>HOA</pkg> bundle. </li>  
+  and the nlreg package included in the 
+<pkg>hoa</pkg> bundle. </li>  
 </ul>
 </p>
 
@@ -199,8 +198,8 @@ should be mentioned here.
      measurements. </li>
      <li>
       The <pkg>drm</pkg> package and the  
-      <pkg>nlreg</pkg> package included in the 
-<pkg>HOA</pkg> bundle are useful for nonlinear calibration models.
+      nlreg package included in the 
+<pkg>hoa</pkg> bundle are useful for nonlinear calibration models.
 </li>
 </ul>
 </p>
@@ -369,7 +368,7 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
-  <pkg>HOA</pkg>
+  <pkg>hoa</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
@@ -382,7 +381,6 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>msDilution</pkg>
   <pkg>msProstate</pkg>
   <pkg>nlme</pkg>  
-  <pkg>nlreg</pkg>     
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>pcaPP</pkg>    
