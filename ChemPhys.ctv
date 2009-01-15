@@ -2,8 +2,9 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="kate@nat.vu.nl">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2008-10-09</version>
+<maintainer email="kmullen@nist.gov">Katharine Mullen 
+and Ron Wehrens</maintainer>
+<version>2009-01-14</version>
 
 <info>
 
@@ -64,8 +65,9 @@ should be mentioned here.
 <li> Correlated and/or 
      unequal variances can be modeled using the  
   <code>gnls()</code> function of the <pkg>nlme</pkg> package
-  and the nlreg package included in the 
-<pkg>hoa</pkg> bundle. </li>  
+  and the 
+ <pkg>nlreg</pkg> package included in the 
+<pkg>HOA</pkg> bundle. </li>  
 </ul>
 </p>
 
@@ -147,7 +149,7 @@ should be mentioned here.
   selection, by default using Mallow's Cp. <pkg>stepPlr</pkg> provides
   stepwise variable selection for penalized logistic regression.</li>
   <li>Variable selection based on evolutionary
-  algorithms is available in packages <pkg>pga</pkg>, <pkg>genalg</pkg> and
+  algorithms is available in packages <pkg>pga</pkg> and
   <pkg>subselect</pkg>. The latter also provides simulated annealing and
   leaps-and-bounds algorithms, as well as local refinements.</li>
   <li>Package
@@ -184,6 +186,9 @@ should be mentioned here.
   to the book by Stefano M. Iacus, <i>Simulation and Inference for Stochastic 
   Differential Equations, With R Examples</i>, ISBN 978-0-387-75838-1, 
   Springer-Verlag, 2008.</li>
+  <li>  The <pkg>simecol</pkg> package provides functions simulation of 
+   dynamic models based on differential equations. 
+  </li>
 </ul>
 </p>
 
@@ -195,8 +200,8 @@ should be mentioned here.
      measurements. </li>
      <li>
       The <pkg>drm</pkg> package and the  
-      nlreg package included in the 
-     <pkg>hoa</pkg> bundle are useful for nonlinear calibration models.
+      <pkg>nlreg</pkg> package included in the 
+<pkg>HOA</pkg> bundle are useful for nonlinear calibration models.
 </li>
 </ul>
 </p>
@@ -205,7 +210,8 @@ should be mentioned here.
 <strong>Cellular Automata</strong>
 <ul>
      <li>The <pkg>simecol</pkg> package provides functions for cellular automata
-modeling.   One-dimensional cellular automata are also possible to model with
+modeling, (and allows simulation of other varieties of dynamic models 
+as well).    One-dimensional cellular automata are also possible to model with
 the package <pkg>CellularAutomaton</pkg>.  </li>
 </ul>
 </p>
@@ -214,12 +220,15 @@ the package <pkg>CellularAutomaton</pkg>.  </li>
 <p>
 <strong>Interfaces to External Libraries</strong>
 <ul>
-  <li>The <pkg>rcdk</pkg> package allows the user to access functionality in the  
+  <li>The  package <pkg>rcdk</pkg> allows 
+the user to access functionality in the  
   <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>, 
   a Java framework for cheminformatics. This allows the
   user to load molecules, evaluate fingerprints, calculate molecular
   descriptors and so on. In addition, the CDK API allows the user to
-  view structures in 2D.</li>
+  view structures in 2D.  The <pkg>rcdklibs</pkg> package provides the CDK 
+libraries for use in R.
+</li>  
   <li>The <pkg>rpubchem</pkg> package gives access 
   to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
   (compounds, substance, assays).</li>
@@ -259,9 +268,16 @@ database for structural structural similarity searching and clustering.
 <ul>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
   for Analyzing Fourier Transform-Ion Cyclotron 
-  Resonance Mass Spectrometry Data. The 
+  Resonance Mass Spectrometry Data. </li>
+  <li> Processing and classification
+  of SELDI data is available in <pkg>caMassClass</pkg>.</li>
+  <li>
+ The 
   <pkg>msProcess</pkg> package provides functions 
-  for protein mass spectra processing.</li>
+  for protein mass spectra processing.
+Data sets associated with <pkg>msProcess</pkg> can be found
+  in three separate packages: <pkg>msBreast</pkg>,
+  <pkg>msDilution</pkg> and <pkg>msProstate</pkg>. </li>
   <li>The <pkg>titan</pkg>
   provides a GUI to analyze mass spectrometric data
   on the relative abundance of two substances from a titration series.</li>
@@ -354,8 +370,7 @@ database for structural structural similarity searching and clustering.
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
-  <pkg>genalg</pkg>
-  <pkg>hoa</pkg>
+  <pkg>HOA</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
@@ -364,7 +379,11 @@ database for structural structural similarity searching and clustering.
   <pkg>minpack.lm</pkg>    
   <pkg>moonsun</pkg>
   <pkg>msProcess</pkg>
+  <pkg>msBreast</pkg>
+  <pkg>msDilution</pkg>
+  <pkg>msProstate</pkg>
   <pkg>nlme</pkg>  
+  <pkg>nlreg</pkg>     
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>pcaPP</pkg>    
@@ -376,6 +395,7 @@ database for structural structural similarity searching and clustering.
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
   <pkg>rcdk</pkg> 
+  <pkg>rcdklibs</pkg> 
   <pkg>rpubchem</pkg>
   <pkg>sapa</pkg>
   <pkg>sde</pkg>
