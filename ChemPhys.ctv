@@ -38,6 +38,7 @@ should be mentioned here.
 
 <p>
 <strong>Linear Regression Models</strong>
+</p>
 <ul>
   <li>Linear models can be fitted (via OLS) with <code>lm()</code>
   (from stats).  A least squares solution for <code>x</code> in
@@ -52,10 +53,10 @@ should be mentioned here.
 <li> Heteroskedastic linear models can be fit using the 
   <code>gls()</code> function of the <pkg>nlme</pkg> package.</li>
 </ul>
-</p>
 
 <p>
 <strong>Nonlinear Regression Models</strong>
+</p>
 <ul>
   <li>The <code>nls()</code> function 
   (from stats) as well as the package 
@@ -67,10 +68,10 @@ should be mentioned here.
   and the nlreg package included in the 
 <pkg>hoa</pkg> bundle. </li>  
 </ul>
-</p>
 
 <p>
 <strong>Curve Resolution</strong>
+</p>
 <ul>
   <li>The <pkg>PTAk</pkg> package provides functions for  
   Principal Tensor Analysis on k modes.  
@@ -79,10 +80,10 @@ should be mentioned here.
   <li>Multivariate curve resolution alternating least squares (MCR-ALS)
   is implemented in the package <pkg>ALS</pkg>.</li>
 </ul>
-</p>
 
 <p>
 <strong>Partial Least Squares</strong>
+</p>
 <ul>
     <li>The package <pkg>pls</pkg> implements 
     Partial Least Squares Regression (PLSR) and Principal 
@@ -93,10 +94,10 @@ should be mentioned here.
     <li>Penalized Partial Least Squares is implemented in the 
     <pkg>ppls</pkg> package.</li>
 </ul>
-</p>
 
 <p>
 <strong>Principal Component Analysis</strong>
+</p>
 <ul>
     <li>Principal component analysis (PCA) is in the package stats as functions
     <code>princomp()</code>. Some graphical PCA representations can be
@@ -111,35 +112,35 @@ should be mentioned here.
     <li>See the <view>Multivariate</view> task view for further packages dealing with 
     PCA and other projection methods.</li>
 </ul>
-</p>
 
 <p>
 <strong>Factor Analysis</strong>
+</p>
 <ul>
     <li>Factor analysis (FA) is in the package stats as functions
     <code>factanal()</code>; see <view>Psychometrics</view>
     task view for details on extensions.</li>
 </ul>
-</p>
 
 <p>
 <strong>Independent Component Analysis</strong>
+</p>
 <ul>
     <li>Independent component analysis (ICA) can be computed using 
     the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.</li>
 </ul>
-</p>
 
 <p>
 <strong>Clustering</strong>
+</p>
 <ul>
     <li>The <view>Cluster</view> task view provides a list of packages that can be
     used for clustering problems.</li>
 </ul>
-</p>
 
 <p>
 <strong>Variable Selection</strong>
+</p>
 <ul>
   <li>Stepwise variable selection for linear models, using AIC, is available
   in function <code>step()</code>; package <pkg>leaps</pkg> implements
@@ -157,10 +158,10 @@ should be mentioned here.
   binary classification in microarrays. Package <pkg>clustvarsel</pkg>
   implements variable selection for model-based clustering.</li>
 </ul>
-</p>
 
 <p>
 <strong>Self-Organizing Maps</strong>
+</p>
 <ul>
   <li>The <pkg>kohonen</pkg> package implements self-organizing maps as well as 
   some extensions for supervised pattern recognition and data fusion.
@@ -168,10 +169,10 @@ should be mentioned here.
   <li>The package <pkg>wccsom</pkg> provides SOM networks for comparing 
   patterns with peak shifts.</li>
 </ul>
-</p>
 
 <p>
 <strong>Differential Equations</strong>
+</p>
 <ul>
   <li>The package <pkg>odesolve</pkg> provides a general
   solver for ordinary differential equations (ODE) via an
@@ -188,10 +189,10 @@ should be mentioned here.
 (ecological) models based on differential equations. 
   </li>
 </ul>
-</p>
 
 <p>
 <strong>Calibration</strong>
+</p>
 <ul>
      <li>The <pkg>chemCal</pkg> package provides functions for plotting
      linear calibration functions and estimating standard errors for
@@ -202,20 +203,20 @@ should be mentioned here.
 <pkg>hoa</pkg> bundle are useful for nonlinear calibration models.
 </li>
 </ul>
-</p>
 
 <p>
 <strong>Cellular Automata</strong>
+</p>
 <ul>
      <li>The <pkg>simecol</pkg> package includes functions for cellular automata
 modeling.    One-dimensional cellular automata are also possible to model with
 the package <pkg>CellularAutomaton</pkg>.  </li>
 </ul>
-</p>
 
 
 <p>
 <strong>Interfaces to External Libraries</strong>
+</p>
 <ul>
   <li>The  package <pkg>rcdk</pkg> allows 
 the user to access functionality in the  
@@ -236,10 +237,10 @@ libraries for use in R.
 database for structural structural similarity searching and clustering.
  </li>
 </ul>
-</p>
 
 <p>
 <strong>Spectroscopy</strong>
+</p>
 <ul>
   <li>The <pkg>Peaks</pkg> package implements functions for spectrum
   manipulation, ported from the ROOT/TSpectrum class.</li>
@@ -258,10 +259,10 @@ database for structural structural similarity searching and clustering.
   collects various packages related to spectroscopy and optics; however, 
   these packages are not yet available on CRAN.</li>
 </ul>
-</p>
 
 <p>
 <strong>Mass Spectrometry</strong>
+</p>
 <ul>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
   for Analyzing Fourier Transform-Ion Cyclotron 
@@ -282,10 +283,10 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
 </ul>
-</p>
 
 <p>
 <strong>Functional Magnetic Resonance Imaging</strong>
+</p>
 <ul>  
     <li>Functions for I/O, visualization and analysis of functional 
     Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE 
@@ -293,59 +294,58 @@ Data sets associated with <pkg>msProcess</pkg> can be found
     The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
     adaptive smoothing procedures.</li>
 </ul>
-</p>
 
 <p>
 <strong>Fluorescence Lifetime Imaging Microscopy</strong>
+</p>
 <ul>
     <li>Functions for visualization and analysis of 
     Fluorescence Lifetime Imaging Microscopy (FLIM) 
     datasets are available in the package <pkg>TIMP</pkg>.</li>
 </ul>
-</p>
 
 <p>
 <strong>Carbon Dating</strong>
+</p>
 <ul>
    <li>The package <pkg>Bchron</pkg> creates
    chronologies based on radiocarbon and non-radiocarbon dated depths.</li>
 </ul>
-</p>
 
 <p>
 <strong>X-Ray Diffractograms</strong>
+</p>
 <ul>
   <li>The <pkg>diffractometry</pkg> package provides 
   baseline identification and peak decomposition for x-ray
   diffractograms. Cross-correlation based comparison of diffractograms
   is provided in package <pkg>wccsom</pkg>.</li>
 </ul>
-</p>
 
 <p>
 <strong>Astronomy</strong>
+</p>
 <ul>
   <li>The <pkg>moonsun</pkg> package provides 
   functions for basic astronomical calculations.</li>
 </ul>
-</p>
 
 <p>
 <strong>Positron Emission Tomography</strong>
+</p>
 <ul>
   <li>The <pkg>PET</pkg> package 
   implements different analytic/direct and iterative reconstruction methods
   for positron emission tomography (PET) data.</li>
 </ul>
-</p>
 
 <p>
 <strong>Soil Physics</strong>
+</p>
 <ul>
   <li>The <pkg>SoPhy</pkg> package 
   provides tools for soil physics via an interface to SWMS_2D.</li>
 </ul>
-</p>
 
 </info>
 
