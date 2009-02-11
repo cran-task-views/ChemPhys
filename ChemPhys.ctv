@@ -253,7 +253,7 @@ database for structural structural similarity searching and clustering.
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
   extensively applied to time-resolved spectroscopy data.</li>
-  <li>Also note that the <forge>photonics</forge> project on 
+  <li>Also note that the <rforge>photonics</rforge> project on 
   <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
   collects various packages related to spectroscopy and optics; however, 
   these packages are not yet available on CRAN.</li>
@@ -414,7 +414,7 @@ Data sets associated with <pkg>msProcess</pkg> can be found
     <view>Multivariate</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
-    <forge>photonics</forge>
+    <rforge>photonics</rforge>
     <bioc>MassSpecWavelet</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>
