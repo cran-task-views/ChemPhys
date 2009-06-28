@@ -247,9 +247,6 @@ database for structural structural similarity searching and clustering.
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
   <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package <pkg>sapa</pkg>.</li>
-  <li>The package <pkg>spectrino</pkg> 
-  provides functionality to organize and visualize spectra
-  (currently only available for Windows).</li>
   <li>The package <pkg>TIMP</pkg> 
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
@@ -399,7 +396,6 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>simecol</pkg>
   <pkg>som</pkg>
   <pkg>SoPhy</pkg>
-  <pkg>spectrino</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
   <pkg>titan</pkg>
