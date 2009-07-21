@@ -2,8 +2,8 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="kmullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2009-05-19</version>
+<maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
+<version>2009-07-21</version>
 
 <info>
 
@@ -23,15 +23,14 @@ was published in January 2007. These are good places to start reading about rece
 and computational physics based in R.  
 </p>
 
-<p>
-A forthcoming book by Kurt Varmuza and Peter Filzmoser, 
+<p> The book by Kurt Varmuza and Peter Filzmoser, 
 <i>Introduction to Multivariate Statistical Analysis in Chemometrics</i>, 
 ISBN 978-1-420-05947-2, CRC Press, 2009, is associated with the 
 package <pkg>chemometrics</pkg>. 
 </p>
 
 <p>
-<a href="mailto:kate@nat.vu.nl">Please let us know</a>
+<a href="mailto:katharine.mullen@nist.gov">Please let us know</a>
 if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
@@ -213,6 +212,15 @@ modeling.    One-dimensional cellular automata are also possible to model with
 the package <pkg>CellularAutomaton</pkg>.  </li>
 </ul>
 
+<p>
+<strong>Thermodynamics</strong>
+</p>
+<ul>
+  <li>The <pkg>CHNOSZ</pkg> package provides functions 
+  for calculating the standard Gibbs energies and 
+  other thermodynamic properties, and chemical affinities of reactions 
+between species contained in a thermodynamic database. </li>
+</ul>
 
 <p>
 <strong>Interfaces to External Libraries</strong>
@@ -251,6 +259,9 @@ database for structural structural similarity searching and clustering.
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
   extensively applied to time-resolved spectroscopy data.</li>
+  <li>The package <pkg>NMRS</pkg> 
+  is designed to load and preprocess nuclear magnetic resonance spectra measured
+  with Bruker instruments. </li>
   <li>Also note that the <rforge>photonics</rforge> project on 
   <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
   collects various packages related to spectroscopy and optics; however, 
@@ -270,15 +281,22 @@ database for structural structural similarity searching and clustering.
  The 
   <pkg>msProcess</pkg> package provides functions 
   for protein mass spectra processing.
-Data sets associated with <pkg>msProcess</pkg> can be found
+  Data sets associated with <pkg>msProcess</pkg> can be found
   in three separate packages: <pkg>msBreast</pkg>,
   <pkg>msDilution</pkg> and <pkg>msProstate</pkg>. </li>
   <li>The <pkg>titan</pkg>
   provides a GUI to analyze mass spectrometric data
   on the relative abundance of two substances from a titration series.</li>
-  <li>Also note that the Bioconductor packages 
+  <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
+  <li>Also note that the <rforge>OrgMassSpecR</rforge> package on 
+  <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
+  is for organic/biological mass spectrometry, with a focus on 
+  graphical display, quantification
+  using stable isotope dilution, and protein hydrogen/deuterium
+  exchange experiments; however, this package is not yet available on
+  CRAN.</li>
 </ul>
 
 <p>
@@ -351,8 +369,9 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>AnalyzeFMRI</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
-  <pkg>CellularAutomaton</pkg>
   <pkg>caMassClass</pkg>
+  <pkg>CellularAutomaton</pkg>  
+  <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
   <pkg>clustvarsel</pkg>
@@ -378,6 +397,7 @@ Data sets associated with <pkg>msProcess</pkg> can be found
   <pkg>msDilution</pkg>
   <pkg>msProstate</pkg>
   <pkg>nlme</pkg>  
+  <pkg>NMRS</pkg>  
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>pcaPP</pkg>    
