@@ -92,6 +92,17 @@ should be mentioned here.
     least squares-partial least squares (LS-PLS) method.</li>
     <li>Penalized Partial Least Squares is implemented in the 
     <pkg>ppls</pkg> package.</li>
+    <li>Sparse PLS is implemented in the package
+    <pkg>spls</pkg> package.</li>
+    <li>The <pkg>gpls</pkg> package implements 
+    generalized partial least squares, based on the Iteratively
+    ReWeighted Least Squares (IRWLS) method of Brian Marx.</li>
+    <li> Weighted-average PLS, often used in paleolimnology, 
+    can be found in package
+    <pkg>paltran</pkg>.</li>
+    <li> Package <pkg>plspm</pkg> contains, in addition to the 
+    usual functions for PLS regression, also functions for 
+    Path Modelling.</li>
 </ul>
 
 <p>
@@ -196,6 +207,9 @@ should be mentioned here.
      <li>The <pkg>chemCal</pkg> package provides functions for plotting
      linear calibration functions and estimating standard errors for
      measurements. </li>
+     <li>The <pkg>quantchem</pkg> package provides functions for 
+     statistical evaluation of calibration curves by different regression 
+     techniques </li>
      <li>
       The <pkg>drm</pkg> package and the  
       nlreg package included in the 
@@ -355,11 +369,17 @@ database for structural structural similarity searching and clustering.
 </ul>
 
 <p>
-<strong>Soil Physics</strong>
+<strong>Water and Soil Chemistry</strong>
 </p>
 <ul>
   <li>The <pkg>SoPhy</pkg> package 
   provides tools for soil physics via an interface to SWMS_2D.</li>
+ <li>The <pkg>AquaEnv</pkg> package is a toolbox for aquatic 
+ chemical modelling focused on (ocean) acidification and CO2 air-water 
+ exchange.
+  </li>
+   <li>See the <view>Environmetrics</view> task view for further related 
+   packages related to water and soil chemistry.</li>
 </ul>
 
 </info>
@@ -367,6 +387,7 @@ database for structural structural similarity searching and clustering.
 <packagelist>
   <pkg priority="core">ALS</pkg>
   <pkg>AnalyzeFMRI</pkg>
+  <pkg>AquaEnv</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
   <pkg>caMassClass</pkg>
@@ -384,6 +405,7 @@ database for structural structural similarity searching and clustering.
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
+  <pkg>gpls</pkg>	
   <pkg>hoa</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
@@ -400,14 +422,17 @@ database for structural structural similarity searching and clustering.
   <pkg>NMRS</pkg>  
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
+  <pkg>paltran</pkg>    
   <pkg>pcaPP</pkg>    
   <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
   <pkg>pga</pkg>
   <pkg priority="core">pls</pkg>
+  <pkg>plspm</pkg>
   <pkg>ppls</pkg>
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
+  <pkg>quantchem</pkg>	
   <pkg>rcdk</pkg> 
   <pkg>rcdklibs</pkg> 
   <pkg>rpubchem</pkg>
@@ -416,6 +441,7 @@ database for structural structural similarity searching and clustering.
   <pkg>simecol</pkg>
   <pkg>som</pkg>
   <pkg>SoPhy</pkg>
+  <pkg>spls</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
   <pkg>titan</pkg>
@@ -428,9 +454,11 @@ database for structural structural similarity searching and clustering.
     <view>Psychometrics</view>
     <view>Cluster</view>
     <view>Multivariate</view>
+     <view>Environmetrics</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
+    <rforge>OrgMassSpecR</rforge>
     <bioc>MassSpecWavelet</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>
