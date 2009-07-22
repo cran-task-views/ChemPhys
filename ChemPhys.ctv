@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2009-07-21</version>
+<version>2009-07-22</version>
 
 <info>
 
@@ -102,7 +102,7 @@ should be mentioned here.
     <pkg>paltran</pkg>.</li>
     <li> Package <pkg>plspm</pkg> contains, in addition to the 
     usual functions for PLS regression, also functions for 
-    Path Modelling.</li>
+    path modeling.</li>
 </ul>
 
 <p>
@@ -268,7 +268,8 @@ database for structural structural similarity searching and clustering.
   manipulation, ported from the ROOT/TSpectrum class.</li>
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
   <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
-  Cambridge University Press, 1993, is found in the package <pkg>sapa</pkg>.</li>
+  Cambridge University Press, 1993, is found in the package 
+  <pkg>sapa</pkg>.</li>
   <li>The package <pkg>TIMP</pkg> 
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
@@ -454,7 +455,7 @@ database for structural structural similarity searching and clustering.
     <view>Psychometrics</view>
     <view>Cluster</view>
     <view>Multivariate</view>
-     <view>Environmetrics</view>
+    <view>Environmetrics</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
