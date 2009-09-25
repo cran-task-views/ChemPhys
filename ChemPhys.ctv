@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2009-07-22</version>
+<version>2009-09-25</version>
 
 <info>
 
@@ -64,8 +64,7 @@ should be mentioned here.
 <li> Correlated and/or 
      unequal variances can be modeled using the  
   <code>gnls()</code> function of the <pkg>nlme</pkg> package
-  and the nlreg package included in the 
-<pkg>hoa</pkg> bundle. </li>  
+  and the <pkg>nlreg</pkg>. </li>  
 </ul>
 
 <p>
@@ -212,8 +211,7 @@ should be mentioned here.
      techniques </li>
      <li>
       The <pkg>drm</pkg> package and the  
-      nlreg package included in the 
-<pkg>hoa</pkg> bundle are useful for nonlinear calibration models.
+      <pkg>nlreg</pkg> package are useful for nonlinear calibration models.
 </li>
 </ul>
 
@@ -407,7 +405,6 @@ database for structural structural similarity searching and clustering.
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>gpls</pkg>	
-  <pkg>hoa</pkg>
   <pkg>homals</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
@@ -419,7 +416,8 @@ database for structural structural similarity searching and clustering.
   <pkg>msBreast</pkg>
   <pkg>msDilution</pkg>
   <pkg>msProstate</pkg>
-  <pkg>nlme</pkg>  
+  <pkg>nlme</pkg>
+  <pkg>nlreg</pkg>
   <pkg>NMRS</pkg>  
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
