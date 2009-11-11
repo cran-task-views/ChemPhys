@@ -77,8 +77,10 @@ should be mentioned here.
   PCAn (Tucker-n) and PARAFAC/CANDECOMP.</li>
   <li>Multivariate curve resolution alternating least squares (MCR-ALS)
   is implemented in the package <pkg>ALS</pkg>.</li>
+  <li> The package <pkg>drc</pkg> provides functions for the analysis
+  of one or multiple non-linear curves with focus on concentration-response,
+  dose-response and time-response curves. </li>
 </ul>
-
 <p>
 <strong>Partial Least Squares</strong>
 </p>
@@ -398,6 +400,7 @@ database for structural structural similarity searching and clustering.
   <pkg>ddesolve</pkg>
   <pkg>deSolve</pkg>
   <pkg>diffractometry</pkg>
+  <pkg>drc</pkg>
   <pkg>drm</pkg>
   <pkg>elasticnet</pkg>
   <pkg>fastICA</pkg>    
