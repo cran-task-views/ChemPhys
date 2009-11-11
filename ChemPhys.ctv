@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2009-09-25</version>
+<version>2009-11-11</version>
 
 <info>
 
@@ -78,8 +78,8 @@ should be mentioned here.
   <li>Multivariate curve resolution alternating least squares (MCR-ALS)
   is implemented in the package <pkg>ALS</pkg>.</li>
   <li> The package <pkg>drc</pkg> provides functions for the analysis
-  of one or multiple non-linear curves with focus on concentration-response,
-  dose-response and time-response curves. </li>
+  of one or multiple non-linear curves with focus on models for 
+   concentration-response, dose-response and time-response data. </li>
 </ul>
 <p>
 <strong>Partial Least Squares</strong>
