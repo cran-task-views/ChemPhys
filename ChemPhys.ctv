@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2009-11-11</version>
+<version>2010-05-08</version>
 
 <info>
 
@@ -373,8 +373,6 @@ database for structural structural similarity searching and clustering.
 <strong>Water and Soil Chemistry</strong>
 </p>
 <ul>
-  <li>The <pkg>SoPhy</pkg> package 
-  provides tools for soil physics via an interface to SWMS_2D.</li>
  <li>The <pkg>AquaEnv</pkg> package is a toolbox for aquatic 
  chemical modelling focused on (ocean) acidification and CO2 air-water 
  exchange.
@@ -442,7 +440,6 @@ database for structural structural similarity searching and clustering.
   <pkg>sde</pkg>
   <pkg>simecol</pkg>
   <pkg>som</pkg>
-  <pkg>SoPhy</pkg>
   <pkg>spls</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
