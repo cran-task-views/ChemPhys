@@ -287,6 +287,11 @@ database for structural structural similarity searching and clustering.
 <strong>Mass Spectrometry</strong>
 </p>
 <ul>
+   <li>The <pkg>OrgMassSpecR</pkg> package 
+  is for organic/biological mass spectrometry, with a focus on 
+  graphical display, quantification
+  using stable isotope dilution, and protein hydrogen/deuterium
+  exchange experiments.</li>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
   for Analyzing Fourier Transform-Ion Cyclotron 
   Resonance Mass Spectrometry Data. </li>
@@ -305,13 +310,6 @@ database for structural structural similarity searching and clustering.
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
-  <li>Also note that the <rforge>OrgMassSpecR</rforge> package on 
-  <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
-  is for organic/biological mass spectrometry, with a focus on 
-  graphical display, quantification
-  using stable isotope dilution, and protein hydrogen/deuterium
-  exchange experiments; however, this package is not yet available on
-  CRAN.</li>
 </ul>
 
 <p>
@@ -420,6 +418,7 @@ database for structural structural similarity searching and clustering.
   <pkg>nlme</pkg>
   <pkg>nlreg</pkg>
   <pkg>NMRS</pkg>  
+  <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
   <pkg priority="core">odesolve</pkg>
   <pkg>paltran</pkg>    
@@ -457,7 +456,6 @@ database for structural structural similarity searching and clustering.
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
-    <rforge>OrgMassSpecR</rforge>
     <bioc>MassSpecWavelet</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>
