@@ -185,11 +185,10 @@ should be mentioned here.
 <strong>Differential Equations</strong>
 </p>
 <ul>
-  <li>The package <pkg>odesolve</pkg> provides a general
-  solver for ordinary differential equations (ODE) via an
-  interface for the ODE solver lsoda.
-  The package <pkg>deSolve</pkg> provides general 
-  solvers for ODEs and for differential algebraic equations (DAE).</li>
+  <li>The package <pkg>deSolve</pkg>  provides general solvers for initial value problems
+of ordinary differential equations (ODE), partial differential equations
+(PDE), differential algebraic equations (DAE), and delay differential
+equations (DDE).</li>
   <li>The package <pkg>ddesolve</pkg> provides a 
   solver for Delay Differential Equations.</li>
   <li>The package <pkg>sde</pkg> is the companion 
@@ -394,7 +393,7 @@ database for structural structural similarity searching and clustering.
   <pkg>chemometrics</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>ddesolve</pkg>
-  <pkg>deSolve</pkg>
+  <pkg priority="core">deSolve</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
   <pkg>drm</pkg>
@@ -420,7 +419,6 @@ database for structural structural similarity searching and clustering.
   <pkg>NMRS</pkg>  
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
-  <pkg priority="core">odesolve</pkg>
   <pkg>paltran</pkg>    
   <pkg>pcaPP</pkg>    
   <pkg>Peaks</pkg>    
