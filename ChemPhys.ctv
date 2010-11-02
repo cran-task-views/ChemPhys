@@ -355,9 +355,20 @@ database for structural structural similarity searching and clustering.
 <ul>
   <li>The <pkg>moonsun</pkg> package provides 
   functions for basic astronomical calculations.</li>
+ <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
+the earth and to determine incident solar radiation.  </li>
 </ul>
 
 <p>
+<strong>Energy Modeling</strong>
+</p>
+<ul>
+  <li>The <pkg>solaR</pkg> package provides functions to simulate and model systems involved in 
+the capture and use of solar energy, including 
+photovoltaics. </li>
+</ul>
+<p>
+
 <strong>Positron Emission Tomography</strong>
 </p>
 <ul>
@@ -436,6 +447,7 @@ database for structural structural similarity searching and clustering.
   <pkg>sapa</pkg>
   <pkg>sde</pkg>
   <pkg>simecol</pkg>
+  <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>spls</pkg>
   <pkg>subselect</pkg>
