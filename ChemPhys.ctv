@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2010-11-02</version>
+<version>2010-12-05</version>
 
 <info>
 
@@ -159,7 +159,7 @@ should be mentioned here.
   selection, by default using Mallow's Cp. <pkg>stepPlr</pkg> provides
   stepwise variable selection for penalized logistic regression.</li>
   <li>Variable selection based on evolutionary
-  algorithms is available in packages <pkg>pga</pkg> and
+  algorithms is available in package and
   <pkg>subselect</pkg>. The latter also provides simulated annealing and
   leaps-and-bounds algorithms, as well as local refinements.</li>
   <li>Package
@@ -434,7 +434,6 @@ photovoltaics. </li>
   <pkg>pcaPP</pkg>    
   <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
-  <pkg>pga</pkg>
   <pkg priority="core">pls</pkg>
   <pkg>plspm</pkg>
   <pkg>ppls</pkg>
