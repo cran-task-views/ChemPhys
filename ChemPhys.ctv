@@ -84,10 +84,12 @@ should be mentioned here.
 <p>
 <strong>Partial Least Squares</strong>
 </p>
-<ul>
+<ul> 
     <li>The package <pkg>pls</pkg> implements 
     Partial Least Squares Regression (PLSR) and Principal 
     Component Regression (PCR).</li>
+ <li>The package <pkg>plsRglm</pkg> implements partial least squares regression for generalized linear models and k-fold cross-validation of such models, 
+with options for Bootstrap confidence intervals and significance testing.</li>
     <li>The package 
     <pkg>lspls</pkg>  implements the 
     least squares-partial least squares (LS-PLS) method.</li>
@@ -435,6 +437,7 @@ photovoltaics. </li>
   <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
   <pkg priority="core">pls</pkg>
+  <pkg priority="core">plsRglm</pkg> 
   <pkg>plspm</pkg>
   <pkg>ppls</pkg>
   <pkg>psy</pkg>
