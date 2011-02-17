@@ -2,8 +2,8 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="katharine.mullen@nist.gov">Katharine Mullen and Ron Wehrens</maintainer>
-<version>2010-12-05</version>
+<maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
+<version>2010-02-17</version>
 
 <info>
 
@@ -14,13 +14,13 @@ simulation of physico-chemico systems.  Many of the functions in base
 R are useful for these ends.  
 </p>
 
-<p>
-A special issue of R News with a focus on 
-<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R in Chemistry</a> 
-was published in August 2006. A special volume of Journal of Statistical Software (JSS) dedicated to 
-<a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
-was published in January 2007. These are good places to start reading about recent work in chemometrics
-and computational physics based in R.  
+
+<p> The book  
+<i>Chemometrics with R</i>, by Ron Wehrens, 
+ISBN: 978-3-642-17840-5, Springer, 2011, provides an introduction to 
+ multivariate statistics in the life sciences, as well as coverage of several 
+specific topics from the area of chemometrics; the examples in the book are possible to 
+reproduce using the packages <pkg>ChemometricsWithR</pkg> and <pkg>ChemometricsWithRData</pkg>.
 </p>
 
 <p> The book by Kurt Varmuza and Peter Filzmoser, 
@@ -28,6 +28,15 @@ and computational physics based in R.
 ISBN 978-1-420-05947-2, CRC Press, 2009, is associated with the 
 package <pkg>chemometrics</pkg>. 
 </p>
+
+<p>
+A special issue of R News with a focus on 
+<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R in Chemistry</a> 
+was published in August 2006. A special volume of Journal of Statistical Software (JSS) dedicated to 
+<a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
+was published in January 2007.   
+</p>
+
 
 <p>
 <a href="mailto:katharine.mullen@nist.gov">Please let us know</a>
@@ -404,6 +413,8 @@ photovoltaics. </li>
   <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
+  <pkg>ChemometricsWithR</pkg>
+  <pkg>ChemometricsWithRData</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>ddesolve</pkg>
   <pkg priority="core">deSolve</pkg>
