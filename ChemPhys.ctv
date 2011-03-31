@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2011-02-17</version>
+<version>2011-03-31</version>
 
 <info>
 
@@ -274,6 +274,10 @@ database for structural structural similarity searching and clustering.
 <strong>Spectroscopy</strong>
 </p>
 <ul>
+   <li>The <pkg>ChemoSpec</pkg> package collects user-friendly 
+   	   functions for plotting spectra (NMR, IR, etc) and 
+	   carrying top-down exploratory data analysis, such as HCA, PCA 
+           and model-based clustering. </li>
   <li>The <pkg>Peaks</pkg> package implements functions for spectrum
   manipulation, ported from the ROOT/TSpectrum class.</li>
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
@@ -415,6 +419,7 @@ photovoltaics. </li>
   <pkg>chemometrics</pkg>
   <pkg>ChemometricsWithR</pkg>
   <pkg>ChemometricsWithRData</pkg>
+  <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>ddesolve</pkg>
   <pkg priority="core">deSolve</pkg>
