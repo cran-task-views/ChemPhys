@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2011-06-01</version>
+<version>2011-07-07</version>
 
 <info>
 
@@ -301,6 +301,9 @@ database for structural structural similarity searching and clustering.
 <strong>Mass Spectrometry</strong>
 </p>
 <ul>
+  <li>The <bioc>MSnbase</bioc> defines infrastructure for 
+mass spectrometry-based proteomics data handling,
+plotting, processing and quantification.</li>
   <li>The <pkg>MALDIquant</pkg> provides tools for quantitative analysis 
 of MALDI-TOF mass spectrometry data, with support for  
 baseline correction, peak detection and plotting of mass spectra.</li>
@@ -489,8 +492,9 @@ photovoltaics. </li>
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
     <bioc>MassSpecWavelet</bioc>
+    <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
-    <bioc>xcms</bioc>
+    <bioc>xcms</bioc> 
     <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
     <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
     <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>	
