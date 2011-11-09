@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2011-09-29</version>
+<version>2011-11-09</version>
 
 <info>
 
@@ -106,7 +106,7 @@ with options for Bootstrap confidence intervals and significance testing.</li>
     <pkg>ppls</pkg> package.</li>
     <li>Sparse PLS is implemented in the package
     <pkg>spls</pkg> package.</li>
-    <li>The <pkg>gpls</pkg> package implements 
+    <li>The <bioc>gpls</bioc> package implements 
     generalized partial least squares, based on the Iteratively
     ReWeighted Least Squares (IRWLS) method of Brian Marx.</li>
     <li> Weighted-average PLS, often used in paleolimnology, 
@@ -444,7 +444,6 @@ photovoltaics. </li>
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FTICRMS</pkg>
-  <pkg>gpls</pkg>	
   <pkg>homals</pkg>
   <pkg>hyperSpec</pkg>
   <pkg priority="core">Iso</pkg>
@@ -499,6 +498,7 @@ photovoltaics. </li>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
+    <bioc>gpls</bioc>
     <bioc>MassSpecWavelet</bioc>
     <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
