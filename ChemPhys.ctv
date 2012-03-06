@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2011-11-09</version>
+<version>2012-03-06</version>
 
 <info>
 
@@ -388,6 +388,18 @@ the earth and to determine incident solar radiation.  </li>
 </ul>
 
 <p>
+<strong>Optics and Scattering Approximations</strong>
+</p>
+<ul>
+  <li>The <pkg>planar</pkg> package provides code to simulate
+reflection and transmission at a multilayer planar interface. </li>
+ <li>The <pkg>cda</pkg> package calculates the polarizability tensor for the dipoles associated with a set of ellipsoidal nanoparticles.  </li>
+ <li>The <pkg>cda</pkg> package calculates the polarizability tensor for the dipoles associated with a set of ellipsoidal nanoparticles, and solves the coupled-dipole equations by direct inversion of the interaction matrix.  </li>
+ <li>The <pkg>dielectric</pkg> package defines some physical constants and dielectric functions commonly used in optics and plasmonics.  </li>
+</ul>
+
+
+<p>
 <strong>Energy Modeling</strong>
 </p>
 <ul>
@@ -426,6 +438,7 @@ photovoltaics. </li>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
   <pkg>caMassClass</pkg>
+  <pkg>cda</pkg>
   <pkg>CellularAutomaton</pkg>  
   <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
@@ -436,6 +449,7 @@ photovoltaics. </li>
   <pkg>clustvarsel</pkg>
   <pkg>ddesolve</pkg>
   <pkg priority="core">deSolve</pkg>
+  <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
   <pkg>drm</pkg>
@@ -466,6 +480,7 @@ photovoltaics. </li>
   <pkg>pcaPP</pkg>    
   <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
+  <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
   <pkg priority="core">plsRglm</pkg> 
   <pkg>plspm</pkg>
