@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2012-03-06</version>
+<version>2012-03-14</version>
 
 <info>
 
@@ -393,7 +393,6 @@ the earth and to determine incident solar radiation.  </li>
 <ul>
   <li>The <pkg>planar</pkg> package provides code to simulate
 reflection and transmission at a multilayer planar interface. </li>
- <li>The <pkg>cda</pkg> package calculates the polarizability tensor for the dipoles associated with a set of ellipsoidal nanoparticles.  </li>
  <li>The <pkg>cda</pkg> package calculates the polarizability tensor for the dipoles associated with a set of ellipsoidal nanoparticles, and solves the coupled-dipole equations by direct inversion of the interaction matrix.  </li>
  <li>The <pkg>dielectric</pkg> package defines some physical constants and dielectric functions commonly used in optics and plasmonics.  </li>
 </ul>
