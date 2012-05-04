@@ -2,8 +2,8 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="katharine.mullen@nist.gov">Katharine Mullen</maintainer>
-<version>2012-03-14</version>
+<maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
+<version>2012-05-04</version>
 
 <info>
 
@@ -378,14 +378,22 @@ baseline correction, peak detection and plotting of mass spectra.</li>
 </ul>
 
 <p>
-<strong>Astronomy</strong>
+<strong>Astronomy and astrophysics</strong>
 </p>
 <ul>
   <li>The <pkg>moonsun</pkg> package provides 
   functions for basic astronomical calculations.</li>
  <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
 the earth and to determine incident solar radiation.  </li>
+ <li>The <pkg>FITSio</pkg> package provides utilities to read and write files in the FITS (Flexible Image Transport System) format, a standard format in astronomy.   </li>
+ <li>The <pkg>Ringscale</pkg> package implements a method for detection of faint
+companions around young stars in speckle patterns of
+VLT/NACO cube mode images.
+    </li>
+ <li>The <pkg>stellaR</pkg> package manages and displays stellar tracks and isochrones from the Pisa low-mass database.
+    </li>
 </ul>
+
 
 <p>
 <strong>Optics and Scattering Approximations</strong>
@@ -456,6 +464,7 @@ photovoltaics. </li>
   <pkg>fastICA</pkg>    
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
+  <pkg>FITSio</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>homals</pkg>
   <pkg>hyperSpec</pkg>
@@ -490,12 +499,14 @@ photovoltaics. </li>
   <pkg>rcdk</pkg> 
   <pkg>rcdklibs</pkg> 
   <pkg>rpubchem</pkg>
+  <pkg>Ringscale</pkg>
   <pkg>sapa</pkg>
   <pkg>sde</pkg>
   <pkg>simecol</pkg>
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>spls</pkg>
+  <pkg>stellaR</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
   <pkg>titan</pkg>
