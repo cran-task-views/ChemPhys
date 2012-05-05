@@ -386,7 +386,7 @@ baseline correction, peak detection and plotting of mass spectra.</li>
  <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
 the earth and to determine incident solar radiation.  </li>
  <li>The <pkg>FITSio</pkg> package provides utilities to read and write files in the FITS (Flexible Image Transport System) format, a standard format in astronomy.   </li>
- <li>The <pkg>Ringscale</pkg> package implements a method for detection of faint
+ <li>The <pkg>ringscale</pkg> package implements a method for detection of faint
 companions around young stars in speckle patterns of
 VLT/NACO cube mode images.
     </li>
@@ -499,7 +499,7 @@ photovoltaics. </li>
   <pkg>rcdk</pkg> 
   <pkg>rcdklibs</pkg> 
   <pkg>rpubchem</pkg>
-  <pkg>Ringscale</pkg>
+  <pkg>ringscale</pkg>
   <pkg>sapa</pkg>
   <pkg>sde</pkg>
   <pkg>simecol</pkg>
