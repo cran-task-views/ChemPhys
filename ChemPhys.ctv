@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-05-04</version>
+<version>2012-05-22</version>
 
 <info>
 
@@ -322,8 +322,6 @@ baseline correction, peak detection and plotting of mass spectra.</li>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
   for Analyzing Fourier Transform-Ion Cyclotron 
   Resonance Mass Spectrometry Data. </li>
-  <li> Processing and classification
-  of SELDI data is available in <pkg>caMassClass</pkg>.</li>
   <li>
  The 
   <pkg>msProcess</pkg> package provides functions 
@@ -444,7 +442,6 @@ photovoltaics. </li>
   <pkg>AquaEnv</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
-  <pkg>caMassClass</pkg>
   <pkg>cda</pkg>
   <pkg>CellularAutomaton</pkg>  
   <pkg>CHNOSZ</pkg>
