@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-05-22</version>
+<version>2012-06-04</version>
 
 <info>
 
@@ -196,19 +196,9 @@ with options for Bootstrap confidence intervals and significance testing.</li>
 <strong>Differential Equations</strong>
 </p>
 <ul>
-  <li>The package <pkg>deSolve</pkg>  provides general solvers for initial value problems
-of ordinary differential equations (ODE), partial differential equations
-(PDE), differential algebraic equations (DAE), and delay differential
-equations (DDE).</li>
-  <li>The package <pkg>ddesolve</pkg> provides a 
-  solver for Delay Differential Equations.</li>
-  <li>The package <pkg>sde</pkg> is the companion 
-  to the book by Stefano M. Iacus, <i>Simulation and Inference for Stochastic 
-  Differential Equations, With R Examples</i>, ISBN 978-0-387-75838-1, 
-  Springer-Verlag, 2008.</li>
-  <li>  The <pkg>simecol</pkg> package provides functions to implement 
-(ecological) models based on differential equations. 
-  </li>
+  <li>
+See the <view>Differential Equations</view> task view packages dealing with 
+    differential equations.</li>
 </ul>
 
 <p>
@@ -451,8 +441,6 @@ photovoltaics. </li>
   <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
-  <pkg>ddesolve</pkg>
-  <pkg priority="core">deSolve</pkg>
   <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
@@ -498,8 +486,6 @@ photovoltaics. </li>
   <pkg>rpubchem</pkg>
   <pkg>ringscale</pkg>
   <pkg>sapa</pkg>
-  <pkg>sde</pkg>
-  <pkg>simecol</pkg>
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>spls</pkg>
@@ -513,6 +499,7 @@ photovoltaics. </li>
 </packagelist>
 
 <links>
+    <view>Differential Equations</view>
     <view>Psychometrics</view>
     <view>Cluster</view>
     <view>Multivariate</view>
