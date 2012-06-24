@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-06-04</version>
+<version>2012-06-24</version>
 
 <info>
 
@@ -177,8 +177,7 @@ with options for Bootstrap confidence intervals and significance testing.</li>
   <pkg>varSelRF</pkg> provides variable selection methods for random
   forests. Cross-validation-based variable selection using Wilcoxon rank
   sum tests is available in package <pkg>WilcoxCV</pkg>, focused on
-  binary classification in microarrays. Package <pkg>clustvarsel</pkg>
-  implements variable selection for model-based clustering.</li>
+  binary classification in microarrays.</li>
 </ul>
 
 <p>
@@ -440,7 +439,6 @@ photovoltaics. </li>
   <pkg>ChemometricsWithR</pkg>
   <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
-  <pkg>clustvarsel</pkg>
   <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
