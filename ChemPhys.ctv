@@ -23,11 +23,21 @@ specific topics from the area of chemometrics; the examples in the book are poss
 reproduce using the packages <pkg>ChemometricsWithR</pkg> and <pkg>ChemometricsWithRData</pkg>.
 </p>
 
+
+<p> The book  
+<i>Modern Statistical Methods for Astronomy With R Applications</i>, by Eric D. Feigelson and G. Jogesh Babu, ISBN-13: 9780521767279, Cambridge, 2012, 
+provides an introduction to statistics for astronomers and an
+overview of the foremost methods being used in astrostatistical analysis,
+illustrated by examples in R. 
+</p>
+
+
 <p> The book by Kurt Varmuza and Peter Filzmoser, 
 <i>Introduction to Multivariate Statistical Analysis in Chemometrics</i>, 
 ISBN 978-1-420-05947-2, CRC Press, 2009, is associated with the 
 package <pkg>chemometrics</pkg>. 
 </p>
+
 
 <p>
 A special issue of R News with a focus on 
@@ -241,7 +251,7 @@ between species contained in a thermodynamic database. </li>
 <ul>
   <li>The  package <pkg>rcdk</pkg> allows 
 the user to access functionality in the  
-  <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>, 
+  <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>, 
   a Java framework for cheminformatics. This allows the
   user to load molecules, evaluate fingerprints, calculate molecular
   descriptors and so on. In addition, the CDK API allows the user to
@@ -520,7 +530,7 @@ photovoltaics. </li>
     <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc> 
-    <a href="http://www.steinbeck-molecular.de/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
+    <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
     <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
     <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>	
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
