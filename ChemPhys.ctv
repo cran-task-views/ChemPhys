@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-06-24</version>
+<version>2012-07-22</version>
 
 <info>
 
@@ -379,6 +379,14 @@ VLT/NACO cube mode images.
     </li>
  <li>The <pkg>stellaR</pkg> package manages and displays stellar tracks and isochrones from the Pisa low-mass database.
     </li>
+<li>The <pkg>astroFns</pkg> provides miscellaneous astronomy functions, utilities, and data.
+    </li>
+<li>The <pkg>cosmoFns</pkg> contains standard expressions for
+distances, times, luminosities, and other quantities useful in
+observational cosmology, including molecular line observations.
+    </li>  
+<li>  The <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric forum for issues concerning software for statistical analysis in astronomy.
+</li> 
 </ul>
 
 
@@ -429,10 +437,12 @@ photovoltaics. </li>
   <pkg priority="core">ALS</pkg>
   <pkg>AnalyzeFMRI</pkg>
   <pkg>AquaEnv</pkg>
+  <pkg>astroFns</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
   <pkg>cda</pkg>
   <pkg>CellularAutomaton</pkg>  
+  <pkg>cosmoFns</pkg>
   <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
@@ -514,6 +524,7 @@ photovoltaics. </li>
     <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
     <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>	
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
+     <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
 </links>
 
 </CRANTaskView>
