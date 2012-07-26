@@ -206,7 +206,7 @@ with options for Bootstrap confidence intervals and significance testing.</li>
 </p>
 <ul>
   <li>
-See the <view>Differential Equations</view> task view packages dealing with 
+See the <view>DifferentialEquations</view> task view packages dealing with 
     differential equations.</li>
 </ul>
 
@@ -517,7 +517,7 @@ photovoltaics. </li>
 </packagelist>
 
 <links>
-    <view>Differential Equations</view>
+    <view>DifferentialEquations</view>
     <view>Psychometrics</view>
     <view>Cluster</view>
     <view>Multivariate</view>
