@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-07-22</version>
+<version>2012-08-22</version>
 
 <info>
 
@@ -107,8 +107,6 @@ should be mentioned here.
     <li>The package <pkg>pls</pkg> implements 
     Partial Least Squares Regression (PLSR) and Principal 
     Component Regression (PCR).</li>
- <li>The package <pkg>plsRglm</pkg> implements partial least squares regression for generalized linear models and k-fold cross-validation of such models, 
-with options for Bootstrap confidence intervals and significance testing.</li>
     <li>The package 
     <pkg>lspls</pkg>  implements the 
     least squares-partial least squares (LS-PLS) method.</li>
@@ -493,7 +491,6 @@ photovoltaics. </li>
   <pkg>PET</pkg>
   <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
-  <pkg priority="core">plsRglm</pkg> 
   <pkg>plspm</pkg>
   <pkg>ppls</pkg>
   <pkg>psy</pkg>
