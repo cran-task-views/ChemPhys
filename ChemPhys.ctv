@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-08-22</version>
+<version>2012-09-15</version>
 
 <info>
 
@@ -259,11 +259,12 @@ libraries for use in R.
   <li>The <pkg>rpubchem</pkg> package gives access 
   to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
   (compounds, substance, assays).</li>
-  <li> The
-  <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
-  package provides an interface to the 
- <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>
-database for structural structural similarity searching and clustering.
+  <li> 
+<a href="http://manuals.bioinformatics.ucr.edu/home/chemminer" target="_top">ChemmineR</a>  is a
+cheminformatics package for analyzing drug-like small molecule data in
+R. <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a>
+ provides a web interface to
+some of this package's utilities.
  </li>
 </ul>
 
@@ -528,8 +529,8 @@ photovoltaics. </li>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc> 
     <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
-    <a href="http://bioweb.ucr.edu/ChemMineV2/chemminer/" target="_top">ChemmineR</a>
-    <a href="http://bioweb.ucr.edu/ChemMineV2/" target="_top">ChemMine</a>	
+    <a href="http://manuals.bioinformatics.ucr.edu/home/chemminer" target="_top">ChemmineR</a>  
+    <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
      <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
 </links>
