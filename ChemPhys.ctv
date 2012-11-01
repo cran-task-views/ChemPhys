@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-09-21</version>
+<version>2012-11-01</version>
 
 <info>
 
@@ -117,9 +117,6 @@ should be mentioned here.
     <li>The <bioc>gpls</bioc> package implements 
     generalized partial least squares, based on the Iteratively
     ReWeighted Least Squares (IRWLS) method of Brian Marx.</li>
-    <li> Weighted-average PLS, often used in paleolimnology, 
-    can be found in package
-    <pkg>paltran</pkg>.</li>
     <li> Package <pkg>plspm</pkg> contains, in addition to the 
     usual functions for PLS regression, also functions for 
     path modeling.</li>
@@ -475,7 +472,6 @@ photovoltaics. </li>
   <pkg>NMRS</pkg>  
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
-  <pkg>paltran</pkg>    
   <pkg>pcaPP</pkg>    
   <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
