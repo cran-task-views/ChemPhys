@@ -219,7 +219,7 @@ See the <view>DifferentialEquations</view> task view packages dealing with
       The <pkg>drm</pkg> package and the  
       <pkg>nlreg</pkg> package are useful for nonlinear calibration models.
 </li>
-    <li> The package <pkg>represent</pkg> calculates the 'representivity'
+    <li> The package <pkg>represent</pkg> calculates the 'representativity'
 of two multidimensional 
 datasets, which involves comparison of the similarity of principal component
 analysis loading patterns, variance-covariance matrix structures, 
