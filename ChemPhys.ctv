@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-11-05</version>
+<version>2012-11-06</version>
 
 <info>
 
@@ -49,7 +49,7 @@ was published in January 2007.
 
 
 <p>
-<a href="mailto:katharine.mullen@nist.gov">Please let us know</a>
+<a href="mailto:mullenkate@gmail.com">Please let us know</a>
 if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
