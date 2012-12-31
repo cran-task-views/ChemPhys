@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2012-11-06</version>
+<version>2012-12-30</version>
 
 <info>
 
@@ -16,16 +16,16 @@ R are useful for these ends.
 
 
 <p> The book  
-<i>Chemometrics with R</i>, by Ron Wehrens, 
+<i>Chemometrics with R</i> by Ron Wehrens, 
 ISBN: 978-3-642-17840-5, Springer, 2011, provides an introduction to 
- multivariate statistics in the life sciences, as well as coverage of several 
+multivariate statistics in the life sciences, as well as coverage of several 
 specific topics from the area of chemometrics; the examples in the book are possible to 
 reproduce using the packages <pkg>ChemometricsWithR</pkg> and <pkg>ChemometricsWithRData</pkg>.
 </p>
 
 
 <p> The book  
-<i>Modern Statistical Methods for Astronomy With R Applications</i>, by Eric D. Feigelson and G. Jogesh Babu, ISBN-13: 9780521767279, Cambridge, 2012, 
+<i>Modern Statistical Methods for Astronomy With R Applications</i> by Eric D. Feigelson and G. Jogesh Babu, ISBN-13: 9780521767279, Cambridge, 2012, 
 provides an introduction to statistics for astronomers and an
 overview of the foremost methods being used in astrostatistical analysis,
 illustrated by examples in R. 
@@ -33,7 +33,7 @@ illustrated by examples in R.
 
 
 <p> The book by Kurt Varmuza and Peter Filzmoser, 
-<i>Introduction to Multivariate Statistical Analysis in Chemometrics</i>, 
+<i>Introduction to Multivariate Statistical Analysis in Chemometrics,</i> 
 ISBN 978-1-420-05947-2, CRC Press, 2009, is associated with the 
 package <pkg>chemometrics</pkg>. 
 </p>
@@ -49,8 +49,8 @@ was published in January 2007.
 
 
 <p>
-<a href="mailto:mullenkate@gmail.com">Please let us know</a>
-if we have omitted something of importance, or if a new package or function
+<a href="mailto:mullenkate@gmail.com">Please let us know</a> if 
+we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
 
@@ -252,7 +252,7 @@ between species contained in a thermodynamic database. </li>
 <ul>
   <li>The  package <pkg>rcdk</pkg> allows 
 the user to access functionality in the  
-  <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>, 
+  <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK),</a>
   a Java framework for cheminformatics. This allows the
   user to load molecules, evaluate fingerprints, calculate molecular
   descriptors and so on. In addition, the CDK API allows the user to
@@ -265,8 +265,7 @@ libraries for use in R.
   <li> 
 <a href="http://manuals.bioinformatics.ucr.edu/home/chemminer" target="_top">ChemmineR</a>  is a
 cheminformatics package for analyzing drug-like small molecule data in
-R. <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a>
- provides a web interface to
+R. <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a> provides a web interface to
 some of this package's utilities.
  </li>
 </ul>
@@ -289,7 +288,7 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
   <li>The <pkg>Peaks</pkg> package implements functions for spectrum
   manipulation, ported from the ROOT/TSpectrum class.</li>
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
-  <i>Spectral Analysis for Physical Applications</i>, ISBN 978-0-521-43541-3, 
+  <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package 
   <pkg>sapa</pkg>.</li>
   <li>The package <pkg>TIMP</pkg> 
