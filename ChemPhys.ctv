@@ -493,10 +493,12 @@ photovoltaics. </li>
   <pkg>rpubchem</pkg>
   <pkg>ringscale</pkg>
   <pkg>sapa</pkg>
+  <pkg>simecol</pkg>
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>spls</pkg>
   <pkg>stellaR</pkg>
+  <pkg>stepPlr</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
   <pkg>titan</pkg>
