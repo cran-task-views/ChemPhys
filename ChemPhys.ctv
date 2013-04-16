@@ -2,8 +2,8 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="mullenkate@gmail.com">Katharine Mullen</maintainer>
-<version>2013-01-29</version>
+<maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
+<version>2013-04-16</version>
 
 <info>
 
@@ -389,6 +389,9 @@ VLT/NACO cube mode images.
 distances, times, luminosities, and other quantities useful in
 observational cosmology, including molecular line observations.
     </li>  
+<li> The <pkg>astro</pkg> package provides tools for astronomy; functions 
+provided may be grouped into 4 main areas: cosmology, FITS file manipulation, the Sersic function and general (plotting and scripting) tools.
+</li>
 <li>  The <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric forum for issues concerning software for statistical analysis in astronomy.
 </li> 
 </ul>
@@ -441,6 +444,7 @@ photovoltaics. </li>
   <pkg priority="core">ALS</pkg>
   <pkg>AnalyzeFMRI</pkg>
   <pkg>AquaEnv</pkg>
+  <pkg>astro</pkg>	
   <pkg>astroFns</pkg>
   <pkg>Bchron</pkg>    
   <pkg>bvls</pkg>  
