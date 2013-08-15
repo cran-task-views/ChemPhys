@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-06-07</version>
+<version>2013-09-15</version>
 
 <info>
 
@@ -296,6 +296,8 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
   <li>The package <pkg>NMRS</pkg> 
   is designed to load and preprocess nuclear magnetic resonance spectra measured
   with Bruker instruments. </li>
+   <li>The package <pkg>prospectr</pkg> 
+      provides functions for pretreatment and sample selection of visible and near infrared diffuse reflectance spectra. </li>
   <li>Also note that the <rforge>photonics</rforge> project on 
   <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
   collects various packages related to spectroscopy and optics; however, 
@@ -493,6 +495,7 @@ photovoltaics. </li>
   <pkg priority="core">pls</pkg>
   <pkg>plspm</pkg>
   <pkg>ppls</pkg>
+  <pkg>prospectr</pkg> 
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
   <pkg>quantchem</pkg>	
