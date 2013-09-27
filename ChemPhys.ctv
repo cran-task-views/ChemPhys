@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-08-15</version>
+<version>2013-09-27</version>
 
 <info>
 
@@ -289,10 +289,6 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
   <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package 
   <pkg>sapa</pkg>.</li>
-  <li>The package <pkg>TIMP</pkg> 
-  provides a problem solving environment for fitting
-  separable nonlinear models in physics and chemistry applications, and has been
-  extensively applied to time-resolved spectroscopy data.</li>
   <li>The package <pkg>NMRS</pkg> 
   is designed to load and preprocess nuclear magnetic resonance spectra measured
   with Bruker instruments. </li>
@@ -339,15 +335,6 @@ baseline correction, peak detection and plotting of mass spectra.</li>
     or NIFTI format are available in the package <pkg>AnalyzeFMRI</pkg>.
     The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
     adaptive smoothing procedures.</li>
-</ul>
-
-<p>
-<strong>Fluorescence Lifetime Imaging Microscopy</strong>
-</p>
-<ul>
-    <li>Functions for visualization and analysis of 
-    Fluorescence Lifetime Imaging Microscopy (FLIM) 
-    datasets are available in the package <pkg>TIMP</pkg>.</li>
 </ul>
 
 <p>
@@ -514,7 +501,6 @@ photovoltaics. </li>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
   <pkg>subselect</pkg>
-  <pkg>TIMP</pkg>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>wccsom</pkg>
