@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-09-27</version>
+<version>2013-10-11</version>
 
 <info>
 
@@ -49,7 +49,7 @@ was published in January 2007.
 
 
 <p>
-<a href="mailto:mullenkate@gmail.com">Please let us know</a> if 
+<a href="mailto:katharine.mullen@stat.ucla.edu">Please let us know</a> if 
 we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
@@ -168,6 +168,7 @@ should be mentioned here.
 <strong>Variable Selection</strong>
 </p>
 <ul>
+  <li></li>
   <li>Stepwise variable selection for linear models, using AIC, is available
   in function <code>step()</code>; package <pkg>leaps</pkg> implements
   leaps-and-bounds variable 
@@ -182,6 +183,9 @@ should be mentioned here.
   forests. Cross-validation-based variable selection using Wilcoxon rank
   sum tests is available in package <pkg>WilcoxCV</pkg>, focused on
   binary classification in microarrays.</li>
+ <li>
+The <pkg>BioMark</pkg> package
+implements two meta-methods for variable selection: stability selection (applying a primary selection method like a t-test, VIP value or PLSDA regression coefficient) to different subsets of the data, and higher criticism, which provides a data-driven choice of significance cutoffs in statistical testing. </li>
 </ul>
 
 <p>
@@ -289,6 +293,10 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
   <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package 
   <pkg>sapa</pkg>.</li>
+  <li>The package <pkg>TIMP</pkg> 
+  provides a problem solving environment for fitting
+  separable nonlinear models in physics and chemistry applications, and has been
+  extensively applied to time-resolved spectroscopy data.</li>
   <li>The package <pkg>NMRS</pkg> 
   is designed to load and preprocess nuclear magnetic resonance spectra measured
   with Bruker instruments. </li>
@@ -335,6 +343,15 @@ baseline correction, peak detection and plotting of mass spectra.</li>
     or NIFTI format are available in the package <pkg>AnalyzeFMRI</pkg>.
     The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
     adaptive smoothing procedures.</li>
+</ul>
+
+<p>
+<strong>Fluorescence Lifetime Imaging Microscopy</strong>
+</p>
+<ul>
+    <li>Functions for visualization and analysis of 
+    Fluorescence Lifetime Imaging Microscopy (FLIM) 
+    datasets are available in the package <pkg>TIMP</pkg>.</li>
 </ul>
 
 <p>
@@ -440,7 +457,8 @@ photovoltaics. </li>
   <pkg>AquaEnv</pkg>
   <pkg>astro</pkg>	
   <pkg>astroFns</pkg>
-  <pkg>Bchron</pkg>    
+  <pkg>Bchron</pkg>   
+  <pkg>BioMark</pkg>		 
   <pkg>bvls</pkg>  
   <pkg>cda</pkg>
   <pkg>celestial</pkg>
@@ -501,6 +519,7 @@ photovoltaics. </li>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
   <pkg>subselect</pkg>
+  <pkg>TIMP</pkg>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>wccsom</pkg>
