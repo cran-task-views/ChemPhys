@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-10-11</version>
+<version>2013-10-24</version>
 
 <info>
 
@@ -265,10 +265,15 @@ libraries for use in R.
   to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
   (compounds, substance, assays).</li>
   <li> 
-<a href="http://manuals.bioinformatics.ucr.edu/home/chemminer" target="_top">ChemmineR</a>  is a
-cheminformatics package for analyzing drug-like small molecule data in
-R. <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a> provides a web interface to
-some of this package's utilities.
+ <bioc>ChemmineR</bioc> is
+a cheminformatics toolkit for analyzing small molecules in R. Its add-on
+packages include <bioc>fmcsR</bioc> for
+mismatch tolerant maximum common substructure matching, <bioc>eiR</bioc>
+for
+accelerated structure similarity searching; <bioc>bioassayR</bioc>
+for analyzing bioactivity data, and <bioc>ChemmineOB</bioc>
+for accessing <a href="http://openbabel.org/wiki/Main_Page" target="_top">OpenBabel</a>
+functionalities from R.
  </li>
 </ul>
 
@@ -535,16 +540,20 @@ photovoltaics. </li>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
+    <bioc>bioassayR</bioc>
+    <bioc>ChemmineOB</bioc>
+    <bioc>ChemmineR</bioc>		
+    <bioc>fmcsR</bioc>
     <bioc>gpls</bioc>
+    <bioc>eiR</bioc>
     <bioc>MassSpecWavelet</bioc>
     <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
-    <bioc>xcms</bioc> 
+    <bioc>xcms</bioc>	
+    <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
     <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
-    <a href="http://manuals.bioinformatics.ucr.edu/home/chemminer" target="_top">ChemmineR</a>  
-    <a href="http://chemmine.ucr.edu/" target="_top">ChemMine Tools</a>
+    <a href="http://openbabel.org/wiki/Main_Page" target="_top">OpenBabel</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
-     <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
-</links>
+</links>  
 
 </CRANTaskView>
