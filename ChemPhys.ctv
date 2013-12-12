@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-10-24</version>
+<version>2013-12-12</version>
 
 <info>
 
@@ -182,7 +182,8 @@ should be mentioned here.
   <pkg>varSelRF</pkg> provides variable selection methods for random
   forests. Cross-validation-based variable selection using Wilcoxon rank
   sum tests is available in package <pkg>WilcoxCV</pkg>, focused on
-  binary classification in microarrays.</li>
+  binary classification in microarrays. Package <pkg>clustvarsel</pkg>
+  implements variable selection for model-based clustering.</li>
  <li>
 The <pkg>BioMark</pkg> package
 implements two meta-methods for variable selection: stability selection (applying a primary selection method like a t-test, VIP value or PLSDA regression coefficient) to different subsets of the data, and higher criticism, which provides a data-driven choice of significance cutoffs in statistical testing. </li>
@@ -475,6 +476,7 @@ photovoltaics. </li>
   <pkg>ChemometricsWithR</pkg>
   <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
+  <pkg>clustvarsel</pkg>
   <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
