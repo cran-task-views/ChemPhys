@@ -168,7 +168,6 @@ should be mentioned here.
 <strong>Variable Selection</strong>
 </p>
 <ul>
-  <li></li>
   <li>Stepwise variable selection for linear models, using AIC, is available
   in function <code>step()</code>; package <pkg>leaps</pkg> implements
   leaps-and-bounds variable 
