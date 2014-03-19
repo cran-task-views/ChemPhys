@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-12-12</version>
+<version>2013-03-19</version>
 
 <info>
 
@@ -212,6 +212,8 @@ See the <view>DifferentialEquations</view> task view packages dealing with
 <strong>Calibration</strong>
 </p>
 <ul>
+	<li> The <pkg>investr</pkg> package facilitates calibration/inverse 
+	estimation with linear and nonlinear regression models. </li>
      <li>The <pkg>chemCal</pkg> package provides functions for plotting
      linear calibration functions and estimating standard errors for
      measurements. </li>
@@ -488,6 +490,7 @@ photovoltaics. </li>
   <pkg>FTICRMS</pkg>
   <pkg>homals</pkg>
   <pkg>hyperSpec</pkg>
+  <pkg>investr</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
   <pkg>leaps</pkg>
