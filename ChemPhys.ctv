@@ -2,7 +2,7 @@
 
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
-<maintainer email="katharine.mullen@statistics.ucla.edu">Katharine Mullen</maintainer>
+<maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
 <version>2013-03-31</version>
 
 <info>
@@ -95,6 +95,9 @@ should be mentioned here.
   PCAn (Tucker-n) and PARAFAC/CANDECOMP.</li>
   <li>Multivariate curve resolution alternating least squares (MCR-ALS)
   is implemented in the package <pkg>ALS</pkg>.</li>
+   <li>The <bioc>alsace</bioc> package  provides MCR-ALS support for Liquid chromatography with PhotoDiode Array Detection
+(LC-DAD) data with
+many injections, with features for peak alignment and identification.  </li>
   <li> The package <pkg>drc</pkg> provides functions for the analysis
   of one or multiple non-linear curves with focus on models for 
    concentration-response, dose-response and time-response data. </li>
@@ -340,6 +343,19 @@ baseline correction, peak detection and plotting of mass spectra.</li>
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
+  <li>The <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a>  
+   package is designed for the processing of LC/MS based metabolomics data.   
+  </li>
+   <li>The <a href="http://sourceforge.net/projects/xmsanalyzer/" target="_top">xMSanalyzer</a>  
+   package allows merging <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a> 
+sample processing results from multiple sets of parameter
+settings, among other features.  
+  </li>
+<li>The <a href="http://sourceforge.net/projects/msprep/" target="_top">MSPrep</a>  
+   package is for post-processing of metabolomic data, including summarization of replicates, filtering, imputation, and normalization. 
+  </li>
+<li>The <bioc>metaMS</bioc> package is an MS-based metabolomics data processing and compound annotation pipeline.
+  </li>
 </ul>
 
 <p>
@@ -546,6 +562,7 @@ photovoltaics. </li>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
+    <bioc>alsace</bioc>
     <bioc>bioassayR</bioc>
     <bioc>ChemmineOB</bioc>
     <bioc>ChemmineR</bioc>		
@@ -553,13 +570,17 @@ photovoltaics. </li>
     <bioc>gpls</bioc>
     <bioc>eiR</bioc>
     <bioc>MassSpecWavelet</bioc>
+    <bioc>metaMS</bioc>
     <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>	
+    <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a>
     <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
     <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
+    <a href="http://sourceforge.net/projects/msprep/" target="_top">MSPrep</a>  
     <a href="http://openbabel.org/wiki/Main_Page" target="_top">OpenBabel</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
+    <a href="http://sourceforge.net/projects/xmsanalyzer/" target="_top">xMSanalyzer</a>  
 </links>  
 
 </CRANTaskView>
