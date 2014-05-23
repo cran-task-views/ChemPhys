@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-04-19</version>
+<version>2013-05-23</version>
 
 <info>
 
@@ -286,13 +286,6 @@ functionalities from R.
 <strong>Spectroscopy</strong>
 </p>
 <ul>
-   <li>The <pkg>hyperSpec</pkg> packages allows analysis of 
-hyperspectral data, 
-i.e., spectra
-plus further information such as spatial information, time,
-concentrations, etc.  Such data are frequently encountered in the
-analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
-</li>
    <li>The <pkg>ChemoSpec</pkg> package collects user-friendly 
    	   functions for plotting spectra (NMR, IR, etc) and 
 	   carrying top-down exploratory data analysis, such as HCA, PCA 
@@ -506,7 +499,6 @@ photovoltaics. </li>
   <pkg>FITSio</pkg>
   <pkg>FTICRMS</pkg>
   <pkg>homals</pkg>
-  <pkg>hyperSpec</pkg>
   <pkg>investr</pkg>
   <pkg priority="core">Iso</pkg>
   <pkg priority="core">kohonen</pkg>
