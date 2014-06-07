@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-05-24</version>
+<version>2013-06-08</version>
 
 <info>
 
@@ -82,7 +82,8 @@ should be mentioned here.
   least squares problems. </li> 
 <li> Correlated and/or 
      unequal variances can be modeled using the  
-  <code>gnls()</code> function of the <pkg>nlme</pkg> package. </li>  
+  <code>gnls()</code> function of the <pkg>nlme</pkg> package
+  and by <pkg>nlreg</pkg>. </li>  
 </ul>
 
 <p>
@@ -224,7 +225,8 @@ See the <view>DifferentialEquations</view> task view packages dealing with
      statistical evaluation of calibration curves by different regression 
      techniques. </li>
      <li>
-      The <pkg>drm</pkg> package is useful for nonlinear calibration models.
+      The <pkg>drm</pkg> package and the  
+      <pkg>nlreg</pkg> package are useful for nonlinear calibration models.
 </li>
     <li> The package <pkg>represent</pkg> calculates the 'representativity'
 of two multidimensional 
@@ -516,6 +518,7 @@ photovoltaics. </li>
   <pkg>minpack.lm</pkg>    
   <pkg>moonsun</pkg>
   <pkg>nlme</pkg>
+  <pkg>nlreg</pkg>
   <pkg>NMRS</pkg>  
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
