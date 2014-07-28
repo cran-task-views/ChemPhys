@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-06-08</version>
+<version>2013-07-29</version>
 
 <info>
 
@@ -309,9 +309,6 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
   extensively applied to time-resolved spectroscopy data.</li>
-  <li>The package <pkg>NMRS</pkg> 
-  is designed to load and preprocess nuclear magnetic resonance spectra measured
-  with Bruker instruments. </li>
    <li>The package <pkg>prospectr</pkg> 
       provides functions for pretreatment and sample selection of visible and near infrared diffuse reflectance spectra. </li>
 <li>The <pkg>resemble</pkg> includes functions for spectral dissimilarity analysis and memory-based learning (a.k.a. local modeling) for non-linear modeling in spectral datasets.</li>
@@ -519,7 +516,6 @@ photovoltaics. </li>
   <pkg>moonsun</pkg>
   <pkg>nlme</pkg>
   <pkg>nlreg</pkg>
-  <pkg>NMRS</pkg>  
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
   <pkg>pcaPP</pkg>    
