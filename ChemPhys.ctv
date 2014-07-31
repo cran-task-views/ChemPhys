@@ -41,9 +41,9 @@ package <pkg>chemometrics</pkg>.
 
 <p>
 A special issue of R News with a focus on 
-<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R in Chemistry</a> 
+<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf">R in Chemistry</a> 
 was published in August 2006. A special volume of Journal of Statistical Software (JSS) dedicated to 
-<a href="http://www.jstatsoft.org/v18" target="_top">Spectroscopy and Chemometrics in R</a>
+<a href="http://www.jstatsoft.org/v18/">Spectroscopy and Chemometrics in R</a>
 was published in January 2007.   
 </p>
 
@@ -261,7 +261,7 @@ between species contained in a thermodynamic database. </li>
 <ul>
   <li>The  package <pkg>rcdk</pkg> allows 
 the user to access functionality in the  
-  <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK),</a>
+  <a href="http://sourceforge.net/projects/cdk/">Chemistry Development Kit (CDK),</a>
   a Java framework for cheminformatics. This allows the
   user to load molecules, evaluate fingerprints, calculate molecular
   descriptors and so on. In addition, the CDK API allows the user to
@@ -269,7 +269,7 @@ the user to access functionality in the
 libraries for use in R.
 </li>  
   <li>The <pkg>rpubchem</pkg> package gives access 
-  to <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a> data
+  to <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a> data
   (compounds, substance, assays).</li>
   <li> 
  <bioc>ChemmineR</bioc> is
@@ -279,7 +279,7 @@ mismatch tolerant maximum common substructure matching, <bioc>eiR</bioc>
 for
 accelerated structure similarity searching; <bioc>bioassayR</bioc>
 for analyzing bioactivity data, and <bioc>ChemmineOB</bioc>
-for accessing <a href="http://openbabel.org/wiki/Main_Page" target="_top">OpenBabel</a>
+for accessing <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
 functionalities from R.
  </li>
 </ul>
@@ -313,7 +313,7 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
       provides functions for pretreatment and sample selection of visible and near infrared diffuse reflectance spectra. </li>
 <li>The <pkg>resemble</pkg> includes functions for spectral dissimilarity analysis and memory-based learning (a.k.a. local modeling) for non-linear modeling in spectral datasets.</li>
   <li>Also note that the <rforge>photonics</rforge> project on 
-  <a href="http://R-Forge.R-project.org/" target="_top">R-Forge</a> 
+  <a href="http://R-Forge.R-project.org/">R-Forge</a> 
   collects various packages related to spectroscopy and optics; however, 
   these packages are not yet available on CRAN.</li>
 </ul>
@@ -342,15 +342,15 @@ baseline correction, peak detection and plotting of mass spectra.</li>
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
-  <li>The <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a>  
+  <li>The <a href="http://web1.sph.emory.edu/apLCMS/">apLCMS</a>  
    package is designed for the processing of LC/MS based metabolomics data.   
   </li>
-   <li>The <a href="http://sourceforge.net/projects/xmsanalyzer/" target="_top">xMSanalyzer</a>  
-   package allows merging <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a> 
+   <li>The <a href="http://sourceforge.net/projects/xmsanalyzer/">xMSanalyzer</a>  
+   package allows merging <a href="http://web1.sph.emory.edu/apLCMS/">apLCMS</a> 
 sample processing results from multiple sets of parameter
 settings, among other features.  
   </li>
-<li>The <a href="http://sourceforge.net/projects/msprep/" target="_top">MSPrep</a>  
+<li>The <a href="http://sourceforge.net/projects/msprep/">MSPrep</a>  
    package is for post-processing of metabolomic data, including summarization of replicates, filtering, imputation, and normalization. 
   </li>
 <li>The <bioc>metaMS</bioc> package is an MS-based metabolomics data processing and compound annotation pipeline.
@@ -426,7 +426,7 @@ are used to
 estimate stellar mass and radius given observational data of effective 
 temperature, [Fe/H], and astroseismic parameters.
 </li>
-<li>  The <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric forum for issues concerning software for statistical analysis in astronomy.
+<li>  The <a href="https://asaip.psu.edu/forums/software-forum">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric forum for issues concerning software for statistical analysis in astronomy.
 </li> 
 </ul>
 
@@ -558,8 +558,8 @@ photovoltaics. </li>
     <view>Cluster</view>
     <view>Multivariate</view>
     <view>Environmetrics</view>
-    <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf" target="_top">R News: R in Chemistry</a> 
-    <a href="http://www.jstatsoft.org/v18" target="_top">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
+    <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf">R News: R in Chemistry</a> 
+    <a href="http://www.jstatsoft.org/v18/">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
     <rforge>photonics</rforge>
     <bioc>alsace</bioc>
     <bioc>bioassayR</bioc>
@@ -573,13 +573,13 @@ photovoltaics. </li>
     <bioc>MSnbase</bioc>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>	
-    <a href="http://web1.sph.emory.edu/apLCMS/" target="_top">apLCMS</a>
-    <a href="https://asaip.psu.edu/forums/software-forum" target="_top">Astrostatistics and Astroinformatics Portal Software Forum</a>
-    <a href="http://sourceforge.net/projects/cdk/" target="_top">Chemistry Development Kit (CDK)</a>
-    <a href="http://sourceforge.net/projects/msprep/" target="_top">MSPrep</a>  
-    <a href="http://openbabel.org/wiki/Main_Page" target="_top">OpenBabel</a>
-    <a href="http://pubchem.ncbi.nlm.nih.gov/" target="_top">PubChem</a>
-    <a href="http://sourceforge.net/projects/xmsanalyzer/" target="_top">xMSanalyzer</a>  
+    <a href="http://web1.sph.emory.edu/apLCMS/">apLCMS</a>
+    <a href="https://asaip.psu.edu/forums/software-forum">Astrostatistics and Astroinformatics Portal Software Forum</a>
+    <a href="http://sourceforge.net/projects/cdk/">Chemistry Development Kit (CDK)</a>
+    <a href="http://sourceforge.net/projects/msprep/">MSPrep</a>  
+    <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
+    <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
+    <a href="http://sourceforge.net/projects/xmsanalyzer/">xMSanalyzer</a>  
 </links>  
 
 </CRANTaskView>
