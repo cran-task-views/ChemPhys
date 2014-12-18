@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2013-12-07</version>
+<version>2014-12-18</version>
 
 <info>
 
@@ -257,6 +257,15 @@ between species contained in a thermodynamic database. </li>
 <strong>Interfaces to External Libraries</strong>
 </p>
 <ul>
+  <li>The  package <pkg>rcdk</pkg> allows 
+the user to access functionality in the  
+  <a href="http://sourceforge.net/projects/cdk/">Chemistry Development Kit (CDK),</a>
+  a Java framework for cheminformatics. This allows the
+  user to load molecules, evaluate fingerprints, calculate molecular
+  descriptors and so on. In addition, the CDK API allows the user to
+  view structures in 2D.  The <pkg>rcdklibs</pkg> package provides the CDK 
+libraries for use in R.
+</li>  
   <li>The <pkg>rpubchem</pkg> package gives access 
   to <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a> data
   (compounds, substance, assays).</li>
@@ -517,6 +526,8 @@ photovoltaics. </li>
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
   <pkg>quantchem</pkg>	
+  <pkg>rcdk</pkg> 
+  <pkg>rcdklibs</pkg>
   <pkg>represent</pkg> 
   <pkg>resemble</pkg> 
   <pkg>rpubchem</pkg>
