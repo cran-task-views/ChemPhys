@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2014-12-18</version>
+<version>2014-12-22</version>
 
 <info>
 
@@ -418,8 +418,8 @@ provided may be grouped into 4 main areas: cosmology, FITS file manipulation, th
 </li>
 <li> The <pkg>celestial</pkg> package includes a number of common astronomy conversion routines, particularly the HMS and degrees schemes.
 </li>
-<li> The <pkg>SCEPtER</pkg> and <pkg>SCEPtERextras</pkg> packages 
-are used to 
+<li> The <pkg>SCEPtER</pkg> package
+is used to 
 estimate stellar mass and radius given observational data of effective 
 temperature, [Fe/H], and astroseismic parameters.
 </li>
@@ -535,7 +535,6 @@ photovoltaics. </li>
   <pkg>sapa</pkg>
   <pkg>simecol</pkg>
   <pkg>SCEPtER</pkg> 
-  <pkg>SCEPtERextras</pkg> 
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>spls</pkg>
