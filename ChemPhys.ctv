@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2014-12-22</version>
+<version>2015-02-18</version>
 
 <info>
 
@@ -43,13 +43,13 @@ package <pkg>chemometrics</pkg>.
 A special issue of R News with a focus on 
 <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf">R in Chemistry</a> 
 was published in August 2006. A special volume of Journal of Statistical Software (JSS) dedicated to 
-<a href="http://www.jstatsoft.org/v18/">Spectroscopy and Chemometrics in R</a>
+<a href="http://www.jstatsoft.org/v18/">oscopy and Chemometrics in R</a>
 was published in January 2007.   
 </p>
 
 
 <p>
-<a href="mailto:katharine.mullen@stat.ucla.edu">Please let us know</a> if 
+<a href="mailto:katharine.mullen@stat.ucla.edu">Please let us know</a>if 
 we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
@@ -297,8 +297,12 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
    	   functions for plotting spectra (NMR, IR, etc) and 
 	   carrying top-down exploratory data analysis, such as HCA, PCA 
            and model-based clustering. </li>
+<li>The  <a href=" https://github.com/Chathurga/HyperChemoBridge">
+GitHub package: HyperChemoBridge</a> interconverts <pkg>ChemoSpec</pkg>  and 
+<pkg>hyperSpec</pkg> objects</li>
   <li>The <pkg>Peaks</pkg> package implements functions for spectrum
   manipulation, ported from the ROOT/TSpectrum class.</li>
+  <li> The <pkg>speaq</pkg> package implements the hierarchical Cluster-based Peak Alignment (CluPA) and may be used for aligning NMR spectra. </li>
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
   <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
   Cambridge University Press, 1993, is found in the package 
@@ -310,10 +314,6 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
    <li>The package <pkg>prospectr</pkg> 
       provides functions for pretreatment and sample selection of visible and near infrared diffuse reflectance spectra. </li>
 <li>The <pkg>resemble</pkg> includes functions for spectral dissimilarity analysis and memory-based learning (a.k.a. local modeling) for non-linear modeling in spectral datasets.</li>
-  <li>Also note that the <rforge>photonics</rforge> project on 
-  <a href="http://R-Forge.R-project.org/">R-Forge</a> 
-  collects various packages related to spectroscopy and optics; however, 
-  these packages are not yet available on CRAN.</li>
 </ul>
 
 <p>
@@ -396,6 +396,19 @@ settings, among other features.
 <strong>Astronomy and astrophysics</strong>
 </p>
 <ul>
+ <li>The <pkg>astrodatR</pkg> package collects 19 datasets from 
+contemporary astronomy research, many of which are described in the aforementioned textbook ‘Modern Statistical Methods for Astronomy with R Applications’. </li>
+<li>The <pkg>astrolibR</pkg> package presents an R interface to low-level utilities and codes from the
+<a href="http://idlastro.gsfc.nasa.gov">Interactive Data Language (IDL) Astronomy Users Library</a>. </li>
+<li> The <pkg>CosmoPhotoz</pkg> package performs 
+photometric redshift estimation using generalized linear models.</li>
+<li>tThe <pkg>CRAC</pkg> collects R functions for cosmological research, with
+its main functions being similar to the python library, cosmolopy.  </li>
+<li>The <pkg>RobPer</pkg> package calculates periodograms based on (robustly) fitting periodic functions to light curves. </li>
+<li>The package <pkg>snapshot</pkg> contains functions for reading and writing N-body snapshots from the GADGET code for cosmological N-body/SPH simulations.
+</li>
+<li>The package <pkg>UPMASK</pkg> performs unsupervised photometric membership assignment in stellar clusters using, e.g., photometry and spatial 
+positions. </li>
   <li>The <pkg>moonsun</pkg> package provides 
   functions for basic astronomical calculations.</li>
  <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
@@ -423,7 +436,7 @@ is used to
 estimate stellar mass and radius given observational data of effective 
 temperature, [Fe/H], and astroseismic parameters.
 </li>
-<li>  The <a href="https://asaip.psu.edu/forums/software-forum">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric forum for issues concerning software for statistical analysis in astronomy.
+<li>  The <a href="https://asaip.psu.edu/forums/software-forum">Astrostatistics and Astroinformatics Portal Software Forum</a> is an R-centric collection of information and discussion regarding software for statistical analysis in astronomy. 
 </li> 
 </ul>
 
@@ -476,6 +489,8 @@ photovoltaics. </li>
   <pkg>AnalyzeFMRI</pkg>
   <pkg>AquaEnv</pkg>
   <pkg>astro</pkg>	
+  <pkg>astrodatR</pkg>
+  <pkg>astrolibR</pkg>
   <pkg>astroFns</pkg>
   <pkg>Bchron</pkg>   
   <pkg>BioMark</pkg>		 
@@ -491,6 +506,8 @@ photovoltaics. </li>
   <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
+  <pkg>CosmoPhotoz</pkg>
+  <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
@@ -530,6 +547,7 @@ photovoltaics. </li>
   <pkg>rcdklibs</pkg>
   <pkg>represent</pkg> 
   <pkg>resemble</pkg> 
+  <pkg>RobPer</pkg>
   <pkg>rpubchem</pkg>
   <pkg>ringscale</pkg>
   <pkg>sapa</pkg>
@@ -537,11 +555,14 @@ photovoltaics. </li>
   <pkg>SCEPtER</pkg> 
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
+  <pkg>snapshot</pkg> 
+  <pkg>speaq</pkg>
   <pkg>spls</pkg>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
   <pkg>subselect</pkg>
   <pkg>TIMP</pkg>
+  <pkg>UPMASK</pkg>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>WilcoxCV</pkg>
@@ -555,7 +576,6 @@ photovoltaics. </li>
     <view>Environmetrics</view>
     <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf">R News: R in Chemistry</a> 
     <a href="http://www.jstatsoft.org/v18/">Journal of Statistical Software: Spectroscopy and Chemometrics in R</a>
-    <rforge>photonics</rforge>
     <bioc>alsace</bioc>
     <bioc>bioassayR</bioc>
     <bioc>ChemmineOB</bioc>
@@ -569,12 +589,14 @@ photovoltaics. </li>
     <bioc>PROcess</bioc>
     <bioc>xcms</bioc>	
     <a href="http://web1.sph.emory.edu/apLCMS/">apLCMS</a>
+    <a href="http://idlastro.gsfc.nasa.gov">Interactive Data Language (IDL) Astronomy Users Library</a>
     <a href="https://asaip.psu.edu/forums/software-forum">Astrostatistics and Astroinformatics Portal Software Forum</a>
     <a href="http://sourceforge.net/projects/cdk/">Chemistry Development Kit (CDK)</a>
     <a href="http://sourceforge.net/projects/msprep/">MSPrep</a>  
     <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
     <a href="http://sourceforge.net/projects/xmsanalyzer/">xMSanalyzer</a>  
+    <a href=" https://github.com/Chathurga/HyperChemoBridge">GitHub package: HyperChemoBridge</a> 
 </links>  
 
 </CRANTaskView>
