@@ -297,7 +297,7 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
    	   functions for plotting spectra (NMR, IR, etc) and 
 	   carrying top-down exploratory data analysis, such as HCA, PCA 
            and model-based clustering. </li>
-<li>The  <a href=" https://github.com/Chathurga/HyperChemoBridge">
+<li>The  <a href="https://github.com/Chathurga/HyperChemoBridge">
 GitHub package: HyperChemoBridge</a> interconverts <pkg>ChemoSpec</pkg>  and 
 <pkg>hyperSpec</pkg> objects</li>
   <li>The <pkg>Peaks</pkg> package implements functions for spectrum
@@ -596,7 +596,7 @@ photovoltaics. </li>
     <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
     <a href="http://sourceforge.net/projects/xmsanalyzer/">xMSanalyzer</a>  
-    <a href=" https://github.com/Chathurga/HyperChemoBridge">GitHub package: HyperChemoBridge</a> 
+    <a href="https://github.com/Chathurga/HyperChemoBridge">GitHub package: HyperChemoBridge</a> 
 </links>  
 
 </CRANTaskView>
