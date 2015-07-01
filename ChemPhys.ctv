@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2015-02-18</version>
+<version>2015-07-01</version>
 
 <info>
 
@@ -414,10 +414,6 @@ positions. </li>
  <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
 the earth and to determine incident solar radiation.  </li>
  <li>The <pkg>FITSio</pkg> package provides utilities to read and write files in the FITS (Flexible Image Transport System) format, a standard format in astronomy.   </li>
- <li>The <pkg>ringscale</pkg> package implements a method for detection of faint
-companions around young stars in speckle patterns of
-VLT/NACO cube mode images.
-    </li>
  <li>The <pkg>stellaR</pkg> package manages and displays stellar tracks and isochrones from the Pisa low-mass database.
     </li>
 <li>The <pkg>astroFns</pkg> provides miscellaneous astronomy functions, utilities, and data.
@@ -549,7 +545,6 @@ photovoltaics. </li>
   <pkg>resemble</pkg> 
   <pkg>RobPer</pkg>
   <pkg>rpubchem</pkg>
-  <pkg>ringscale</pkg>
   <pkg>sapa</pkg>
   <pkg>simecol</pkg>
   <pkg>SCEPtER</pkg> 
