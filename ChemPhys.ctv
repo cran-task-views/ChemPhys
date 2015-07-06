@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2015-07-01</version>
+<version>2015-07-06</version>
 
 <info>
 
@@ -150,6 +150,18 @@ many injections, with features for peak alignment and identification.  </li>
     <li>Factor analysis (FA) is in the package stats as functions
     <code>factanal()</code>; see <view>Psychometrics</view>
     task view for details on extensions.</li>
+</ul>
+
+<p>
+<strong>Compositional Data Analysis</strong>
+</p>
+<ul>
+    <li>  The package <pkg>compositions</pkg> 
+ provides functions for the consistent analysis of compositional data (e.g. portions of substances) and positive numbers (e.g. concentrations).
+See also the book,  <i>Analyzing Compositional Data with
+R</i> by K. Gerald von den Boogaart und Raimon Tolosana-Delgado, 
+ISBN: 978-3-642-36808-0, Springer, 2013.
+    </li>
 </ul>
 
 <p>
@@ -502,6 +514,7 @@ photovoltaics. </li>
   <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
+  <pkg>compositions</pkg>
   <pkg>CosmoPhotoz</pkg>
   <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
