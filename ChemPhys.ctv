@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2015-12-22</version>
+<version>2016-01-13</version>
 
 <info>
 
@@ -403,6 +403,14 @@ settings, among other features.
 </ul>
 
 <p>
+<strong>Fluorescence Excitation-Emission Matrix (EEM) </strong>
+</p>
+<ul>
+    <li>The <pkg>EEM</pkg> reads raw EEM
+    data and prepares it for further analysis.</li>
+</ul>
+
+<p>
 <strong>Carbon Dating</strong>
 </p>
 <ul>
@@ -536,6 +544,7 @@ photovoltaics. </li>
   <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
   <pkg>drm</pkg>
+  <pkg>EEM</pkg>
   <pkg>elasticnet</pkg>
   <pkg>fastICA</pkg>    
   <pkg>fmri</pkg>
