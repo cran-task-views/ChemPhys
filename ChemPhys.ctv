@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2016-01-13</version>
+<version>2016-02-18</version>
 
 <info>
 
@@ -513,6 +513,17 @@ photovoltaics. </li>
    packages related to water and soil chemistry.</li>
 </ul>
 
+
+<p>
+<strong>Titration Curves</strong>
+</p>
+<ul>
+    <li> The <pkg>titrationCurves</pkg> package provides functions to plot
+    acid/base, complexation, redox, and precipitation titration curves.</li>
+</ul>
+
+
+
 </info>
 
 <packagelist>
@@ -593,6 +604,7 @@ photovoltaics. </li>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
   <pkg>subselect</pkg>
+  <pkg>titrationCurves</pkg>
   <pkg>TIMP</pkg>
   <pkg>UPMASK</pkg>
   <pkg>titan</pkg>
