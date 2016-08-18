@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2016-02-18</version>
+<version>2016-08-18</version>
 
 <info>
 
@@ -211,6 +211,8 @@ implements two meta-methods for variable selection: stability selection (applyin
   <li>The <pkg>kohonen</pkg> package implements self-organizing maps as well as 
   some extensions for supervised pattern recognition and data fusion.
   The <pkg>som</pkg> package provides functions for self-organizing maps.</li>
+  <li>The package <pkg>wccsom</pkg> provides SOM networks for comparing 
+  patterns with peak shifts.</li>
 </ul>
 
 <p>
@@ -424,7 +426,8 @@ settings, among other features.
 <ul>
   <li>The <pkg>diffractometry</pkg> package provides 
   baseline identification and peak decomposition for x-ray
-  diffractograms.</li>
+  diffractograms. Cross-correlation based comparison of diffractograms
+  is provided in package <pkg>wccsom</pkg>.</li>
 </ul>
 
 <p>
@@ -610,6 +613,7 @@ photovoltaics. </li>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>webchem</pkg>
+  <pkg>wccsom</pkg>
   <pkg>WilcoxCV</pkg>
 </packagelist>
 
