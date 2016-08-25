@@ -123,7 +123,8 @@ many injections, with features for peak alignment and identification.  </li>
     <li> Package <pkg>plspm</pkg> contains, in addition to the 
     usual functions for PLS regression, also functions for 
     path modeling.</li>
-    <li> The package <pkg>enpls</pkg> implements a 
+    <li> The package <pkg>enpls</pkg> implements ensemble partial
+    least squares, a 
     framework for measuring feature importance, outlier detection,
     and ensemble modeling based on (sparse) partial least squares
     regressions.</li>
