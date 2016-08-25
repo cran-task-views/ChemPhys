@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2016-08-18</version>
+<version>2016-08-24</version>
 
 <info>
 
@@ -123,6 +123,10 @@ many injections, with features for peak alignment and identification.  </li>
     <li> Package <pkg>plspm</pkg> contains, in addition to the 
     usual functions for PLS regression, also functions for 
     path modeling.</li>
+    <li> The package <pkg>enpls</pkg> implements a 
+    framework for measuring feature importance, outlier detection,
+    and ensemble modeling based on (sparse) partial least squares
+    regressions.</li>
 </ul>
 
 <p>
@@ -560,6 +564,7 @@ photovoltaics. </li>
   <pkg>drm</pkg>
   <pkg>EEM</pkg>
   <pkg>elasticnet</pkg>
+  <pkg>enpls</pkg>
   <pkg>fastICA</pkg>    
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
