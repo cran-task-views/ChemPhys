@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2016-08-24</version>
+<version>2017-09-02</version>
 
 <info>
 
@@ -20,7 +20,7 @@ R are useful for these ends.
 ISBN: 978-3-642-17840-5, Springer, 2011, provides an introduction to 
 multivariate statistics in the life sciences, as well as coverage of several 
 specific topics from the area of chemometrics; the examples in the book are possible to 
-reproduce using the packages <pkg>ChemometricsWithR</pkg> and <pkg>ChemometricsWithRData</pkg>.
+reproduce using the package <pkg>ChemometricsWithR</pkg>.
 </p>
 
 
@@ -216,8 +216,6 @@ implements two meta-methods for variable selection: stability selection (applyin
   <li>The <pkg>kohonen</pkg> package implements self-organizing maps as well as 
   some extensions for supervised pattern recognition and data fusion.
   The <pkg>som</pkg> package provides functions for self-organizing maps.</li>
-  <li>The package <pkg>wccsom</pkg> provides SOM networks for comparing 
-  patterns with peak shifts.</li>
 </ul>
 
 <p>
@@ -431,8 +429,7 @@ settings, among other features.
 <ul>
   <li>The <pkg>diffractometry</pkg> package provides 
   baseline identification and peak decomposition for x-ray
-  diffractograms. Cross-correlation based comparison of diffractograms
-  is provided in package <pkg>wccsom</pkg>.</li>
+  diffractograms.</li>
 </ul>
 
 <p>
@@ -553,7 +550,6 @@ photovoltaics. </li>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
   <pkg>ChemometricsWithR</pkg>
-  <pkg>ChemometricsWithRData</pkg>
   <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>compositions</pkg>
@@ -619,7 +615,6 @@ photovoltaics. </li>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>webchem</pkg>
-  <pkg>wccsom</pkg>
   <pkg>WilcoxCV</pkg>
 </packagelist>
 
