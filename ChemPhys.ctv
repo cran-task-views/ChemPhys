@@ -298,7 +298,7 @@ for accessing <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
 functionalities from R.
  </li>
  <li>
-The <pkg>webchem</pkg> package allows users to retreive chemical information
+The <pkg>webchem</pkg> package allows users to retrieve chemical information
 from various sources on the web and to interact with various APIs. Sources
 include:
 <a href="http://cactus.nci.nih.gov/chemical/structure">Chemical Identifier Resolver</a>,
@@ -442,7 +442,7 @@ contemporary astronomy research, many of which are described in the aforemention
 <a href="http://idlastro.gsfc.nasa.gov">Interactive Data Language (IDL) Astronomy Users Library</a>. </li>
 <li> The <pkg>CosmoPhotoz</pkg> package performs 
 photometric redshift estimation using generalized linear models.</li>
-<li>tThe <pkg>CRAC</pkg> collects R functions for cosmological research, with
+<li>The <pkg>CRAC</pkg> collects R functions for cosmological research, with
 its main functions being similar to the python library, cosmolopy.  </li>
 <li>The <pkg>RobPer</pkg> package calculates periodograms based on (robustly) fitting periodic functions to light curves. </li>
 <li>The package <pkg>snapshot</pkg> contains functions for reading and writing N-body snapshots from the GADGET code for cosmological N-body/SPH simulations.
