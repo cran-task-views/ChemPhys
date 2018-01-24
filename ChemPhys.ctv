@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2018-01-17</version>
+<version>2018-01-24</version>
 
 <info>
 
@@ -486,7 +486,6 @@ temperature, [Fe/H], and astroseismic parameters.
 <ul>
   <li>The <pkg>planar</pkg> package provides code to simulate
 reflection and transmission at a multilayer planar interface. </li>
- <li>The <pkg>cda</pkg> package calculates the polarizability tensor for the dipoles associated with a set of ellipsoidal nanoparticles, and solves the coupled-dipole equations by direct inversion of the interaction matrix.  </li>
  <li>The <pkg>dielectric</pkg> package defines some physical constants and dielectric functions commonly used in optics and plasmonics.  </li>
 </ul>
 
@@ -544,7 +543,6 @@ photovoltaics. </li>
   <pkg>Bchron</pkg>   
   <pkg>BioMark</pkg>		 
   <pkg>bvls</pkg>  
-  <pkg>cda</pkg>
   <pkg>celestial</pkg>
   <pkg>CellularAutomaton</pkg>  
   <pkg>cosmoFns</pkg>
