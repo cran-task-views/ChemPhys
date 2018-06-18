@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2018-01-24</version>
+<version>2018-06-18</version>
 
 <info>
 
@@ -256,8 +256,7 @@ and data set centroid locations.
 </p>
 <ul>
      <li>The <pkg>simecol</pkg> package includes functions for cellular automata
-modeling.    One-dimensional cellular automata are also possible to model with
-the package <pkg>CellularAutomaton</pkg>.  </li>
+modeling. </li>
 </ul>
 
 <p>
@@ -544,7 +543,6 @@ photovoltaics. </li>
   <pkg>BioMark</pkg>		 
   <pkg>bvls</pkg>  
   <pkg>celestial</pkg>
-  <pkg>CellularAutomaton</pkg>  
   <pkg>cosmoFns</pkg>
   <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
