@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2018-06-18</version>
+<version>2018-07-10</version>
 
 <info>
 
@@ -228,6 +228,28 @@ See the <view>DifferentialEquations</view> task view packages dealing with
 </ul>
 
 <p>
+<strong>Metrology</strong>
+</p>
+<ul>
+<li>The  <pkg>units</pkg> package attaches unit metadata to vectors, matrices and arrays,
+providing automatic propagation, conversion, derivation and
+simplification of units. </li>
+<li> The <pkg>errors</pkg> attaches uncertainty metadata to vectors, matrices and
+arrays, providing automatic propagation and reporting.</li>
+<li> The <pkg>constants</pkg> package  provides  values of the fundamental physical constants based on values reported by the Committee on Data for Science and Technology (CODATA),
+an interdisciplinary committee of the International Council for Science. </li>
+<li> <pkg>NISTunits</pkg> also provides values of the fundamental physical constants.  The values it contains are based on the values reported by the National Institute of Standards and Technology, (NIST).  </li>
+<li> The <pkg>measurements</pkg> contains tools to make working with physical measurements
+easier, such as functions to convert between metric and imperial units, or to calculate a dimension's
+unknown value from other dimensions' measurements. </li> 
+<li> The <pkg>metRology</pkg> package provides support 
+for metrology applications, including measurement uncertainty estimation
+and inter-laboratory metrology comparison studies.  </li>
+<li> The <pkg>ATmet</pkg> package provides functions for smart sampling and sensitivity analysis for metrology applications, including computationally expensive problems.</li> 
+</ul>
+
+
+<p>
 <strong>Calibration</strong>
 </p>
 <ul>
@@ -274,7 +296,8 @@ between species contained in a thermodynamic database. </li>
 the user to access functionality in the  
   <a href="http://sourceforge.net/projects/cdk/">Chemistry Development Kit (CDK),</a>
   a Java framework for cheminformatics. This allows the
-  user to load molecules, evaluate fingerprints, calculate molecular
+  user to load molecules, evaluate fingerprints (via the package
+<pkg>fingerprint</pkg>), calculate molecular
   descriptors and so on. In addition, the CDK API allows the user to
   view structures in 2D.  The <pkg>rcdklibs</pkg> package provides the CDK 
 libraries for use in R.
@@ -314,6 +337,9 @@ include:
 <strong>Spectroscopy</strong>
 </p>
 <ul>
+<li>
+The <pkg>spectralAnalysis</pkg> package allows users to pre-process, visualize and analyze spectroscopy data. Non-negative matrix factorization analysis is included.  
+</li>
    <li>The <pkg>hyperSpec</pkg> packages allows analysis of 
 hyperspectral data, 
 i.e., spectra
@@ -536,6 +562,7 @@ photovoltaics. </li>
   <pkg>astrodatR</pkg>
   <pkg>astrolibR</pkg>
   <pkg>astroFns</pkg>
+  <pkg>ATmet</pkg>
   <pkg>Bchron</pkg>   
   <pkg>BioMark</pkg>		 
   <pkg>bvls</pkg>  
@@ -548,6 +575,7 @@ photovoltaics. </li>
   <pkg>ChemoSpec</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>compositions</pkg>
+  <pkg>constants</pkg>
   <pkg>CosmoPhotoz</pkg>
   <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
@@ -556,7 +584,9 @@ photovoltaics. </li>
   <pkg>EEM</pkg>
   <pkg>elasticnet</pkg>
   <pkg>enpls</pkg>
-  <pkg>fastICA</pkg>    
+  <pkg>errors</pkg>
+  <pkg>fastICA</pkg>
+  <pkg>fingerprint</pkg>
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FITSio</pkg>
@@ -570,8 +600,11 @@ photovoltaics. </li>
   <pkg>lira</pkg>
   <pkg>lspls</pkg>
   <pkg>MALDIquant</pkg>
+  <pkg>measurements</pkg>
+  <pkg>metRology</pkg>
   <pkg>minpack.lm</pkg>    
   <pkg>moonsun</pkg>
+  <pkg>NISTunits</pkg>
   <pkg>nlme</pkg>
   <pkg>nlreg</pkg>
   <pkg>OrgMassSpecR</pkg>
@@ -599,6 +632,7 @@ photovoltaics. </li>
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>SPADAR</pkg>
+  <pkg>spectralAnalysis</pkg>
   <pkg>snapshot</pkg> 
   <pkg>speaq</pkg>
   <pkg>spls</pkg>
@@ -607,6 +641,7 @@ photovoltaics. </li>
   <pkg>subselect</pkg>
   <pkg>titrationCurves</pkg>
   <pkg>TIMP</pkg>
+  <pkg>units</pkg>
   <pkg>UPMASK</pkg>
   <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
