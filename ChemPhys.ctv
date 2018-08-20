@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2018-07-10</version>
+<version>2018-08-20</version>
 
 <info>
 
@@ -461,8 +461,6 @@ settings, among other features.
 contemporary astronomy research, many of which are described in the aforementioned textbook ‘Modern Statistical Methods for Astronomy with R Applications’. </li>
 <li>The <pkg>astrolibR</pkg> package presents an R interface to low-level utilities and codes from the
 <a href="http://idlastro.gsfc.nasa.gov">Interactive Data Language (IDL) Astronomy Users Library</a>. </li>
-<li> The <pkg>CosmoPhotoz</pkg> package performs 
-photometric redshift estimation using generalized linear models.</li>
 <li>The <pkg>CRAC</pkg> collects R functions for cosmological research, with
 its main functions being similar to the python library, cosmolopy.  </li>
 <li>The <pkg>RobPer</pkg> package calculates periodograms based on (robustly) fitting periodic functions to light curves. </li>
@@ -576,7 +574,6 @@ photovoltaics. </li>
   <pkg>clustvarsel</pkg>
   <pkg>compositions</pkg>
   <pkg>constants</pkg>
-  <pkg>CosmoPhotoz</pkg>
   <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
   <pkg>diffractometry</pkg>
