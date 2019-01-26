@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2018-11-04</version>
+<version>2019-01-26</version>
 
 <info>
 
@@ -471,8 +471,6 @@ its main functions being similar to the python library, cosmolopy.  </li>
 </li>
 <li>The package <pkg>UPMASK</pkg> performs unsupervised photometric membership assignment in stellar clusters using, e.g., photometry and spatial 
 positions. </li>
-  <li>The <pkg>moonsun</pkg> package provides 
-  functions for basic astronomical calculations.</li>
  <li>The <pkg>solaR</pkg> package provides functions to determine the movement of the sun from
 the earth and to determine incident solar radiation.  </li>
  <li>The <pkg>FITSio</pkg> package provides utilities to read and write files in the FITS (Flexible Image Transport System) format, a standard format in astronomy.   </li>
@@ -604,7 +602,6 @@ photovoltaics. </li>
   <pkg>measurements</pkg>
   <pkg>metRology</pkg>
   <pkg>minpack.lm</pkg>    
-  <pkg>moonsun</pkg>
   <pkg>NISTunits</pkg>
   <pkg>nlme</pkg>
   <pkg>nlreg</pkg>
