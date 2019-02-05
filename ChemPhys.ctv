@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-01-26</version>
+<version>2019-02-05</version>
 
 <info>
 
@@ -448,15 +448,6 @@ settings, among other features.
 </ul>
 
 <p>
-<strong>X-Ray Diffractograms</strong>
-</p>
-<ul>
-  <li>The <pkg>diffractometry</pkg> package provides 
-  baseline identification and peak decomposition for x-ray
-  diffractograms.</li>
-</ul>
-
-<p>
 <strong>Astronomy and astrophysics</strong>
 </p>
 <ul>
@@ -577,7 +568,6 @@ photovoltaics. </li>
   <pkg>constants</pkg>
   <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
-  <pkg>diffractometry</pkg>
   <pkg>drc</pkg>
   <pkg>EEM</pkg>
   <pkg>elasticnet</pkg>
