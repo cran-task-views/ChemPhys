@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-02-05</version>
+<version>2019-03-15</version>
 
 <info>
 
@@ -367,6 +367,8 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
    <li>The package <pkg>prospectr</pkg> 
       provides functions for pretreatment and sample selection of visible and near infrared diffuse reflectance spectra. </li>
 <li>The <pkg>resemble</pkg> includes functions for spectral dissimilarity analysis and memory-based learning (a.k.a. local modeling) for non-linear modeling in spectral datasets.</li>
+ <li>The package <pkg>ChemoSpec2D</pkg> 
+allows exploratory chemometrics of 2D spectroscopic data sets such as COSY (correlated spectroscopy) and HSQC (heteronuclear single quantum coherence) 2D NMR (nuclear magnetic resonance) spectra. </li>
 </ul>
 
 <p>
@@ -540,6 +542,16 @@ photovoltaics. </li>
     acid/base, complexation, redox, and precipitation titration curves.</li>
 </ul>
 
+<p>
+<strong>Electrochemistry</strong>
+</p>
+<ul>
+    <li> The <pkg>eChem</pkg> package provides functions to simulate 
+    voltammetry, chronoamperometry and chronocoulometry experiments,
+    which may be useful in courses in
+    analytical chemistry.  </li>
+</ul>
+
 
 </info>
 
@@ -563,12 +575,14 @@ photovoltaics. </li>
   <pkg>chemometrics</pkg>
   <pkg>ChemometricsWithR</pkg>
   <pkg>ChemoSpec</pkg>
+  <pkg>ChemoSpec2D</pkg>
   <pkg>clustvarsel</pkg>
   <pkg>compositions</pkg>
   <pkg>constants</pkg>
   <pkg>CRAC</pkg>
   <pkg>dielectric</pkg>
   <pkg>drc</pkg>
+  <pkg>eChem</pkg>
   <pkg>EEM</pkg>
   <pkg>elasticnet</pkg>
   <pkg>enpls</pkg>
