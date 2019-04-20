@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-03-15</version>
+<version>2019-04-20</version>
 
 <info>
 
@@ -353,8 +353,6 @@ analysis of Raman, IR, NIR, UV/VIS, NMR, etc., spectroscopic data sets.
            and model-based clustering. </li>
 <li>The  <github>Chathurga/HyperChemoBridge</github> interconverts <pkg>ChemoSpec</pkg>  and 
 <pkg>hyperSpec</pkg> objects</li>
-  <li>The <pkg>Peaks</pkg> package implements functions for spectrum
-  manipulation, ported from the ROOT/TSpectrum class.</li>
   <li> The <pkg>speaq</pkg> package implements the hierarchical Cluster-based Peak Alignment (CluPA) and may be used for aligning NMR spectra. </li>
   <li>Software for the book by Donald B. Percival and Andrew T. Walden,
   <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
@@ -612,7 +610,6 @@ photovoltaics. </li>
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
   <pkg>pcaPP</pkg>    
-  <pkg>Peaks</pkg>    
   <pkg>PET</pkg>
   <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
