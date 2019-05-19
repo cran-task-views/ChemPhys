@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-04-20</version>
+<version>2019-05-19</version>
 
 <info>
 
@@ -388,7 +388,7 @@ control and robust pre-processing and analysis of MALDI mass spectrometry data.
   using stable isotope dilution, and protein hydrogen/deuterium
   exchange experiments.</li>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
-  for Analyzing Fourier Transform-Ion Cyclotron 
+  for Analyzing Fourier Transform-Ion Cyclotron ed
   Resonance Mass Spectrometry Data. </li>
   <li>The <pkg>titan</pkg>
   provides a GUI to analyze mass spectrometric data
@@ -396,6 +396,9 @@ control and robust pre-processing and analysis of MALDI mass spectrometry data.
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
+<li> The  <pkg>RAMClustR</pkg> package offers post-processing (feature clustering) of the
+<bioc>xcms</bioc> package's output in support of metabolite annotation.
+</li>
   <li>The <a href="http://web1.sph.emory.edu/apLCMS/">apLCMS</a>  
    package is designed for the processing of LC/MS based metabolomics data.   
   </li>
@@ -409,6 +412,7 @@ settings, among other features.
   </li>
 <li>The <bioc>metaMS</bioc> package is an MS-based metabolomics data processing and compound annotation pipeline.
   </li>
+  
 </ul>
 
 <p>
@@ -618,6 +622,7 @@ photovoltaics. </li>
   <pkg>prospectr</pkg> 
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
+  <pkg>RAMClustR</pkg>
   <pkg>rcdk</pkg> 
   <pkg>rcdklibs</pkg>
   <pkg>represent</pkg> 
