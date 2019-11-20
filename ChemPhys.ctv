@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-11-09</version>
+<version>2019-11-20</version>
 
 <info>
 
@@ -419,7 +419,8 @@ settings, among other features.
     <li>Functions for I/O, visualization and analysis of functional 
     Magnetic Resonance Imaging (fMRI) datasets stored in the ANALYZE 
     or NIFTI format are available in the package <pkg>AnalyzeFMRI</pkg>.
-    </li>
+    The package <pkg>fmri</pkg> contains functions to analyze fMRI data using
+    adaptive smoothing procedures.</li>
 </ul>
 
 <p>
@@ -587,6 +588,7 @@ photovoltaics. </li>
   <pkg>errors</pkg>
   <pkg>fastICA</pkg>
   <pkg>fingerprint</pkg>
+  <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FITSio</pkg>
   <pkg>FTICRMS</pkg>
