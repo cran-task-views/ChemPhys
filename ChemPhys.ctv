@@ -474,9 +474,6 @@ the earth and to determine incident solar radiation.  </li>
 distances, times, luminosities, and other quantities useful in
 observational cosmology, including molecular line observations.
     </li>  
-<li> The <pkg>astro</pkg> package provides tools for astronomy; functions 
-provided may be grouped into 4 main areas: cosmology, FITS file manipulation, the Sersic function and general (plotting and scripting) tools.
-</li>
 <li> The <pkg>celestial</pkg> package includes a number of common astronomy conversion routines, particularly the HMS and degrees schemes.
 </li>
 <li> The <pkg>SCEPtER</pkg> package
@@ -558,7 +555,6 @@ photovoltaics. </li>
   <pkg priority="core">ALS</pkg>
   <pkg>AnalyzeFMRI</pkg>
   <pkg>AquaEnv</pkg>
-  <pkg>astro</pkg>
   <pkg>astrochron</pkg>
   <pkg>astrodatR</pkg>
   <pkg>astrolibR</pkg>
