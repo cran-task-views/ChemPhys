@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-11-20</version>
+<version>2019-12-24</version>
 
 <info>
 
@@ -548,6 +548,18 @@ photovoltaics. </li>
     analytical chemistry.  </li>
 </ul>
 
+<p>
+<strong>Health Physics</strong>
+</p>
+<ul>
+    <li> The package <pkg>radsafer</pkg> 
+provides functions for radiation safety; the package <pkg>RadData</pkg>
+provides 
+nuclear decay data for dosimetric calculations from the
+International Commission on Radiological Protection.
+</li>
+</ul>
+
 
 </info>
 
@@ -615,6 +627,8 @@ photovoltaics. </li>
   <pkg>prospectr</pkg> 
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
+  <pkg>RadData</pkg>
+  <pkg>radsafer</pkg>
   <pkg>rcdk</pkg> 
   <pkg>rcdklibs</pkg>
   <pkg>represent</pkg> 
