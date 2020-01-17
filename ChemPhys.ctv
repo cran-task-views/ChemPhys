@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2019-12-24</version>
+<version>2020-01-17</version>
 
 <info>
 
@@ -508,14 +508,6 @@ reflection and transmission at a multilayer planar interface. </li>
 the capture and use of solar energy, including 
 photovoltaics. </li>
 </ul>
-<p>
-<strong>Positron Emission Tomography</strong>
-</p>
-<ul>
-  <li>The <pkg>PET</pkg> package 
-  implements different analytic/direct and iterative reconstruction methods
-  for positron emission tomography (PET) data.</li>
-</ul>
 
 <p>
 <strong>Water and Soil Chemistry</strong>
@@ -619,7 +611,6 @@ International Commission on Radiological Protection.
   <pkg>OrgMassSpecR</pkg>
   <pkg priority="core">nnls</pkg>
   <pkg>pcaPP</pkg>    
-  <pkg>PET</pkg>
   <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
   <pkg>plspm</pkg>
