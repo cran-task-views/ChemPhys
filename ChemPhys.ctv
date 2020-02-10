@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-02-01</version>
+<version>2020-09-02</version>
 
 <info>
 
@@ -337,6 +337,10 @@ include:
 <strong>Spectroscopy</strong>
 </p>
 <ul>
+<li>
+Bryan Hanson has compiled a broad range of
+<a href="https://bryanhanson.github.io/FOSS4Spectroscopy/">Free and Open Source Software (FOSS) for Spectroscopy</a>, much of which is in the form of R packages.
+</li>
 <li>
 The <pkg>spectralAnalysis</pkg> package allows users to pre-process, visualize and analyze spectroscopy data. Non-negative matrix factorization analysis is included.  
 </li>
@@ -672,6 +676,7 @@ International Commission on Radiological Protection.
     <github>Chathurga/HyperChemoBridge</github>    
     <a href="http://cactus.nci.nih.gov/chemical/structure">Chemical Identifier Resolver</a>
     <a href="http://www.chemspider.com/">ChemSpider</a>
+    <a href="https://bryanhanson.github.io/FOSS4Spectroscopy/">Free and Open Source Software (FOSS) for Spectroscopy</a>
     <a href="http://cts.fiehnlab.ucdavis.edu/">Chemical Translation Service</a>
     <a href="http://www.pesticideinfo.org/">PAN Pesticide Database</a>
     <a href="http://www.alanwood.net/pesticides/">Alan Wood's Compendium of Pesticide Common Names</a>
