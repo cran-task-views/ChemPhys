@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-09-02</version>
+<version>2020-02-25</version>
 
 <info>
 
@@ -194,10 +194,6 @@ ISBN: 978-3-642-36808-0, Springer, 2013.
   leaps-and-bounds variable 
   selection, by default using Mallow's Cp. <pkg>stepPlr</pkg> provides
   stepwise variable selection for penalized logistic regression.</li>
-  <li>Variable selection based on evolutionary
-  algorithms is available in package and
-  <pkg>subselect</pkg>. The latter also provides simulated annealing and
-  leaps-and-bounds algorithms, as well as local refinements.</li>
   <li>Package
   <pkg>varSelRF</pkg> provides variable selection methods for random
   forests. Cross-validation-based variable selection using Wilcoxon rank
@@ -634,7 +630,6 @@ International Commission on Radiological Protection.
   <pkg>spls</pkg>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
-  <pkg>subselect</pkg>
   <pkg>titrationCurves</pkg>
   <pkg>TIMP</pkg>
   <pkg>units</pkg>
