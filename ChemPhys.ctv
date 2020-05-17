@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-03-09</version>
+<version>2020-05-17</version>
 
 <info>
 
@@ -120,9 +120,6 @@ many injections, with features for peak alignment and identification.  </li>
     <li>The <bioc>gpls</bioc> package implements 
     generalized partial least squares, based on the Iteratively
     ReWeighted Least Squares (IRWLS) method of Brian Marx.</li>
-    <li> Package <pkg>plspm</pkg> contains, in addition to the 
-    usual functions for PLS regression, also functions for 
-    path modeling.</li>
     <li> The package <pkg>enpls</pkg> implements ensemble partial
     least squares, a 
     framework for measuring feature importance, outlier detection,
@@ -602,7 +599,6 @@ International Commission on Radiological Protection.
   <pkg>pcaPP</pkg>    
   <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
-  <pkg>plspm</pkg>
   <pkg>ppls</pkg>
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
