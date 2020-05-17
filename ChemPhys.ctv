@@ -113,8 +113,6 @@ many injections, with features for peak alignment and identification.  </li>
     <li>The package 
     <pkg>lspls</pkg>  implements the 
     least squares-partial least squares (LS-PLS) method.</li>
-    <li>Penalized Partial Least Squares is implemented in the 
-    <pkg>ppls</pkg> package.</li>
     <li>Sparse PLS is implemented in the package
     <pkg>spls</pkg> package.</li>
     <li>The <bioc>gpls</bioc> package implements 
@@ -599,7 +597,6 @@ International Commission on Radiological Protection.
   <pkg>pcaPP</pkg>    
   <pkg>planar</pkg>
   <pkg priority="core">pls</pkg>
-  <pkg>ppls</pkg>
   <pkg>psy</pkg>
   <pkg priority="core">PTAk</pkg>
   <pkg>RadData</pkg>
