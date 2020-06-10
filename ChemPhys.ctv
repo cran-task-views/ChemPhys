@@ -341,10 +341,6 @@ The <pkg>spectralAnalysis</pkg> package allows users to pre-process, visualize a
            and model-based clustering. </li>
 <li>The  <github>Chathurga/HyperChemoBridge</github> interconverts <pkg>ChemoSpec</pkg> (and hyperSpec) objects</li>
   <li> The <pkg>speaq</pkg> package implements the hierarchical Cluster-based Peak Alignment (CluPA) and may be used for aligning NMR spectra. </li>
-  <li>Software for the book by Donald B. Percival and Andrew T. Walden,
-  <i>Spectral Analysis for Physical Applications,</i> ISBN 978-0-521-43541-3, 
-  Cambridge University Press, 1993, is found in the package 
-  <pkg>sapa</pkg>.</li>
   <li>The package <pkg>TIMP</pkg> 
   provides a problem solving environment for fitting
   separable nonlinear models in physics and chemistry applications, and has been
@@ -601,7 +597,6 @@ International Commission on Radiological Protection.
   <pkg>represent</pkg> 
   <pkg>RobPer</pkg>
   <pkg>rpubchem</pkg>
-  <pkg>sapa</pkg>
   <pkg>simecol</pkg>
   <pkg>SCEPtER</pkg>
   <pkg>SCEPtERbinary</pkg>
