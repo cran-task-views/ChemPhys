@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-06-10</version>
+<version>2020-07-25</version>
 
 <info>
 
@@ -139,6 +139,9 @@ many injections, with features for peak alignment and identification.  </li>
     with the <pkg>pcaPP</pkg> package.  The package <pkg>elasticnet</pkg>
     is applicable to sparse PCA.  The package <pkg>fpca</pkg>
     can be applied to restricted MLE for functional PCA.</li>
+    <li>The <pkg>subselect</pkg> provides a collection of functions
+    which assess the quality of variable subsets as surrogates for a full
+    data set. </li>
     <li>See the <view>Multivariate</view> task view for further packages dealing with 
     PCA and other projection methods.</li>
 </ul>
@@ -347,6 +350,7 @@ The <pkg>spectralAnalysis</pkg> package allows users to pre-process, visualize a
   extensively applied to time-resolved spectroscopy data.</li>
  <li>The package <pkg>ChemoSpec2D</pkg> 
 allows exploratory chemometrics of 2D spectroscopic data sets such as COSY (correlated spectroscopy) and HSQC (heteronuclear single quantum coherence) 2D NMR (nuclear magnetic resonance) spectra. </li>
+<li>The <pkg>spectrino</pkg> package provides tools for spectra viewing and organization.</li>
 </ul>
 
 <p>
@@ -603,12 +607,14 @@ International Commission on Radiological Protection.
   <pkg>solaR</pkg>		
   <pkg>som</pkg>
   <pkg>SPADAR</pkg>
+  <pkg>spectrino</pkg>
   <pkg>spectralAnalysis</pkg>
   <pkg>snapshot</pkg> 
   <pkg>speaq</pkg>
   <pkg>spls</pkg>
   <pkg>stellaR</pkg>
   <pkg>stepPlr</pkg>
+  <pkg>subselect</pkg>
   <pkg>titrationCurves</pkg>
   <pkg>TIMP</pkg>
   <pkg>units</pkg>
