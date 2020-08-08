@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-07-25</version>
+<version>2020-08-08</version>
 
 <info>
 
@@ -296,9 +296,6 @@ the user to access functionality in the
   view structures in 2D.  The <pkg>rcdklibs</pkg> package provides the CDK 
 libraries for use in R.
 </li>  
-  <li>The <pkg>rpubchem</pkg> package gives access 
-  to <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a> data
-  (compounds, substance, assays).</li>
   <li> 
  <bioc>ChemmineR</bioc> is
 a cheminformatics toolkit for analyzing small molecules in R. Its add-on
@@ -600,7 +597,6 @@ International Commission on Radiological Protection.
   <pkg>rcdklibs</pkg>
   <pkg>represent</pkg> 
   <pkg>RobPer</pkg>
-  <pkg>rpubchem</pkg>
   <pkg>simecol</pkg>
   <pkg>SCEPtER</pkg>
   <pkg>SCEPtERbinary</pkg>
