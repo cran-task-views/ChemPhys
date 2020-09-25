@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-08-08</version>
+<version>2020-09-25</version>
 
 <info>
 
@@ -19,8 +19,7 @@ R are useful for these ends.
 <i>Chemometrics with R</i> by Ron Wehrens, 
 ISBN: 978-3-642-17840-5, Springer, 2011, provides an introduction to 
 multivariate statistics in the life sciences, as well as coverage of several 
-specific topics from the area of chemometrics; the examples in the book are possible to 
-reproduce using the package <pkg>ChemometricsWithR</pkg>.
+specific topics from the area of chemometrics.
 </p>
 
 
@@ -550,7 +549,6 @@ International Commission on Radiological Protection.
   <pkg>CHNOSZ</pkg>
   <pkg priority="core">chemCal</pkg>
   <pkg>chemometrics</pkg>
-  <pkg>ChemometricsWithR</pkg>
   <pkg>ChemoSpec</pkg>
   <pkg>ChemoSpec2D</pkg>
   <pkg>clustvarsel</pkg>
