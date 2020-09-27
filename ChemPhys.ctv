@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-09-25</version>
+<version>2020-09-26</version>
 
 <info>
 
@@ -15,11 +15,11 @@ R are useful for these ends.
 </p>
 
 
-<p> The book  
-<i>Chemometrics with R</i> by Ron Wehrens, 
-ISBN: 978-3-642-17840-5, Springer, 2011, provides an introduction to 
+<p> The second edition of 
+<i>Chemometrics with R:  Multivariate Data Analysis in the Natural and Life Sciences</i> by Ron Wehrens, 
+ISBN 978-3-662-62027-4, Springer, 2020, provides an introduction to 
 multivariate statistics in the life sciences, as well as coverage of several 
-specific topics from the area of chemometrics.
+specific topics from the area of chemometrics.  The associated package <github>rwehrens/ChemometricsWithR</github> facilitates reproduction of the examples in the book.
 </p>
 
 
@@ -647,7 +647,8 @@ International Commission on Radiological Protection.
     <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
     <a href="http://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
     <a href="http://sourceforge.net/projects/xmsanalyzer/">xMSanalyzer</a>  
-    <github>Chathurga/HyperChemoBridge</github>    
+    <github>Chathurga/HyperChemoBridge</github>
+    <github>rwehrens/ChemometricsWithR</github>
     <a href="http://cactus.nci.nih.gov/chemical/structure">Chemical Identifier Resolver</a>
     <a href="http://www.chemspider.com/">ChemSpider</a>
     <a href="https://bryanhanson.github.io/FOSS4Spectroscopy/">Free and Open Source Software (FOSS) for Spectroscopy</a>
