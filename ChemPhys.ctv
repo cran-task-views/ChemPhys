@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-09-26</version>
+<version>2020-10-04</version>
 
 <info>
 
@@ -367,9 +367,6 @@ baseline correction, peak detection and plotting of mass spectra.</li>
   <li>The <pkg>FTICRMS</pkg> package provides functions 
   for Analyzing Fourier Transform-Ion Cyclotron ed
   Resonance Mass Spectrometry Data. </li>
-  <li>The <pkg>titan</pkg>
-  provides a GUI to analyze mass spectrometric data
-  on the relative abundance of two substances from a titration series.</li>
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
@@ -613,7 +610,6 @@ International Commission on Radiological Protection.
   <pkg>TIMP</pkg>
   <pkg>units</pkg>
   <pkg>UPMASK</pkg>
-  <pkg>titan</pkg>
   <pkg>varSelRF</pkg>
   <pkg>webchem</pkg>
   <pkg>WilcoxCV</pkg>
