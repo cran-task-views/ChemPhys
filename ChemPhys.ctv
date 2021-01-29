@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2020-10-04</version>
+<version>2021-01-29</version>
 
 <info>
 
@@ -364,9 +364,6 @@ baseline correction, peak detection and plotting of mass spectra.</li>
   graphical display, quantification
   using stable isotope dilution, and protein hydrogen/deuterium
   exchange experiments.</li>
-  <li>The <pkg>FTICRMS</pkg> package provides functions 
-  for Analyzing Fourier Transform-Ion Cyclotron ed
-  Resonance Mass Spectrometry Data. </li>
   <li>The Bioconductor packages 
   <bioc>MassSpecWavelet</bioc>, <bioc>PROcess</bioc>, and <bioc>xcms</bioc>
   are designed for the analysis of mass spectrometry data.</li>
@@ -564,7 +561,6 @@ International Commission on Radiological Protection.
   <pkg>fmri</pkg>
   <pkg>fpca</pkg>
   <pkg>FITSio</pkg>
-  <pkg>FTICRMS</pkg>
   <pkg>homals</pkg>
   <pkg>investr</pkg>
   <pkg priority="core">Iso</pkg>
