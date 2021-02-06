@@ -3,7 +3,7 @@
 <name>ChemPhys</name>
 <topic>Chemometrics and Computational Physics</topic>
 <maintainer email="katharine.mullen@stat.ucla.edu">Katharine Mullen</maintainer>
-<version>2021-01-29</version>
+<version>2021-02-06</version>
 
 <info>
 
@@ -453,7 +453,6 @@ estimate stellar mass and radius given observational data of effective
 temperature, [Fe/H], and astroseismic parameters.
 </li>
 <li> The <pkg>lira</pkg> package  performs Bayesian linear regression and forecasting in Astronomy, accounting for all kinds of errors and correlations in the data. </li>
-<li> The <pkg>astrochron</pkg> package  contains routines for astronomical time scale construction, time series analysis, time scale development, and paleoclimate analysis.  </li>
 <li> The <pkg>SPADAR</pkg> package provides functions to create all-sky grid plots of widely used astronomical coordinate systems (equatorial, ecliptic, galactic) and scatter plots of data on any of these systems, including on-the-fly system conversion.   </li>
 <li> The <pkg>SCEPtERbinary</pkg> allows for estimating the stellar age for double-lined detached binary systems, adopted from the effective temperature, the metallicity [Fe/H], the mass, and the radius of the two stars.  </li>
 <li>  The <a href="https://asaip.psu.edu">Astrostatistics and Astroinformatics Portal</a> is an R-centric collection of information regarding statistical analysis in astronomy. 
@@ -530,7 +529,6 @@ International Commission on Radiological Protection.
   <pkg priority="core">ALS</pkg>
   <pkg>AnalyzeFMRI</pkg>
   <pkg>AquaEnv</pkg>
-  <pkg>astrochron</pkg>
   <pkg>astrodatR</pkg>
   <pkg>astrolibR</pkg>
   <pkg>astroFns</pkg>
