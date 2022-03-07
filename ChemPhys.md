@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2021-12-27
+version: 2022-03-07
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -110,9 +110,7 @@ if a new package or function should be mentioned here.
     (models of the Gifi-family).
 -   A desired number of robust principal components can be computed with
     the `r pkg("pcaPP")` package. The package
-    `r pkg("elasticnet")` is applicable to sparse PCA. The
-    package `r pkg("fpca")` can be applied to restricted MLE
-    for functional PCA.
+    `r pkg("elasticnet")` is applicable to sparse PCA.
 -   The `r pkg("subselect")` provides a collection of
     functions which assess the quality of variable subsets as surrogates
     for a full data set.
