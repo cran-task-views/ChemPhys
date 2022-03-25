@@ -114,8 +114,6 @@ if a new package or function should be mentioned here.
 -   The `r pkg("subselect")` provides a collection of
     functions which assess the quality of variable subsets as surrogates
     for a full data set.
--   See the `r view("Multivariate")` task view for further
-    packages dealing with PCA and other projection methods.
 
 ### Factor Analysis
 
