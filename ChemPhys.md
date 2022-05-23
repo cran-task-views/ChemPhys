@@ -293,6 +293,11 @@ if a new package or function should be mentioned here.
     NMR (nuclear magnetic resonance) spectra.
 -   The `r pkg("spectrino")` package provides tools for
     spectra viewing and organization.
+    
+### Chromatography
+
+- `r pkg("chromatographR")` provides an interface to load and analyze simple chromatography data such as HPLC-DAD/UV or GC-FID.
+- `r pkg("chromConverter")` provides parsers to read chromatographic data into R. It currently supports Agilent Chemstation and Masshunter files as well as a growing list of text-based formats.
 
 ### Mass Spectrometry
 
