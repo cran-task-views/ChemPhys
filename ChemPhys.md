@@ -272,7 +272,7 @@ if a new package or function should be mentioned here.
 
 -   Bryan Hanson has compiled a broad range of [Free and Open Source
     Software (FOSS) for
-    Spectroscopy](https://bryanhanson.github.io/FOSS4Spectroscopy/) ,
+    Spectroscopy](https://bryanhanson.github.io/FOSS4Spectroscopy/),
     much of which is in the form of R packages.
 -   The `r pkg("spectralAnalysis")` package allows users to
     pre-process, visualize and analyze spectroscopy data. Non-negative
