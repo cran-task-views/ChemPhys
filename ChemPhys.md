@@ -220,11 +220,6 @@ if a new package or function should be mentioned here.
     estimating standard errors for measurements.
 -   The `r pkg("nlreg")` package is useful for nonlinear
     calibration models.
--   The package `r pkg("represent")` calculates the
-    'representativity' of two multidimensional datasets, which
-    involves comparison of the similarity of principal component
-    analysis loading patterns, variance-covariance matrix structures,
-    and data set centroid locations.
 
 ### Cellular Automata
 
@@ -367,9 +362,6 @@ if a new package or function should be mentioned here.
     from contemporary astronomy research, many of which are described in
     the aforementioned textbook 'Modern Statistical Methods for
     Astronomy with R Applications'.
--   The `r pkg("CRAC")` collects R functions for
-    cosmological research, with its main functions being similar to the
-    python library, cosmolopy.
 -   The `r pkg("RobPer")` package calculates periodograms
     based on (robustly) fitting periodic functions to light curves.
 -   The package `r pkg("snapshot")` contains functions for
