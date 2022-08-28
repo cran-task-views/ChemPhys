@@ -34,12 +34,8 @@ Multivariate Statistical Analysis in Chemometrics,* ISBN
 A special issue of R News with a focus on [R in
 Chemistry](http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf) was
 published in August 2006. A special volume of Journal of Statistical
-Software (JSS) dedicated to [oscopy and Chemometrics in
+Software (JSS) dedicated to [Spectroscopy and Chemometrics in
 R](http://www.jstatsoft.org/v18/) was published in January 2007.
-
-[Online tutorial](https://mda.tools/docs/index.html) for `r pkg("mdatools")` 
-package and video course on Chemometrics on YouTube with practical examples 
-based on basic R and functions from the package.
 
 Please e-mail the maintainer, submit an issue or pull request in the GitHub
 repository linked above, if we have omitted something of importance, or
@@ -162,10 +158,7 @@ if a new package or function should be mentioned here.
     Mallow's Cp. `r pkg("stepPlr")` provides stepwise
     variable selection for penalized logistic regression.
 -   Package `r pkg("varSelRF")` provides variable selection
-    methods for random forests. Cross-validation-based variable
-    selection using Wilcoxon rank sum tests is available in package
-    `r pkg("WilcoxCV")`, focused on binary classification in
-    microarrays. Package `r pkg("clustvarsel")` implements
+    methods for random forests. Package `r pkg("clustvarsel")` implements
     variable selection for model-based clustering.
 -   The `r pkg("BioMark")` package implements two
     meta-methods for variable selection: stability selection (applying a
@@ -374,9 +367,6 @@ if a new package or function should be mentioned here.
     from contemporary astronomy research, many of which are described in
     the aforementioned textbook 'Modern Statistical Methods for
     Astronomy with R Applications'.
--   The `r pkg("astrolibR")` package presents an R interface
-    to low-level utilities and codes from the [Interactive Data Language
-    (IDL) Astronomy Users Library](http://idlastro.gsfc.nasa.gov) .
 -   The `r pkg("CRAC")` collects R functions for
     cosmological research, with its main functions being similar to the
     python library, cosmolopy.
@@ -473,7 +463,6 @@ if a new package or function should be mentioned here.
 -   [R News: R in Chemistry](http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf)
 -   [Journal of Statistical Software: Spectroscopy and Chemometrics in R](http://www.jstatsoft.org/v18/)
 -   [apLCMS](http://web1.sph.emory.edu/apLCMS/)
--   [Interactive Data Language (IDL) Astronomy Users Library](http://idlastro.gsfc.nasa.gov)
 -   [Astrostatistics and Astroinformatics Portal Software Forum](https://asaip.psu.edu/forums/software-forum)
 -   [Chemistry Development Kit (CDK)](http://sourceforge.net/projects/cdk/)
 -   [MSPrep](http://sourceforge.net/projects/msprep/)
