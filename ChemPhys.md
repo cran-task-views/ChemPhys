@@ -37,6 +37,10 @@ published in August 2006. A special volume of Journal of Statistical
 Software (JSS) dedicated to [oscopy and Chemometrics in
 R](http://www.jstatsoft.org/v18/) was published in January 2007.
 
+[Online tutorial](https://mda.tools/docs/index.html) for `r pkg("mdatools")` 
+package and video course on Chemometrics on YouTube with practical examples 
+based on basic R and functions from the package.
+
 Please e-mail the maintainer, submit an issue or pull request in the GitHub
 repository linked above, if we have omitted something of importance, or
 if a new package or function should be mentioned here.
@@ -82,6 +86,8 @@ if a new package or function should be mentioned here.
 -   The package `r pkg("drc")` provides functions for the
     analysis of one or multiple non-linear curves with focus on models
     for concentration-response, dose-response and time-response data.
+-   The package `r pkg("mdatools")` provides functions for MCR-ALS with constraints 
+    and a purity based methods similar to SIMPLISMA.   
 
 ### Partial Least Squares
 
@@ -99,6 +105,9 @@ if a new package or function should be mentioned here.
     least squares, a framework for measuring feature importance, outlier
     detection, and ensemble modeling based on (sparse) partial least
     squares regressions.
+-   The package `r pkg("mdatools")` provides functions for both PLS regression 
+    and discriminant analysis (PLSDA), including numerous plots, Jack-Knifing 
+    inference for regression coefficients and many other supplementary tools.    
 
 ### Principal Component Analysis
 
@@ -114,6 +123,11 @@ if a new package or function should be mentioned here.
 -   The `r pkg("subselect")` provides a collection of
     functions which assess the quality of variable subsets as surrogates
     for a full data set.
+-   The package `r pkg("mdatools")` provides functions for PCA analysis. The functions 
+    work both with conventional datasets as well as with images, including spectral images. 
+    A randomized version of PCA can be used to speed up calculations for large datasets. 
+    The package also implements PCA based classification method, Soft Independent Modelling 
+    of Class Analogy (SIMCA).  
 
 ### Factor Analysis
 
@@ -159,6 +173,8 @@ if a new package or function should be mentioned here.
     regression coefficient) to different subsets of the data, and higher
     criticism, which provides a data-driven choice of significance
     cutoffs in statistical testing.
+-   The package `r pkg("mdatools")` implements methods based on VIP scores, 
+    Selectivity Ratio (SR) as well as interval PLS.    
 
 ### Self-Organizing Maps
 
@@ -475,3 +491,6 @@ if a new package or function should be mentioned here.
 -   [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm)
 -   [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/)
 -   [Astronomy modules and links for R, Python, and Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md)
+-   [mdatools: make Chemometrics easy](https://mda.tools)
+
+
