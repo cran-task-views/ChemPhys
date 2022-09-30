@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2022-03-07
+version: 2022-09-29
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
