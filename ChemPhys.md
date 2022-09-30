@@ -333,11 +333,7 @@ if a new package or function should be mentioned here.
 
 ### Functional Magnetic Resonance Imaging
 
--   Functions for I/O, visualization and analysis of functional Magnetic
-    Resonance Imaging (fMRI) datasets stored in the ANALYZE or NIFTI
-    format are available in the package
-    `r pkg("AnalyzeFMRI")`. The package
-    `r pkg("fmri")` contains functions to analyze fMRI data
+    The package `r pkg("fmri")` contains functions to analyze fMRI data
     using adaptive smoothing procedures.
 
 ### Fluorescence Lifetime Imaging Microscopy
@@ -405,16 +401,7 @@ if a new package or function should be mentioned here.
     information regarding statistical analysis in astronomy.
 -   Hans Werner Borchers has a page on [Astronomy modules and links for
     R, Python, and
-    Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md)
-    .
-
-### Optics and Scattering Approximations
-
--   The `r pkg("planar")` package provides code to simulate
-    reflection and transmission at a multilayer planar interface.
--   The `r pkg("dielectric")` package defines some physical
-    constants and dielectric functions commonly used in optics and
-    plasmonics.
+    Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md).
 
 ### Energy Modeling
 
