@@ -337,7 +337,7 @@ if a new package or function should be mentioned here.
 
 ### Functional Magnetic Resonance Imaging
 
-    The package `r pkg("fmri")` contains functions to analyze fMRI data
+-   The package `r pkg("fmri")` contains functions to analyze fMRI data
     using adaptive smoothing procedures.
 
 ### Fluorescence Lifetime Imaging Microscopy
