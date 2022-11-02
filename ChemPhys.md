@@ -232,6 +232,10 @@ if a new package or function should be mentioned here.
     calculating the standard Gibbs energies and other thermodynamic
     properties, and chemical affinities of reactions between species
     contained in a thermodynamic database.
+-   The `r pkg("IAPWS95")` package provides functions to
+    calculate the thermodynamic properties of water according to
+    the IAPWS (International Association for the Properties of Water and Steam)
+    1995 forumulations.  
 
 ### Interfaces to External Libraries
 
