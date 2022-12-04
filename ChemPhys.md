@@ -190,6 +190,9 @@ if a new package or function should be mentioned here.
 -   The `r pkg("errors")` attaches uncertainty metadata to
     vectors, matrices and arrays, providing automatic propagation and
     reporting.
+-   The `r pkg("quantities")` package provides a complete quantity calculus
+    system by the orchestration of the `r pkg("units")` and `r pkg("errors")`
+    packages.
 -   The `r pkg("constants")` package provides values of the
     fundamental physical constants based on values reported by the
     Committee on Data for Science and Technology (CODATA), an
