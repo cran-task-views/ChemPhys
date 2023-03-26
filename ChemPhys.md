@@ -124,7 +124,7 @@ if a new package or function should be mentioned here.
     A randomized version of PCA can be used to speed up calculations for large datasets. 
     The package also implements PCA based classification method, Soft Independent Modelling 
     of Class Analogy (SIMCA).
--   The package `r pkg("pcv")` implements Procrustes cross-validation method for PCA, Principal 
+-   The package `r pkg("pcv")` implements the Procrustes cross-validation method for PCA, Principal 
     Component Regression and Partial Least Squares regression models.
 -   The `r pkg("LearnPCA")` package provides a series of vignettes explaining PCA.    
 
