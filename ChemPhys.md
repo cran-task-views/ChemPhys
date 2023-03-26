@@ -126,7 +126,7 @@ if a new package or function should be mentioned here.
     of Class Analogy (SIMCA).
 -   The package `r pkg("pcv")` implements Procrustes cross-validation method for PCA, Principal 
     Component Regression and Partial Least Squares regression models.
--   The `r pkg("learnPCA")` package provides a series of vignettes explaining PCA.    
+-   The `r pkg("LearnPCA")` package provides a series of vignettes explaining PCA.    
 
 ### Factor Analysis
 
@@ -347,7 +347,7 @@ if a new package or function should be mentioned here.
     replicates, filtering, imputation, and normalization.
 -   The `r bioc("metaMS")` package is an MS-based
     metabolomics data processing and compound annotation pipeline.
-    The `r pkg("raMS")` provides functions to format and visualize mass 
+    The `r pkg("RaMS")` provides functions to format and visualize mass 
     spectrometry data.
 -   `r pkg("readMzXmlData")` imports data in the mzXML format.
 -   `r pkg("readBrukerFlexData")` imports data in the Bruker *flex 
