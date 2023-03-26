@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2022-09-29
+version: 2023-03-25
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -123,7 +123,10 @@ if a new package or function should be mentioned here.
     work both with conventional datasets as well as with images, including spectral images. 
     A randomized version of PCA can be used to speed up calculations for large datasets. 
     The package also implements PCA based classification method, Soft Independent Modelling 
-    of Class Analogy (SIMCA).  
+    of Class Analogy (SIMCA).
+-   The package `r pkg("pcv")` implements Procrustes cross-validation method for PCA, Principal 
+    Component Regression and Partial Least Squares regression models.
+-   The `r pkg("learnPCA")` package provides a series of vignettes explaining PCA.    
 
 ### Factor Analysis
 
@@ -187,7 +190,7 @@ if a new package or function should be mentioned here.
 -   The `r pkg("units")` package attaches unit metadata to
     vectors, matrices and arrays, providing automatic propagation,
     conversion, derivation and simplification of units.
--   The `r pkg("errors")` attaches uncertainty metadata to
+-   The `r pkg("errors")` package attaches uncertainty metadata to
     vectors, matrices and arrays, providing automatic propagation and
     reporting.
 -   The `r pkg("constants")` package provides values of the
@@ -199,7 +202,7 @@ if a new package or function should be mentioned here.
     fundamental physical constants. The values it contains are based on
     the values reported by the National Institute of Standards and
     Technology, (NIST).
--   The `r pkg("measurements")` contains tools to make
+-   `r pkg("measurements")` contains tools to make
     working with physical measurements easier, such as functions to
     convert between metric and imperial units, or to calculate a
     dimension's unknown value from other dimensions' measurements.
@@ -260,17 +263,19 @@ if a new package or function should be mentioned here.
 -   The `r pkg("webchem")` package allows users to retrieve
     chemical information from various sources on the web and to interact
     with various APIs. Sources include: [Chemical Identifier
-    Resolver](http://cactus.nci.nih.gov/chemical/structure) ,
-    [ChemSpider](http://www.chemspider.com/) ,
-    [PubChem](https://pubchem.ncbi.nlm.nih.gov/) , [Chemical Translation
-    Service](http://cts.fiehnlab.ucdavis.edu/) , [PAN Pesticide
-    Database](http://www.pesticideinfo.org/) , [Alan Wood's Compendium
-    of Pesticide Common Names](http://www.alanwood.net/pesticides/) ,
+    Resolver](http://cactus.nci.nih.gov/chemical/structure),
+    [ChemSpider](http://www.chemspider.com/),
+    [PubChem](https://pubchem.ncbi.nlm.nih.gov/), [Chemical Translation
+    Service](http://cts.fiehnlab.ucdavis.edu/), [PAN Pesticide
+    Database](http://www.pesticideinfo.org/), [Alan Wood's Compendium
+    of Pesticide Common Names](http://www.alanwood.net/pesticides/),
     [PHYSPROP
-    Database](http://www.srcinc.com/what-we-do/environmental/scientific-databases.html)
-    , [ETOX](http://webetox.uba.de/webETOX/index.do) ,
-    [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm) , and
-    [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/) .
+    Database](http://www.srcinc.com/what-we-do/environmental/scientific-databases.html), 
+    [ETOX](http://webetox.uba.de/webETOX/index.do),
+    [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm), and
+    [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/).
+-   The package `r pkg("standartox")` allows the user to access the 
+    [Standartox](http://standartox.uni-landau.de/) database of ecotoxicological test data. 
 
 ### Spectroscopy
 
@@ -301,21 +306,29 @@ if a new package or function should be mentioned here.
     NMR (nuclear magnetic resonance) spectra.
 -   The `r pkg("spectrino")` package provides tools for
     spectra viewing and organization.
-    
+-   The `r pkg("NIRStat")` package provides transfusion-related differential 
+    tests on near-infrared spectroscopy (NIRS) time series.
+-   The `r pkg("serrsBayes")` package allows Bayesian modeling of raman 
+    spectroscopy data.
+
 ### Chromatography
 
-- `r pkg("chromatographR")` provides an interface to load and analyze simple chromatography data such as HPLC-DAD/UV or GC-FID.
-- `r pkg("chromConverter")` provides parsers to read chromatographic data into R. It currently supports Agilent Chemstation and Masshunter files as well as a growing list of text-based formats.
+-   `r pkg("chromConverter")` provides parsers to read chromatographic data into R. It can work with a wide range of formats. 
+-   `r pkg("GCalignR")` aligns peaks based on peak retention times and matches homologous peaks across samples. 
+-   The `r pkg("LCMSQA")` package provides tools to check the quality of liquid chromatograph/mass spectrometry (LC/MS) experiments.
+-   `r pkg("RGCxGC")` is a toolbox for the analysis of bidimensional gas chromatography data.
+-   The `r pkg("RpeakChrom")` package contains tools for chromatographic column characterization and modeling chromatographic peaks.
 
 ### Mass Spectrometry
 
--   The `r bioc("MSnbase")` defines infrastructure for mass
+-   `r bioc("MSnbase")` defines infrastructure for mass
     spectrometry-based proteomics data handling, plotting, processing
     and quantification.
--   The `r pkg("MALDIquant")` provides tools for
+-   `r pkg("MALDIquant")` provides tools for
     quantitative analysis of MALDI-TOF mass spectrometry data, with
     support for baseline correction, peak detection and plotting of mass
-    spectra.
+    spectra.   `r pkg("MALDIquantForeign")` imports data into/from 
+    'MALDIquant' objects. 
 -   The `r pkg("OrgMassSpecR")` package is for
     organic/biological mass spectrometry, with a focus on graphical
     display, quantification using stable isotope dilution, and protein
@@ -334,11 +347,25 @@ if a new package or function should be mentioned here.
     replicates, filtering, imputation, and normalization.
 -   The `r bioc("metaMS")` package is an MS-based
     metabolomics data processing and compound annotation pipeline.
+    The `r pkg("raMS")` provides functions to format and visualize mass 
+    spectrometry data.
+-   `r pkg("readMzXmlData")` imports data in the mzXML format.
+-   `r pkg("readBrukerFlexData")` imports data in the Bruker *flex 
+    format.
+-   `r pkg("SPUTNIK")` provides a set of tools for the peak filtering 
+    of mass spectrometry imaging data.
+-   `r pkg("MSbox")` provides a suite of tools for mass spectrometry 
+    data analysis.
+-   `r pkg("enviPat")` allows isotope pattern, profile and centroid 
+     calculation for mass spectrometry.
+-   `r pkg("HaDeX")` provides functions for processing, analysis and 
+    visualization of Hydrogen Deuterium eXchange monitored by Mass Spectrometry 
+    experiments (HDX-MS).  
 
-### Functional Magnetic Resonance Imaging
+### Magnetic Resonance Imaging, Magnetic Resonance Spectroscopy
 
--   The package `r pkg("fmri")` contains functions to analyze fMRI data
-    using adaptive smoothing procedures.
+-   The `r view("MedicalImaging")` task view provides a list of
+    packages that can be used on fMRI, MRI, and related data.
 
 ### Fluorescence Lifetime Imaging Microscopy
 
@@ -346,17 +373,33 @@ if a new package or function should be mentioned here.
     Imaging Microscopy (FLIM) datasets are available in the package
     `r pkg("TIMP")`.
 
-### Fluorescence Excitation-Emission Matrix (EEM)
+### Fluorescence Fluctuation Spectroscopy
 
--   The `r pkg("EEM")` reads raw EEM data and prepares it
-    for further analysis.
+-   The `r pkg("FCSlib")` provides functions for fluorescence fluctuation 
+    spectroscopy data analysis.
 
 ### Carbon Dating
 
 -   The package `r pkg("Bchron")` creates chronologies based
     on radiocarbon and non-radiocarbon dated depths.
+-   The package `r pkg("rcarbon")` enables the calibration and analysis of 
+    radiocarbon dates.
+-   The package `r pkg("ISRaD")` provides data and tools for the development, 
+    maintenance, analysis, and deployment of the [International Soil 
+    Radiocarbon Database (ISRaD)](https://soilradiocarbon.org/). 
+-   The package `r pkg("nimbleCarbon")` provides functions for Bayesian 
+    analyses of radiocarbon dates.
+-   The package `r pkg("rcarbon")` enables the calibration and analysis of 
+    radiocarbon dates.
+-   The package `r pkg("spDates")` allows analysis of spatial gradients in 
+    radiocarbon dates.
 
-### Astronomy and astrophysics
+### Luminescence Dating 
+
+-   The package `r pkg("gamma")` processes in-situ gamma-ray spectrometry data 
+    and estimates the gamma dose rate.
+
+### Astronomy and Astrophysics
 
 -   The `r pkg("astrodatR")` package collects 19 datasets
     from contemporary astronomy research, many of which are described in
@@ -378,9 +421,9 @@ if a new package or function should be mentioned here.
     format, a standard format in astronomy.
 -   The `r pkg("stellaR")` package manages and displays
     stellar tracks and isochrones from the Pisa low-mass database.
--   The `r pkg("astroFns")` provides miscellaneous astronomy
+-   The `r pkg("astroFns")` package provides miscellaneous astronomy
     functions, utilities, and data.
--   The `r pkg("cosmoFns")` contains standard expressions
+-   The `r pkg("cosmoFns")` package contains standard expressions
     for distances, times, luminosities, and other quantities useful in
     observational cosmology, including molecular line observations.
 -   The `r pkg("celestial")` package includes a number of
@@ -396,10 +439,12 @@ if a new package or function should be mentioned here.
     create all-sky grid plots of widely used astronomical coordinate
     systems (equatorial, ecliptic, galactic) and scatter plots of data
     on any of these systems, including on-the-fly system conversion.
--   The `r pkg("SCEPtERbinary")` allows for estimating the
+-   The `r pkg("SCEPtERbinary")` package allows for estimating the
     stellar age for double-lined detached binary systems, adopted from
     the effective temperature, the metallicity \[Fe/H\], the mass, and
     the radius of the two stars.
+-   The `r pkg("ProFound")` package provides functions to analyze and 
+    visualize photometry data.  
 -   The [Astrostatistics and Astroinformatics
     Portal](https://asaip.psu.edu) is an R-centric collection of
     information regarding statistical analysis in astronomy.
@@ -439,7 +484,8 @@ if a new package or function should be mentioned here.
     radiation safety; the package `r pkg("RadData")`
     provides nuclear decay data for dosimetric calculations from the
     International Commission on Radiological Protection.
-
+-   The package `r pkg("AeroSampleR")` allows estimation of ideal 
+    efficiencies of aerosol sampling.
 
 
 ### Links
@@ -464,5 +510,4 @@ if a new package or function should be mentioned here.
 -   [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/)
 -   [Astronomy modules and links for R, Python, and Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md)
 -   [mdatools: make Chemometrics easy](https://mda.tools)
-
-
+-   [Standartox](http://standartox.uni-landau.de/) 
