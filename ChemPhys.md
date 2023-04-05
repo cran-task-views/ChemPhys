@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2023-03-25
+version: 2024-04-05
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -212,9 +212,6 @@ if a new package or function should be mentioned here.
 -   The `r pkg("metRology")` package provides support for
     metrology applications, including measurement uncertainty estimation
     and inter-laboratory metrology comparison studies.
--   The `r pkg("ATmet")` package provides functions for
-    smart sampling and sensitivity analysis for metrology applications,
-    including computationally expensive problems.
 
 ### Calibration
 
