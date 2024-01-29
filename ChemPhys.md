@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2024-04-05
+version: 2024-01-29
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -352,8 +352,6 @@ if a new package or function should be mentioned here.
 -   `r pkg("readMzXmlData")` imports data in the mzXML format.
 -   `r pkg("readBrukerFlexData")` imports data in the Bruker *flex 
     format.
--   `r pkg("SPUTNIK")` provides a set of tools for the peak filtering 
-    of mass spectrometry imaging data.
 -   `r pkg("MSbox")` provides a suite of tools for mass spectrometry 
     data analysis.
 -   `r pkg("enviPat")` allows isotope pattern, profile and centroid 
@@ -393,11 +391,6 @@ if a new package or function should be mentioned here.
     radiocarbon dates.
 -   The package `r pkg("spDates")` allows analysis of spatial gradients in 
     radiocarbon dates.
-
-### Luminescence Dating 
-
--   The package `r pkg("gamma")` processes in-situ gamma-ray spectrometry data 
-    and estimates the gamma dose rate.
 
 ### Astronomy and Astrophysics
 
@@ -443,8 +436,6 @@ if a new package or function should be mentioned here.
     stellar age for double-lined detached binary systems, adopted from
     the effective temperature, the metallicity \[Fe/H\], the mass, and
     the radius of the two stars.
--   The `r pkg("ProFound")` package provides functions to analyze and 
-    visualize photometry data.  
 -   The [Astrostatistics and Astroinformatics
     Portal](https://asaip.psu.edu) is an R-centric collection of
     information regarding statistical analysis in astronomy.
