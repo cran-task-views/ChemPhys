@@ -440,6 +440,10 @@ if a new package or function should be mentioned here.
     stellar age for double-lined detached binary systems, adopted from
     the effective temperature, the metallicity \[Fe/H\], the mass, and
     the radius of the two stars.
+-   The `r pkg("panstarrs")` package contains a data archive of the PS1
+    wide-field astronomical survey, and can be used to plan astronomical
+    observations, make guidance pictures, and find magnitudes in five
+    broadband filters.
 -   The [Astrostatistics and Astroinformatics
     Portal](https://asaip.psu.edu) is an R-centric collection of
     information regarding statistical analysis in astronomy.
