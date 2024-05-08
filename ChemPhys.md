@@ -84,6 +84,10 @@ if a new package or function should be mentioned here.
     for concentration-response, dose-response and time-response data.
 -   The package `r pkg("mdatools")` provides functions for MCR-ALS with constraints 
     and a purity based methods similar to SIMPLISMA.   
+-   The `r pkg("albatross")` package specialises in non-negative
+    Parallel Factor Analysis of fluorescence excitation-emission
+    matrices and provides auxillary functions relevant to analysis of
+    natural waters.
 
 ### Partial Least Squares
 
