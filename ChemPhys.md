@@ -444,6 +444,10 @@ if a new package or function should be mentioned here.
     wide-field astronomical survey, and can be used to plan astronomical
     observations, make guidance pictures, and find magnitudes in five
     broadband filters.
+-   The `r pkg("lorentz")` package performs the Lorentz transformations
+    of special relativity.  Active and passive transforms are
+	implemented. It includes functionality for the gyrogroup structure of
+	three-velocities.
 -   The [Astrostatistics and Astroinformatics
     Portal](https://asaip.psu.edu) is an R-centric collection of
     information regarding statistical analysis in astronomy.
