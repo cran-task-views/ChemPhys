@@ -351,8 +351,9 @@ if a new package or function should be mentioned here.
     replicates, filtering, imputation, and normalization.
 -   The `r bioc("metaMS")` package is an MS-based
     metabolomics data processing and compound annotation pipeline.
--   The `r pkg("RaMS")` reads in mzML and mzXML files as `r pkg("data.table")`
-    objects for visualization and data manipulation.
+-   The `r pkg("RaMS")` package reads in mzML and mzXML files as
+    `r pkg("data.table")` objects for visualization and data manipulation
+    with the `r pkg("tidyverse")`.
 -   `r pkg("readMzXmlData")` imports data in the mzXML format.
 -   `r pkg("readBrukerFlexData")` imports data in the Bruker *flex 
     format.
