@@ -120,9 +120,6 @@ if a new package or function should be mentioned here.
 -   A desired number of robust principal components can be computed with
     the `r pkg("pcaPP")` package. The package
     `r pkg("elasticnet")` is applicable to sparse PCA.
--   The `r pkg("subselect")` provides a collection of
-    functions which assess the quality of variable subsets as surrogates
-    for a full data set.
 -   The package `r pkg("mdatools")` provides functions for PCA analysis. The functions 
     work both with conventional datasets as well as with images, including spectral images. 
     A randomized version of PCA can be used to speed up calculations for large datasets. 
@@ -375,11 +372,6 @@ if a new package or function should be mentioned here.
 -   Functions for visualization and analysis of Fluorescence Lifetime
     Imaging Microscopy (FLIM) datasets are available in the package
     `r pkg("TIMP")`.
-
-### Fluorescence Fluctuation Spectroscopy
-
--   The `r pkg("FCSlib")` provides functions for fluorescence fluctuation 
-    spectroscopy data analysis.
 
 ### Carbon Dating
 
