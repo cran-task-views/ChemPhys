@@ -311,6 +311,12 @@ if a new package or function should be mentioned here.
     tests on near-infrared spectroscopy (NIRS) time series.
 -   The `r pkg("serrsBayes")` package allows Bayesian modeling of raman 
     spectroscopy data.
+-   The `r pkg("ir")` package performs IR data analysis functions (such as
+    baseline correction, binning, clipping, interpolating, smoothing, averaging,
+    adding, subtracting, dividing, multiplying, plotting).
+-   The `r pkg("PlotFTIR")` package easily produces journal-quality IR spectral
+    graphics using 'gplot2' and interfaces with `r pkg("ir")` and
+    `r pkg("ChemoSpec")`.
 
 ### Chromatography
 
