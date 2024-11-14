@@ -406,9 +406,6 @@ if a new package or function should be mentioned here.
 -   The package `r pkg("snapshot")` contains functions for
     reading and writing N-body snapshots from the GADGET code for
     cosmological N-body/SPH simulations.
--   The package `r pkg("UPMASK")` performs unsupervised
-    photometric membership assignment in stellar clusters using, e.g.,
-    photometry and spatial positions.
 -   The `r pkg("solaR")` package provides functions to
     determine the movement of the sun from the earth and to determine
     incident solar radiation.
