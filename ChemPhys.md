@@ -367,7 +367,7 @@ if a new package or function should be mentioned here.
 -   `r pkg("HaDeX")` provides functions for processing, analysis and 
     visualization of Hydrogen Deuterium eXchange monitored by Mass Spectrometry 
     experiments (HDX-MS).
--   `r pkg("accucor") implements an isotope natural abundance correction
+-   `r pkg("accucor")` implements an isotope natural abundance correction
     algorithm that is needed especially for high resolution mass spectrometers. 
 
 ### Magnetic Resonance Imaging, Magnetic Resonance Spectroscopy
