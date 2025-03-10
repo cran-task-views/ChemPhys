@@ -276,7 +276,9 @@ if a new package or function should be mentioned here.
     [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm), and
     [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/).
 -   The package `r pkg("standartox")` allows the user to access the 
-    [Standartox](http://standartox.uni-landau.de/) database of ecotoxicological test data. 
+    [Standartox](http://standartox.uni-landau.de/) database of ecotoxicological test data.
+-   The package `r pkg("ECOTOXr")` allows the user to create a copy of and query
+    the [US EPA ECOTOX database](https://cfpub.epa.gov/ecotox/).
 
 ### Spectroscopy
 
