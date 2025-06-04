@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2024-01-29
+version: 2025-06-04
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -164,12 +164,6 @@ if a new package or function should be mentioned here.
 -   Package `r pkg("varSelRF")` provides variable selection
     methods for random forests. Package `r pkg("clustvarsel")` implements
     variable selection for model-based clustering.
--   The `r pkg("BioMark")` package implements two
-    meta-methods for variable selection: stability selection (applying a
-    primary selection method like a t-test, VIP value or PLSDA
-    regression coefficient) to different subsets of the data, and higher
-    criticism, which provides a data-driven choice of significance
-    cutoffs in statistical testing.
 -   The package `r pkg("mdatools")` implements methods based on VIP scores, 
     Selectivity Ratio (SR) as well as interval PLS.    
 
@@ -276,7 +270,7 @@ if a new package or function should be mentioned here.
     [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm), and
     [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/).
 -   The package `r pkg("standartox")` allows the user to access the 
-    [Standartox](http://standartox.uni-landau.de/) database of ecotoxicological test data. 
+    [Standartox](https://andschar.github.io/standartox/) database of ecotoxicological test data. 
 
 ### Spectroscopy
 
@@ -284,9 +278,6 @@ if a new package or function should be mentioned here.
     Software (FOSS) for
     Spectroscopy](https://bryanhanson.github.io/FOSS4Spectroscopy/),
     much of which is in the form of R packages.
--   The `r pkg("spectralAnalysis")` package allows users to
-    pre-process, visualize and analyze spectroscopy data. Non-negative
-    matrix factorization analysis is included.
 -   The `r pkg("ChemoSpec")` package collects user-friendly
     functions for plotting spectra (NMR, IR, etc) and carrying top-down
     exploratory data analysis, such as HCA, PCA and model-based
@@ -383,7 +374,7 @@ if a new package or function should be mentioned here.
 
 ### Carbon Dating
 
--   The package `r pkg("Bchron")` creates chronologies based
+-   The package `r github("andrewcparnell/Bchron/")` creates chronologies based
     on radiocarbon and non-radiocarbon dated depths.
 -   The package `r pkg("rcarbon")` enables the calibration and analysis of 
     radiocarbon dates.
@@ -399,10 +390,6 @@ if a new package or function should be mentioned here.
 
 ### Astronomy and Astrophysics
 
--   The `r pkg("astrodatR")` package collects 19 datasets
-    from contemporary astronomy research, many of which are described in
-    the aforementioned textbook 'Modern Statistical Methods for
-    Astronomy with R Applications'.
 -   The `r pkg("RobPer")` package calculates periodograms
     based on (robustly) fitting periodic functions to light curves.
 -   The package `r pkg("snapshot")` contains functions for
@@ -511,4 +498,4 @@ if a new package or function should be mentioned here.
 -   [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/)
 -   [Astronomy modules and links for R, Python, and Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md)
 -   [mdatools: make Chemometrics easy](https://mda.tools)
--   [Standartox](http://standartox.uni-landau.de/) 
+-   [Standartox](https://andschar.github.io/standartox/) 
