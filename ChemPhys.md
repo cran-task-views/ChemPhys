@@ -270,7 +270,9 @@ if a new package or function should be mentioned here.
     [PPDB](http://sitem.herts.ac.uk/aeru/iupac/search.htm), and
     [ChemIDplus](http://chem.sis.nlm.nih.gov/chemidplus/).
 -   The package `r pkg("standartox")` allows the user to access the 
-    [Standartox](https://andschar.github.io/standartox/) database of ecotoxicological test data. 
+    [Standartox](https://andschar.github.io/standartox/) database of ecotoxicological test data.
+-   The package `r pkg("ECOTOXr")` allows the user to create a copy of and query
+    the [US EPA ECOTOX database](https://cfpub.epa.gov/ecotox/).
 
 ### Spectroscopy
 
@@ -499,3 +501,5 @@ if a new package or function should be mentioned here.
 -   [Astronomy modules and links for R, Python, and Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md)
 -   [mdatools: make Chemometrics easy](https://mda.tools)
 -   [Standartox](https://andschar.github.io/standartox/) 
+-   [US EPA ECOTOX database](https://cfpub.epa.gov/ecotox/)
+
