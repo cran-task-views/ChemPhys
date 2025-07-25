@@ -367,9 +367,8 @@ if a new package or function should be mentioned here.
 
 -   The `r view("MedicalImaging")` task view provides a list of
     packages that can be used on fMRI, MRI, and related data.
--   The `r pkg("AnalyzeFMRI")` has functions for I/O, visualisation and
-    analysis of functional Magnetic Resonance Imaging (fMRI) datasets stored in
-    the ANALYZE or 'NIFTI' format.     
+-   See for instance the package `r pkg("AnalyzeFMRI")` for working with data
+    stored in the ANALYZE or 'NIFTI' format.     
 
 ### Fluorescence Lifetime Imaging Microscopy
 
