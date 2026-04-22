@@ -437,10 +437,12 @@ if a new package or function should be mentioned here.
     of special relativity.  Active and passive transforms are
 	implemented. It includes functionality for the gyrogroup structure of
 	three-velocities.
+-   The `r github("RobinHankin/schwarzschild")` package creates a series of
+   	PDF images showing different aspects of the physics of black holes.
 -   The [Astrostatistics and Astroinformatics
     Portal](https://asaip.psu.edu) is an R-centric collection of
     information regarding statistical analysis in astronomy.
--   Hans Werner Borchers has a page on [Astronomy modules and links for
+-   Then there is a page on [Astronomy modules and links for
     R, Python, and
     Julia](https://github.com/hwborchers/zaRastro/blob/master/README.md).
 
