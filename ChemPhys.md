@@ -21,7 +21,7 @@ package `r github("rwehrens/ChemometricsWithR")` facilitates
 reproduction of the examples in the book.
 
 The book *Modern Statistical Methods for Astronomy With R Applications*
-by Eric D. Feigelson and G. Jogesh Babu, ISBN-13: 9780521767279,
+by Eric D. Feigelson and G. Jogesh Babu, ISBN 978-0-521-76727-9,
 Cambridge, 2012, provides an introduction to statistics for astronomers
 and an overview of the foremost methods being used in astrostatistical
 analysis, illustrated by examples in R.
