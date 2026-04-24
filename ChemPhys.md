@@ -31,6 +31,11 @@ Multivariate Statistical Analysis in Chemometrics,* ISBN
 978-1-420-05947-2, CRC Press, 2009, is associated with the package
 `r pkg("chemometrics")`.
 
+The book *Computational Physics with R* by James Foadi, ISBN
+978-0-7503-2632-2, IOP Publishing, 2026, introduces R to physics
+students, with chapters on interpolation, differential equations, 
+and Monte Carlo methods, among other subjects. 
+
 A special issue of R News with a focus on [R in
 Chemistry](http://CRAN.R-project.org/doc/Rnews/Rnews_2006-3.pdf) was
 published in August 2006. A special volume of Journal of Statistical
