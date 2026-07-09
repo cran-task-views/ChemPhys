@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2026-04-23
+version: 2026-07-09
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -125,6 +125,10 @@ if a new package or function should be mentioned here.
 -   A desired number of robust principal components can be computed with
     the `r pkg("pcaPP")` package. The package
     `r pkg("elasticnet")` is applicable to sparse PCA.
+-   The `r pkg("msPCA")` package computes multiple sparse principal
+  	components with controlled sparsity and non-redundancy across components,
+	supporting two common definitions of non-redundancy (orthogonal loading
+	vectors or uncorrelated component scores).
 -   The package `r pkg("mdatools")` provides functions for PCA analysis. The functions 
     work both with conventional datasets as well as with images, including spectral images. 
     A randomized version of PCA can be used to speed up calculations for large datasets. 
