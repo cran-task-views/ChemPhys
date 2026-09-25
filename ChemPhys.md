@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2026-07-09
+version: 2026-09-24
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -326,7 +326,6 @@ if a new package or function should be mentioned here.
 -   `r pkg("GCalignR")` aligns peaks based on peak retention times and matches homologous peaks across samples. 
 -   The `r pkg("LCMSQA")` package provides tools to check the quality of liquid chromatograph/mass spectrometry (LC/MS) experiments.
 -   `r pkg("RGCxGC")` is a toolbox for the analysis of bidimensional gas chromatography data.
--   The `r pkg("RpeakChrom")` package contains tools for chromatographic column characterization and modeling chromatographic peaks.
 
 ### Mass Spectrometry
 
@@ -427,9 +426,6 @@ if a new package or function should be mentioned here.
 -   The `r pkg("SCEPtER")` package is used to estimate
     stellar mass and radius given observational data of effective
     temperature, \[Fe/H\], and astroseismic parameters.
--   The `r pkg("lira")` package performs Bayesian linear
-    regression and forecasting in Astronomy, accounting for all kinds of
-    errors and correlations in the data.
 -   The `r pkg("SPADAR")` package provides functions to
     create all-sky grid plots of widely used astronomical coordinate
     systems (equatorial, ecliptic, galactic) and scatter plots of data
@@ -438,10 +434,6 @@ if a new package or function should be mentioned here.
     stellar age for double-lined detached binary systems, adopted from
     the effective temperature, the metallicity \[Fe/H\], the mass, and
     the radius of the two stars.
--   The `r pkg("panstarrs")` package contains a data archive of the PS1
-    wide-field astronomical survey, and can be used to plan astronomical
-    observations, make guidance pictures, and find magnitudes in five
-    broadband filters.
 -   The `r pkg("lorentz")` package performs the Lorentz transformations
     of special relativity.  Active and passive transforms are
 	implemented. It includes functionality for the gyrogroup structure of
