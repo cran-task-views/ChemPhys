@@ -3,7 +3,7 @@ name: ChemPhys
 topic: Chemometrics and Computational Physics
 maintainer: Katharine Mullen
 email: katharine.mullen@stat.ucla.edu
-version: 2026-09-24
+version: 2026-10-13
 source: https://github.com/cran-task-views/ChemPhys/
 ---
 
@@ -304,21 +304,27 @@ if a new package or function should be mentioned here.
     chemistry applications, and has been extensively applied to
     time-resolved spectroscopy data.
 -   The package `r pkg("ChemoSpec2D")` allows exploratory
-    chemometrics of 2D spectroscopic data sets such as COSY (correlated
-    spectroscopy) and HSQC (heteronuclear single quantum coherence) 2D
-    NMR (nuclear magnetic resonance) spectra.
+    chemometrics of 2D spectroscopic data sets such as correlated
+    spectroscopy (COSY) and heteronuclear single quantum coherence (HSQC) 2D
+    nuclear magnetic resonance (NMR) spectra.
 -   The `r pkg("spectrino")` package provides tools for
     spectra viewing and organization.
 -   The `r pkg("NIRStat")` package provides transfusion-related differential 
     tests on near-infrared spectroscopy (NIRS) time series.
--   The `r pkg("serrsBayes")` package allows Bayesian modeling of raman 
+-   The `r pkg("serrsBayes")` package allows Bayesian modeling of Raman 
     spectroscopy data.
 -   The `r pkg("ir")` package performs IR data analysis functions (such as
     baseline correction, binning, clipping, interpolating, smoothing, averaging,
     adding, subtracting, dividing, multiplying, plotting).
--   The `r pkg("PlotFTIR")` package easily produces journal-quality IR spectral
-    graphics using `r pkg("ggplot2")` and interfaces with `r pkg("ir")` and
-    `r pkg("ChemoSpec")`.
+-   The `r pkg("PlotFTIR")` package produces IR spectral graphics using
+   `r pkg("ggplot2")` and interfaces with `r pkg("ir")` and `r pkg("ChemoSpec")`.
+-   The `r pkg("prospectr")` package provides a set of tools for signal processing,
+    particularly for the pre-processing and sample selection of spectral data.
+-   The `r pkg("resemble")` package allows dissimilarity analysis and machine learning
+    in complex spectral data sets.
+-   The `r pkg("proximetricsR")` package allows for spectral preprocessing and near-infrared
+    (NIR) spectroscopy model calibration. 
+    
 
 ### Chromatography
 
