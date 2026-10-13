@@ -322,7 +322,7 @@ if a new package or function should be mentioned here.
     particularly for the pre-processing and sample selection of spectral data.
 -   The `r pkg("resemble")` package allows dissimilarity analysis and machine learning
     in complex spectral data sets.
--   The `r pkg("proximetricsR")` package allows for spectral preprocessing and near-infrared
+-   The `r pkg("proximetricsR")` package allows for spectral pre-processing and near-infrared
     (NIR) spectroscopy model calibration. 
     
 
